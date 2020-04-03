@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux各类发行板网络服务重启方式</title>
+    <url>/blog/posts/d27b4817.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
+<p>然后发现<code>manjaro linux</code>中木的<code>service</code>命令</p>
+<p>所以就在网上找了找，防止以后完了，记在这里</p>
+<h2 id="CentOS-RHEL-Red-Hat-Fedora"><a href="#CentOS-RHEL-Red-Hat-Fedora" class="headerlink" title="CentOS / RHEL / Red Hat / Fedora"></a>CentOS / RHEL / Red Hat / Fedora</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service network stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network restart</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Ubuntu-Debian"><a href="#Ubuntu-Debian" class="headerlink" title="Ubuntu/Debian"></a>Ubuntu/Debian</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service networking stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking restart</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Arch-Linux-Manjaro-Linux"><a href="#Arch-Linux-Manjaro-Linux" class="headerlink" title="Arch Linux/Manjaro Linux"></a>Arch Linux/Manjaro Linux</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> systemctl stop systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl restart systemd-networkd</span></span><br></pre></td></tr></table></figure>
+
+<p>希望以后不要忘了</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Manjaro</tag>
+        <tag>Ubuntu</tag>
+        <tag>CentOS</tag>
+        <tag>网络服务重启</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PicGo配置gitee图床</title>
     <url>/blog/posts/ba9c4b95.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -48,7 +79,7 @@
   <entry>
     <title>分享一个图床软件-PicGo</title>
     <url>/blog/posts/c07567fd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -97,7 +128,7 @@
   <entry>
     <title>mkv文件处理工具-mkvtoolnix</title>
     <url>/blog/posts/eeec278f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -169,7 +200,7 @@
   <entry>
     <title>Manjaro中文输入法推荐</title>
     <url>/blog/posts/26fb3f4d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -195,7 +226,7 @@
   <entry>
     <title>Manjaro换源</title>
     <url>/blog/posts/7795a5e7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -231,7 +262,7 @@
   <entry>
     <title>Linux下zip文件解压乱码问题处理</title>
     <url>/blog/posts/44513157.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -265,7 +296,7 @@
   <entry>
     <title>CSGO练习投掷物有关指令</title>
     <url>/blog/posts/4dbff450.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -301,7 +332,7 @@
   <entry>
     <title>C语言学习-字符串转整数</title>
     <url>/blog/posts/93e92635.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -327,7 +358,7 @@
   <entry>
     <title>C语言学习-大一C语言实验课代码</title>
     <url>/blog/posts/a65ba048.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -481,7 +512,7 @@
   <entry>
     <title>C语言学习-取整数的个位,十位,百位</title>
     <url>/blog/posts/c934aed8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -514,7 +545,7 @@
   <entry>
     <title>C语言学习-运用后缀表达式实现的四则表达式计算器</title>
     <url>/blog/posts/6a83b6d3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -589,7 +620,7 @@
   <entry>
     <title>C语言学习-后缀表达式</title>
     <url>/blog/posts/64376614.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -626,7 +657,7 @@
   <entry>
     <title>SSR使用教程</title>
     <url>/blog/posts/f289a5ea.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -711,7 +742,7 @@
   <entry>
     <title>分享一个百度网盘高速下载神器-PanDownload</title>
     <url>/blog/posts/256134b5.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -793,7 +824,7 @@
   <entry>
     <title>大学入学所需物品</title>
     <url>/blog/posts/2b390275.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -850,7 +881,7 @@
   <entry>
     <title>YouTube下载1080教程</title>
     <url>/blog/posts/2afe2096.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -888,7 +919,7 @@
   <entry>
     <title>分享-翻墙浏览器整合版</title>
     <url>/blog/posts/bf1a7f8f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -931,7 +962,7 @@
   <entry>
     <title>Cencrack在线工具包</title>
     <url>/blog/posts/9bb596ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -981,7 +1012,7 @@
   <entry>
     <title>centos下无损将home分区的一部分调整到根目录</title>
     <url>/blog/posts/697532ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1027,7 +1058,7 @@
   <entry>
     <title>本博客使用的随机图片接口</title>
     <url>/blog/posts/937e33b3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1053,7 +1084,7 @@
   <entry>
     <title>Linux下SSR服务器端搭建</title>
     <url>/blog/posts/38ecf877.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1088,15 +1119,15 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
     <title>SSR工具下载</title>
     <url>/blog/posts/c9a4b42e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1142,7 +1173,7 @@
   <entry>
     <title>高中毕业生登记表自我鉴定范文</title>
     <url>/blog/posts/da7d27de.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1169,7 +1200,7 @@
   <entry>
     <title>hexo-next配置点击爆炸效果</title>
     <url>/blog/posts/6864067c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1210,7 +1241,7 @@
   <entry>
     <title>hexo-next上传到自己的服务器后font-awesome图标无法显示的解决办法</title>
     <url>/blog/posts/193d509e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1255,7 +1286,7 @@
   <entry>
     <title>hexo-next添加右上角GitHub挂件</title>
     <url>/blog/posts/96ddfe32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1280,7 +1311,7 @@
   <entry>
     <title>hexo-next在文章和侧栏下方添加版权信息</title>
     <url>/blog/posts/b34fddce.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1306,7 +1337,7 @@
   <entry>
     <title>分享一个windows下的一个个性化工具集-uTools</title>
     <url>/blog/posts/1798eddd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1344,7 +1375,7 @@
   <entry>
     <title>Hexo-NexT添加点击爱心效果</title>
     <url>/blog/posts/a32d7646.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1378,7 +1409,7 @@
   <entry>
     <title>markdown语法学习</title>
     <url>/blog/posts/9757d07e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1619,7 +1650,7 @@ int main(void)
   <entry>
     <title>分享一个windows软件卸载工具-Geek</title>
     <url>/blog/posts/f1266071.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1643,7 +1674,7 @@ int main(void)
   <entry>
     <title>Linux中的chattr命令</title>
     <url>/blog/posts/534d917a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1683,7 +1714,7 @@ int main(void)
   <entry>
     <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
     <url>/blog/posts/c25dba02.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1722,7 +1753,7 @@ int main(void)
   <entry>
     <title>仿天津市高考数学答题卡-图片</title>
     <url>/blog/posts/4e8dea96.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1752,7 +1783,7 @@ int main(void)
   <entry>
     <title>解决Nginx下wordpress伪静态后文章/后台页无法访问的问题</title>
     <url>/blog/posts/449afa2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1775,7 +1806,7 @@ int main(void)
   <entry>
     <title>Linux下设置Sakura Frp为服务,开机自动启动</title>
     <url>/blog/posts/a01b6c7d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
