@@ -11,7 +11,7 @@
 <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
 <p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
 <p>然后发现<code>manjaro linux</code>中木的<code>service</code>命令</p>
-<p>所以就在网上找了找，防止以后完了，记在这里</p>
+<p>所以就在网上找了找，防止以后忘了，记在这里</p>
 <h2 id="CentOS-RHEL-Red-Hat-Fedora"><a href="#CentOS-RHEL-Red-Hat-Fedora" class="headerlink" title="CentOS / RHEL / Red Hat / Fedora"></a>CentOS / RHEL / Red Hat / Fedora</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service network stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network restart</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="Ubuntu-Debian"><a href="#Ubuntu-Debian" class="headerlink" title="Ubuntu/Debian"></a>Ubuntu/Debian</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service networking stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking restart</span></span><br></pre></td></tr></table></figure>
