@@ -150,7 +150,7 @@
 <p>我都忘了点了多少个LED灯了，各种花式点灯(￣▽￣)~*</p>
 </blockquote>
 <hr>
-<p>本文参考：<a href="http://bbs.elecfans.com/jishu_1917366_1_1.html" target="_blank" rel="noopener">[经验] 深度剖析STM32F4 <code>GPIO</code>的八种工作模式</a></p>
+<p>本文参考：<a href="http://bbs.elecfans.com/jishu_1917366_1_1.html" target="_blank" rel="noopener">[经验] 深度剖析STM32F4 GPIO的八种工作模式</a></p>
 <p>本文参考：STM32F4xxx中文参考手册</p>
 ]]></content>
       <categories>
@@ -1281,9 +1281,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
