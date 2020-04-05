@@ -21,6 +21,14 @@
 <p>注：也可以将<code>printf</code>函数重定义到液晶显示屏的输出函数</p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>C语言</tag>
+        <tag>UATR</tag>
+      </tags>
   </entry>
   <entry>
     <title>STM32CubeMX+MDK-ARM点亮第一个LED的灯</title>
@@ -978,8 +986,8 @@
       </categories>
       <tags>
         <tag>SSR</tag>
-        <tag>教程</tag>
         <tag>方法积累</tag>
+        <tag>教程</tag>
         <tag>SSR教程</tag>
       </tags>
   </entry>
@@ -1154,10 +1162,10 @@
         <category>方法积累</category>
       </categories>
       <tags>
+        <tag>教程</tag>
         <tag>YouTube</tag>
         <tag>下载1080</tag>
         <tag>YouTube下载1080</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -1363,9 +1371,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
+        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
