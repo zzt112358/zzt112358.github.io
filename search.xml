@@ -18,7 +18,7 @@
 
 <h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>然后就可以尽情地使用<code>printf</code>和<code>scanf</code>函数输入输出了</p>
 <blockquote>
-<p>注：也可以将<code>printf</code>函数重定义到液晶显示屏的输出函数</p>
+<p>注：也可以将<code>printf</code>函数重定向至液晶显示屏的输出函数</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -986,8 +986,8 @@
       </categories>
       <tags>
         <tag>SSR</tag>
-        <tag>方法积累</tag>
         <tag>教程</tag>
+        <tag>方法积累</tag>
         <tag>SSR教程</tag>
       </tags>
   </entry>
@@ -1162,10 +1162,10 @@
         <category>方法积累</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>YouTube</tag>
         <tag>下载1080</tag>
         <tag>YouTube下载1080</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -1371,9 +1371,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
