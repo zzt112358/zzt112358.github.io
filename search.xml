@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>STM32标准库中的回调函数[callback]同中断处理函数的关系</title>
+    <url>/blog/posts/52920140.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>其实很简单：中断回调函数是封装在中断函数中的子函数</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  This function handles EXTI interrupt request.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_IRQHandler</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span> <span class="comment">//中断处理函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* EXTI line interrupt detected */</span></span><br><span class="line">  <span class="keyword">if</span>(__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != RESET)</span><br><span class="line">  &#123;</span><br><span class="line">    __HAL_GPIO_EXTI_CLEAR_IT(GPIO_Pin);</span><br><span class="line">    HAL_GPIO_EXTI_Callback(GPIO_Pin); <span class="comment">//中断回调函数</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>且中断回调函数的声明是这样的</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  EXTI line detection callbacks.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">__<span class="function">weak <span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_Callback</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* Prevent unused argument(s) compilation warning */</span></span><br><span class="line">  UNUSED(GPIO_Pin);</span><br><span class="line">  <span class="comment">/* <span class="doctag">NOTE:</span> This function Should not be modified, when the callback is needed,</span></span><br><span class="line"><span class="comment">           the HAL_GPIO_EXTI_Callback could be implemented in the user file</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>很明显，中断回调函数使用了<code>__weak</code>标识符，使得用户只需将处理中断的代码写在用户文件中重写的中断回调函数<code>void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)</code>便可</p>
+<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>便于将用户所写的代码控制在可数的几个文件中，便于移植和简化了开发过程</p>
+<h2 id="劣势"><a href="#劣势" class="headerlink" title="劣势"></a>劣势</h2><p>函数的嵌套一定程度上会导致单片机运行效率降低，且有可能会提高调试难度</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>中断函数</tag>
+        <tag>中断</tag>
+        <tag>回调函数</tag>
+        <tag>callback</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
     <url>/blog/posts/aea07eb6.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
@@ -986,8 +1016,8 @@
       </categories>
       <tags>
         <tag>SSR</tag>
-        <tag>教程</tag>
         <tag>方法积累</tag>
+        <tag>教程</tag>
         <tag>SSR教程</tag>
       </tags>
   </entry>
@@ -1162,10 +1192,10 @@
         <category>方法积累</category>
       </categories>
       <tags>
+        <tag>教程</tag>
         <tag>YouTube</tag>
         <tag>下载1080</tag>
         <tag>YouTube下载1080</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
