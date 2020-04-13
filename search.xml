@@ -18,8 +18,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CodeBlocks</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -856,8 +856,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -888,8 +888,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -956,7 +956,7 @@
 <hr>
 <p>网页<a href="https://zh.numberempire.com/expressioncalculator.php" target="_blank" rel="noopener"><code>表达式计算器</code></a>的结果：</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413124008.PNG" alt=""></p>
-<h2 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h2><p><a href="/file/document/c_four_arithmetic-ZZT.7z">四则表达式运算源码和程序下载</a></p>
+<h2 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h2><p><a href="https://gitee.com/zzttzz/blogpic/raw/master/pic/c_four_arithmetic-ZZT.7z" target="_blank" rel="noopener">四则表达式运算源码和程序下载</a></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">名称: c_four_arithmetic-ZZT.7z</span><br><span class="line">大小: 13615 字节 (13 KiB)</span><br><span class="line"></span><br><span class="line">CRC32: 66526331</span><br><span class="line">CRC64: 97A40258714385B9</span><br><span class="line">SHA256: C43CEFB0BC74B4FEECD8CAF48D9FA0476E5DB44CD72816CEF11C2801F856D35F</span><br><span class="line">SHA1: B461438F0CC371F57616E6D8FED4B6B87D62E3A9</span><br><span class="line">BLAKE2sp: 745A98E9AF301AA0FAF041D61765002CC0D30F98736015EC9EE45BBF3F6ADBD6</span><br><span class="line"></span><br><span class="line">解压密码: ZZTTZZ</span><br></pre></td></tr></table></figure>
 
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>毕竟是初学C语言，对C的掌握和熟悉还是不够。看了看网上大佬的代码，觉得我进步的空间还很大。</p>
@@ -965,8 +965,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1002,8 +1002,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -1473,9 +1473,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
+        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
