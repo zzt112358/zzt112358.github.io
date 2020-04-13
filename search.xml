@@ -42,6 +42,13 @@
 <h3 id="配置完成"><a href="#配置完成" class="headerlink" title="配置完成"></a>配置完成</h3><p>然后打开程序文件，点击左面的调试控制台，设置好断点，便可进行调试</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413091901.png" alt="pic"></p>
 ]]></content>
+      <categories>
+        <category>C语言学习</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>VSCode</tag>
+      </tags>
   </entry>
   <entry>
     <title>STM32标准库中的回调函数[callback]同中断处理函数的关系</title>
@@ -1991,8 +1998,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>windows</tag>
         <tag>geek</tag>
+        <tag>windows</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
