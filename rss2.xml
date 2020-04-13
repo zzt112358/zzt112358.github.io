@@ -9,8 +9,25 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>点滴积累知识</description>
-    <pubDate>Mon, 13 Apr 2020 01:34:16 GMT</pubDate>
+    <pubDate>Mon, 13 Apr 2020 01:41:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CodeBlocks配置编译器以及调试器</title>
+      <link>http://zzttzz.gitee.io/blog/posts/ac65f6e8.html</link>
+      <guid>http://zzttzz.gitee.io/blog/posts/ac65f6e8.html</guid>
+      <pubDate>Mon, 13 Apr 2020 01:27:42 GMT</pubDate>
+      <description>
+      
+        &lt;!--注释--&gt;
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释--><a id="more"></a><!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)--><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p><h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093312.png" alt=""></p><h2 id="配置调试器"><a href="#配置调试器" class="headerlink" title="配置调试器"></a>配置调试器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093328.png" alt=""></p><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093409.png" alt=""></p>]]></content:encoded>
+      
+      <comments>http://zzttzz.gitee.io/blog/posts/ac65f6e8.html#disqus_thread</comments>
+    </item>
     
     <item>
       <title>VSCode配置C语言运行调试环境</title>

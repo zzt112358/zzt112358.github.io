@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CodeBlocks配置编译器以及调试器</title>
+    <url>/blog/posts/ac65f6e8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093312.png" alt=""></p>
+<h2 id="配置调试器"><a href="#配置调试器" class="headerlink" title="配置调试器"></a>配置调试器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093328.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093409.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>C语言学习</category>
+      </categories>
+      <tags>
+        <tag>CodeBlocks</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VSCode配置C语言运行调试环境</title>
     <url>/blog/posts/6133db72.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
@@ -834,8 +856,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -866,8 +888,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -943,8 +965,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -980,8 +1002,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -1998,8 +2020,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
