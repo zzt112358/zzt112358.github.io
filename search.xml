@@ -18,8 +18,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>CodeBlocks</tag>
         <tag>C</tag>
+        <tag>CodeBlocks</tag>
       </tags>
   </entry>
   <entry>
@@ -856,8 +856,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -888,8 +888,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -952,10 +952,10 @@
 <h3 id="主main函数"><a href="#主main函数" class="headerlink" title="主main函数"></a>主<code>main</code>函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">while</span> (<span class="number">1</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"四则表达式计算器\n"</span>);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"请键入一个算式（支持四则混合运算和带括号运算）：\n"</span>);</span><br><span class="line">		gets(original_string);</span><br><span class="line">		<span class="keyword">if</span> (judge())</span><br><span class="line">		&#123;</span><br><span class="line">			clean_all();</span><br><span class="line">			<span class="keyword">continue</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		dispose_long();</span><br><span class="line">		transform();</span><br><span class="line">		negative();</span><br><span class="line">		to_suffix();</span><br><span class="line">		main_num();</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"\n结果是：%lf\n"</span>, *(<span class="keyword">long</span> <span class="keyword">double</span> *)suffix[<span class="number">0</span>].d);</span><br><span class="line">		clean_all();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="程序效果"><a href="#程序效果" class="headerlink" title="程序效果"></a>程序效果</h2><p>程序的结果：</p>
-<p><img src="/file/pic/c_four_arithmetic/c_four_arithmetic-1.PNG" alt="c_four_arithmetic-1"></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413123946.PNG" alt=""></p>
 <hr>
 <p>网页<a href="https://zh.numberempire.com/expressioncalculator.php" target="_blank" rel="noopener"><code>表达式计算器</code></a>的结果：</p>
-<p><img src="/file/pic/c_four_arithmetic/c_four_arithmetic-2.PNG" alt="c_four_arithmetic-1"></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413124008.PNG" alt=""></p>
 <h2 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h2><p><a href="/file/document/c_four_arithmetic-ZZT.7z">四则表达式运算源码和程序下载</a></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">名称: c_four_arithmetic-ZZT.7z</span><br><span class="line">大小: 13615 字节 (13 KiB)</span><br><span class="line"></span><br><span class="line">CRC32: 66526331</span><br><span class="line">CRC64: 97A40258714385B9</span><br><span class="line">SHA256: C43CEFB0BC74B4FEECD8CAF48D9FA0476E5DB44CD72816CEF11C2801F856D35F</span><br><span class="line">SHA1: B461438F0CC371F57616E6D8FED4B6B87D62E3A9</span><br><span class="line">BLAKE2sp: 745A98E9AF301AA0FAF041D61765002CC0D30F98736015EC9EE45BBF3F6ADBD6</span><br><span class="line"></span><br><span class="line">解压密码: ZZTTZZ</span><br></pre></td></tr></table></figure>
 
@@ -965,8 +965,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1002,8 +1002,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
