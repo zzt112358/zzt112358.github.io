@@ -95,7 +95,7 @@
 
 <p>项目文件下载</p>
 <ul>
-<li>链接：<a href="https://pan.baidu.com/s/11K4WkHYLfb-7MfEmHMQFJA" target="_blank" rel="noopener">百度网盘</a> 提取码：<code>ijbl</code></li>
+<li>链接：<a href="https://pan.baidu.com/s/1P7m3ch2QDxkNCh27rSpSjQ" target="_blank" rel="noopener">百度网盘</a> 提取码：<code>pto5</code></li>
 </ul>
 <p>文件校验数据</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">名称: LCD_Basis.7z</span><br><span class="line">大小: 6040859 字节 (5899 KiB)</span><br><span class="line">CRC32: 5E230E1B</span><br><span class="line">CRC64: D8466336C068497F</span><br><span class="line">SHA256: 8E0E95E778AB12D838E8BE9CD2D2CF06602DBEE4D17240536ED90735C49893D9</span><br><span class="line">SHA1: FF69897C0492E27D7D2B38C75F4CC2F83B4D111D</span><br><span class="line">BLAKE2sp: FEE6B0BA79D124F4FCBBCA423130411FBDA09BBA890318FD4E1DEEFB02FDED7B</span><br></pre></td></tr></table></figure>
@@ -106,12 +106,12 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
+        <tag>ARM</tag>
+        <tag>HAL</tag>
         <tag>LTDC</tag>
         <tag>LCD</tag>
-        <tag>HAL</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
-        <tag>ARM</tag>
       </tags>
   </entry>
   <entry>
@@ -301,10 +301,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>HAL</tag>
-        <tag>ARM</tag>
         <tag>MDK-ARM</tag>
         <tag>MDK</tag>
+        <tag>ARM</tag>
+        <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
       </tags>
   </entry>
@@ -1589,9 +1589,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2136,8 +2136,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
