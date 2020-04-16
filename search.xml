@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>STM32CubeMX配置SPI读写外部FLASH</title>
+    <url>/blog/posts/243fe895.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
+<h2 id="FLASH芯片简介"><a href="#FLASH芯片简介" class="headerlink" title="FLASH芯片简介"></a>FLASH芯片简介</h2><p>也没啥可说的，直接上图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131001.png" alt=""></p>
+<p>这个图有点错误，我板子上的串行FLASH是16MB的</p>
+<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><p>配置到180MHz</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131330.png" alt=""></p>
+<h3 id="端口配置"><a href="#端口配置" class="headerlink" title="端口配置"></a>端口配置</h3><p>根据原理图配置相应引脚的复用功能</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131506.png" alt=""></p>
+<p>这里需要注意的是端口PI8需要单独配置推挽输出</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131455.png" alt=""></p>
+<h3 id="复用功能配置"><a href="#复用功能配置" class="headerlink" title="复用功能配置"></a>复用功能配置</h3><h4 id="SPI配置"><a href="#SPI配置" class="headerlink" title="SPI配置"></a>SPI配置</h4><p>仅仅和FLASH通讯，不用更改太多设置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131608.png" alt=""></p>
+<p>这里设置分频为16是因为高频率貌似会导致FLASH读数据失败(我觉得更大可能是我的程序出现了问题)</p>
+<h4 id="串口配置"><a href="#串口配置" class="headerlink" title="串口配置"></a>串口配置</h4><p>开启异步模式，默认配置即可</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131743.png" alt=""></p>
+<h2 id="Keil配置"><a href="#Keil配置" class="headerlink" title="Keil配置"></a>Keil配置</h2><h3 id="移植驱动文件"><a href="#移植驱动文件" class="headerlink" title="移植驱动文件"></a>移植驱动文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131841.png" alt=""></p>
+<h3 id="完善SPI初始化函数"><a href="#完善SPI初始化函数" class="headerlink" title="完善SPI初始化函数"></a>完善SPI初始化函数</h3><p>在系统自动生成的初始化函数末尾添加如下代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN SPI1_Init 2 */</span></span><br><span class="line">  __HAL_SPI_ENABLE(&amp;hspi1);</span><br><span class="line"><span class="comment">/* USER CODE END SPI1_Init 2 */</span></span><br></pre></td></tr></table></figure>
+
+<p>这段代码的功能是使能SPI功能</p>
+<h3 id="重定向printf-函数和scanf-函数"><a href="#重定向printf-函数和scanf-函数" class="headerlink" title="重定向printf()函数和scanf()函数"></a>重定向printf()函数和scanf()函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN PD */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* Private function prototypes -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 尝试重写scanf函数 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END PD */</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* Place your implementation of fputc here */</span></span><br><span class="line">    <span class="comment">/* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */</span></span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//尝试重写scanf函数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">    HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="编写读写实验主代码"><a href="#编写读写实验主代码" class="headerlink" title="编写读写实验主代码"></a>编写读写实验主代码</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN 2 */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"系统初始化完毕\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"FLASH ID:%X		FLASH Device ID:%X\r\n"</span>,SPI_FLASH_ReadID(),SPI_FLASH_ReadDeviceID());</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入需要储存到FLASH的数据(最多80字符):\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">char</span> data1[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">char</span> data2[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%s"</span>,data1);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">int</span> data_size=<span class="keyword">sizeof</span>(data1);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"写入FLASH的数据：%s\r\n"</span>,data1);</span><br><span class="line">	SPI_FLASH_SectorErase(<span class="number">0x00000</span>);</span><br><span class="line">	SPI_FLASH_BufferWrite((<span class="keyword">uint8_t</span> *)data1,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	SPI_FLASH_BufferRead((<span class="keyword">uint8_t</span> *)data2,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"读取FLASH的数据：%s\r\n"</span>,data2);</span><br><span class="line"><span class="comment">/* USER CODE END 2 */</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416135452.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>ARM</tag>
+        <tag>SPI</tag>
+        <tag>FLASH</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>STM32CubeMX配置LTDC时遇到的一些问题</title>
     <url>/blog/posts/3e4bdf1e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -36,7 +85,7 @@
   <entry>
     <title>STM32CubeMX配置LTDC</title>
     <url>/blog/posts/7109b92c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -150,7 +199,7 @@
   <entry>
     <title>CodeBlocks配置编译器以及调试器</title>
     <url>/blog/posts/ac65f6e8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -165,14 +214,14 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CodeBlocks</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
     <title>VSCode配置C语言运行调试环境</title>
     <url>/blog/posts/6133db72.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -222,7 +271,7 @@
   <entry>
     <title>STM32_HAL库中的回调函数[callback]同中断处理函数的关系</title>
     <url>/blog/posts/52920140.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -253,7 +302,7 @@
   <entry>
     <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
     <url>/blog/posts/aea07eb6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -283,7 +332,7 @@
   <entry>
     <title>STM32CubeMX+MDK-ARM点亮第一个LED的灯</title>
     <url>/blog/posts/909682.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -344,7 +393,7 @@
   <entry>
     <title>STM32F4_GPIO的八种工作模式</title>
     <url>/blog/posts/a840fa9b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -506,7 +555,7 @@
   <entry>
     <title>Linux各类发行板网络服务重启方式</title>
     <url>/blog/posts/d27b4817.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -537,7 +586,7 @@
   <entry>
     <title>PicGo配置gitee图床</title>
     <url>/blog/posts/ba9c4b95.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -582,7 +631,7 @@
   <entry>
     <title>分享一个图床软件-PicGo</title>
     <url>/blog/posts/c07567fd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -631,7 +680,7 @@
   <entry>
     <title>mkv文件处理工具-mkvtoolnix</title>
     <url>/blog/posts/eeec278f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -703,7 +752,7 @@
   <entry>
     <title>Manjaro中文输入法推荐</title>
     <url>/blog/posts/26fb3f4d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -729,7 +778,7 @@
   <entry>
     <title>Manjaro换源</title>
     <url>/blog/posts/7795a5e7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -765,7 +814,7 @@
   <entry>
     <title>Linux下zip文件解压乱码问题处理</title>
     <url>/blog/posts/44513157.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -799,7 +848,7 @@
   <entry>
     <title>CSGO练习投掷物有关指令</title>
     <url>/blog/posts/4dbff450.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -835,7 +884,7 @@
   <entry>
     <title>C语言学习-字符串转整数</title>
     <url>/blog/posts/93e92635.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -861,7 +910,7 @@
   <entry>
     <title>C语言学习-大一C语言实验课代码</title>
     <url>/blog/posts/a65ba048.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1005,8 +1054,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1015,7 +1064,7 @@
   <entry>
     <title>C语言学习-取整数的个位,十位,百位</title>
     <url>/blog/posts/c934aed8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1037,8 +1086,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1048,7 +1097,7 @@
   <entry>
     <title>C语言学习-运用后缀表达式实现的四则表达式计算器</title>
     <url>/blog/posts/6a83b6d3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1114,8 +1163,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1123,7 +1172,7 @@
   <entry>
     <title>C语言学习-后缀表达式</title>
     <url>/blog/posts/64376614.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1151,8 +1200,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -1160,7 +1209,7 @@
   <entry>
     <title>SSR使用教程</title>
     <url>/blog/posts/f289a5ea.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1245,7 +1294,7 @@
   <entry>
     <title>分享一个百度网盘高速下载神器-PanDownload</title>
     <url>/blog/posts/256134b5.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1327,7 +1376,7 @@
   <entry>
     <title>大学入学所需物品</title>
     <url>/blog/posts/2b390275.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1384,7 +1433,7 @@
   <entry>
     <title>YouTube下载1080教程</title>
     <url>/blog/posts/2afe2096.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1422,7 +1471,7 @@
   <entry>
     <title>分享-翻墙浏览器整合版</title>
     <url>/blog/posts/bf1a7f8f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1465,7 +1514,7 @@
   <entry>
     <title>Cencrack在线工具包</title>
     <url>/blog/posts/9bb596ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1515,7 +1564,7 @@
   <entry>
     <title>centos下无损将home分区的一部分调整到根目录</title>
     <url>/blog/posts/697532ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1561,7 +1610,7 @@
   <entry>
     <title>本博客使用的随机图片接口</title>
     <url>/blog/posts/937e33b3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1587,7 +1636,7 @@
   <entry>
     <title>Linux下SSR服务器端搭建</title>
     <url>/blog/posts/38ecf877.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1622,15 +1671,15 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
+        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
     <title>SSR工具下载</title>
     <url>/blog/posts/c9a4b42e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1676,7 +1725,7 @@
   <entry>
     <title>高中毕业生登记表自我鉴定范文</title>
     <url>/blog/posts/da7d27de.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1703,7 +1752,7 @@
   <entry>
     <title>hexo-next配置点击爆炸效果</title>
     <url>/blog/posts/6864067c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1744,7 +1793,7 @@
   <entry>
     <title>hexo-next上传到自己的服务器后font-awesome图标无法显示的解决办法</title>
     <url>/blog/posts/193d509e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1789,7 +1838,7 @@
   <entry>
     <title>hexo-next添加右上角GitHub挂件</title>
     <url>/blog/posts/96ddfe32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1814,7 +1863,7 @@
   <entry>
     <title>hexo-next在文章和侧栏下方添加版权信息</title>
     <url>/blog/posts/b34fddce.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1840,7 +1889,7 @@
   <entry>
     <title>分享一个windows下的一个个性化工具集-uTools</title>
     <url>/blog/posts/1798eddd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1878,7 +1927,7 @@
   <entry>
     <title>Hexo-NexT添加点击爱心效果</title>
     <url>/blog/posts/a32d7646.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -1912,7 +1961,7 @@
   <entry>
     <title>markdown语法学习</title>
     <url>/blog/posts/9757d07e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -2153,7 +2202,7 @@ int main(void)
   <entry>
     <title>分享一个windows软件卸载工具-Geek</title>
     <url>/blog/posts/f1266071.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -2177,7 +2226,7 @@ int main(void)
   <entry>
     <title>Linux中的chattr命令</title>
     <url>/blog/posts/534d917a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -2217,7 +2266,7 @@ int main(void)
   <entry>
     <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
     <url>/blog/posts/c25dba02.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -2256,7 +2305,7 @@ int main(void)
   <entry>
     <title>仿天津市高考数学答题卡-图片</title>
     <url>/blog/posts/4e8dea96.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -2286,7 +2335,7 @@ int main(void)
   <entry>
     <title>解决Nginx下wordpress伪静态后文章/后台页无法访问的问题</title>
     <url>/blog/posts/449afa2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
@@ -2309,7 +2358,7 @@ int main(void)
   <entry>
     <title>Linux下设置Sakura Frp为服务,开机自动启动</title>
     <url>/blog/posts/a01b6c7d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
 
 <a id="more"></a>
 
