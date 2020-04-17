@@ -49,36 +49,11 @@
 <h3 id="编辑Debug-RAM-ini文件"><a href="#编辑Debug-RAM-ini文件" class="headerlink" title="编辑Debug_RAM.ini文件"></a>编辑Debug_RAM.ini文件</h3><p>如图，新建<code>Debug_RAM.ini</code>文件</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417183312.png" alt=""></p>
 <p>填入以下内容</p>
-<pre><code class="C"> <span class="comment">/***********************************************************/</span>
- <span class="comment">/* Debug_RAM.ini: Initialization File for Debugging from Internal RAM */</span>
- <span class="comment">/******************************************************/</span>
- <span class="comment">/* This file is part of the uVision/ARM development tools. */</span>
- <span class="comment">/* Copyright (c) 2005-2014 Keil Software. All rights reserved. */</span>
- <span class="comment">/* This software may only be used under the terms of a valid, current, */</span>
- <span class="comment">/* end user licence from KEIL for a compatible version of KEIL software */</span>
- <span class="comment">/*development tools. Nothing else gives you the right to use this software */</span>
- <span class="comment">/***************************************************/</span>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/***********************************************************/</span></span><br><span class="line"><span class="comment">/* Debug_RAM.ini: Initialization File for Debugging from Internal RAM */</span></span><br><span class="line"><span class="comment">/******************************************************/</span></span><br><span class="line"><span class="comment">/* This file is part of the uVision/ARM development tools. */</span></span><br><span class="line"><span class="comment">/* Copyright (c) 2005-2014 Keil Software. All rights reserved. */</span></span><br><span class="line"><span class="comment">/* This software may only be used under the terms of a valid, current, */</span></span><br><span class="line"><span class="comment">/* end user licence from KEIL for a compatible version of KEIL software */</span></span><br><span class="line"><span class="comment">/*development tools. Nothing else gives you the right to use this software */</span></span><br><span class="line"><span class="comment">/***************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="function">FUNC <span class="keyword">void</span> <span class="title">Setup</span> <span class="params">(<span class="keyword">void</span>)</span> </span>&#123;</span><br><span class="line">   SP = _RDWORD(<span class="number">0x20000000</span>); <span class="comment">// 设置栈指针 SP，把 0x20000000 地址中的内容赋值到 SP。</span></span><br><span class="line">   PC = _RDWORD(<span class="number">0x20000004</span>); <span class="comment">// 设置程序指针 PC，把 0x20000004 地址中的内容赋值到PC。</span></span><br><span class="line"></span><br><span class="line">   XPSR = <span class="number">0x01000000</span>; <span class="comment">// 设置状态寄存器指针 xPSR</span></span><br><span class="line">   _WDWORD(<span class="number">0xE000ED08</span>, <span class="number">0x20000000</span>); <span class="comment">// Setup Vector Table Offset Register</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LOAD %L INCREMENTAL <span class="comment">// 下载 axf 文件到 RAM</span></span><br><span class="line">Setup(); <span class="comment">//调用上面定义的 setup 函数设置运行环境</span></span><br><span class="line">   <span class="comment">//g, main //跳转到 main 函数，本示例调试时不需要从 main 函数执行，注释掉了，程序从启动代码开始执行</span></span><br></pre></td></tr></table></figure>
 
- <span class="function">FUNC <span class="keyword">void</span> <span class="title">Setup</span> <span class="params">(<span class="keyword">void</span>)</span> </span>{
-    SP = _RDWORD(<span class="number">0x20000000</span>); <span class="comment">// 设置栈指针 SP，把 0x20000000 地址中的内容赋值到 SP。</span>
-    PC = _RDWORD(<span class="number">0x20000004</span>); <span class="comment">// 设置程序指针 PC，把 0x20000004 地址中的内容赋值到PC。</span>
-
-    XPSR = <span class="number">0x01000000</span>; <span class="comment">// 设置状态寄存器指针 xPSR</span>
-    _WDWORD(<span class="number">0xE000ED08</span>, <span class="number">0x20000000</span>); <span class="comment">// Setup Vector Table Offset Register</span>
- }
-
- LOAD %L INCREMENTAL <span class="comment">// 下载 axf 文件到 RAM</span>
- Setup(); <span class="comment">//调用上面定义的 setup 函数设置运行环境</span>
-    <span class="comment">//g, main //跳转到 main 函数，本示例调试时不需要从 main 函数执行，注释掉了，程序从启动代码开始执行</span>
-``
-
-上述配置过程是控制MDK执行仿真器的脚本文件`Debug_RAM.ini`，而该脚本文件在下载了程序到SRAM后，初始化了SP指针(即 MSP)和PC指针分别指向了`<span class="number">0x20000000</span>`和`<span class="number">0x20000004</span>`，这样的操作等效于从SRAM复位
-
-有了这样的配置，即使BOOT0和BOOT1引脚不设置为SRAM启动也能正常仿真了，但点击下载按钮把程序下载到SRAM然后按复位是不能全速运行的(这种运行方式脱离了仿真器的控制，SP和PC指针无法被初始化指向SRAM)
-
-## 完成
-
-开始我的 下载-&gt;运行-&gt;调试-&gt;出错-&gt;解决-&gt;下载······</code></pre>
+<p>上述配置过程是控制MDK执行仿真器的脚本文件<code>Debug_RAM.ini</code>，而该脚本文件在下载了程序到SRAM后，初始化了SP指针(即 MSP)和PC指针分别指向了<code>0x20000000</code>和<code>0x20000004</code>，这样的操作等效于从SRAM复位</p>
+<p>有了这样的配置，即使BOOT0和BOOT1引脚不设置为SRAM启动也能正常仿真了，但点击下载按钮把程序下载到SRAM然后按复位是不能全速运行的(这种运行方式脱离了仿真器的控制，SP和PC指针无法被初始化指向SRAM)</p>
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>开始我的 下载-&gt;运行-&gt;调试-&gt;出错-&gt;解决-&gt;下载······</p>
 ]]></content>
       <categories>
         <category>STM32</category>
@@ -308,10 +283,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
+        <tag>ARM</tag>
         <tag>HAL</tag>
         <tag>LTDC</tag>
-        <tag>ARM</tag>
+        <tag>LCD</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
       </tags>
@@ -334,8 +309,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>CodeBlocks</tag>
         <tag>C</tag>
+        <tag>CodeBlocks</tag>
       </tags>
   </entry>
   <entry>
@@ -503,10 +478,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>HAL</tag>
         <tag>MDK-ARM</tag>
         <tag>MDK</tag>
         <tag>ARM</tag>
+        <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
       </tags>
   </entry>
@@ -1174,8 +1149,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1206,8 +1181,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1283,8 +1258,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1320,8 +1295,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -2338,8 +2313,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
