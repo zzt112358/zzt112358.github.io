@@ -112,19 +112,18 @@
 
 
   <meta property="og:type" content="article">
-<meta property="og:title" content="Linux各类发行板网络服务重启方式">
-<meta property="og:url" content="http://zzttzz.gitee.io/blog/posts/d27b4817.html">
+<meta property="og:title" content="STM32CubeMX配置LCD显示中文字符">
+<meta property="og:url" content="http://zzttzz.gitee.io/blog/posts/ee64b9e4.html">
 <meta property="og:site_name" content="ZZT Blog">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
-<meta property="article:published_time" content="2020-04-03T04:34:48.000Z">
-<meta property="article:modified_time" content="2020-04-03T04:58:12.498Z">
+<meta property="article:published_time" content="2020-04-17T00:09:30.000Z">
+<meta property="article:modified_time" content="2020-04-17T00:26:41.698Z">
 <meta property="article:author" content="ZZT">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="Manjaro">
-<meta property="article:tag" content="Ubuntu">
-<meta property="article:tag" content="CentOS">
-<meta property="article:tag" content="网络服务重启">
+<meta property="article:tag" content="STM32">
+<meta property="article:tag" content="STM32CubeMX">
+<meta property="article:tag" content="LCD">
+<meta property="article:tag" content="显示中文">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
 
@@ -138,7 +137,7 @@
 
   
   
-  <link rel="canonical" href="http://zzttzz.gitee.io/blog/posts/d27b4817"/>
+  <link rel="canonical" href="http://zzttzz.gitee.io/blog/posts/ee64b9e4"/>
 
 
 
@@ -148,7 +147,7 @@
   };
 </script>
 
-  <title>Linux各类发行板网络服务重启方式 | ZZT Blog</title>
+  <title>STM32CubeMX配置LCD显示中文字符 | ZZT Blog</title>
   
 
 
@@ -404,7 +403,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zzttzz.gitee.io/blog/blog/posts/d27b4817.html"/>
+    <link itemprop="mainEntityOfPage" href="http://zzttzz.gitee.io/blog/blog/posts/ee64b9e4.html"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ZZT"/>
@@ -421,7 +420,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Linux各类发行板网络服务重启方式
+          <h2 class="post-title" itemprop="name headline">STM32CubeMX配置LCD显示中文字符
 
               
             
@@ -449,7 +448,7 @@
                 
               
 
-              <time title="创建时间：2020-04-03 12:34:48 / 修改时间：12:58:12" itemprop="dateCreated datePublished" datetime="2020-04-03T12:34:48+08:00">2020-04-03</time>
+              <time title="创建时间：2020-04-17 08:09:30 / 修改时间：08:26:41" itemprop="dateCreated datePublished" datetime="2020-04-17T08:09:30+08:00">2020-04-17</time>
             
 
             
@@ -471,7 +470,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/STM32/" itemprop="url" rel="index"><span itemprop="name">STM32</span></a></span>
 
                 
                 
@@ -490,8 +489,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/blog/posts/d27b4817.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/blog/posts/d27b4817.html" itemprop="commentCount"></span>
+                <a href="/blog/posts/ee64b9e4.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/blog/posts/ee64b9e4.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -499,7 +498,7 @@
 
           
           
-            <span id="/blog/posts/d27b4817.html" class="leancloud_visitors" data-flag-title="Linux各类发行板网络服务重启方式">
+            <span id="/blog/posts/ee64b9e4.html" class="leancloud_visitors" data-flag-title="STM32CubeMX配置LCD显示中文字符">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -532,7 +531,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.7k</span>
+                <span title="本文字数">1.4k</span>
               
 
               
@@ -546,7 +545,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">7 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -572,16 +571,16 @@
 
 <!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
 <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
-<p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
-<p>然后发现<code>manjaro linux</code>中木的<code>service</code>命令</p>
-<p>所以就在网上找了找，防止以后忘了，记在这里</p>
-<h2 id="CentOS-RHEL-Red-Hat-Fedora"><a href="#CentOS-RHEL-Red-Hat-Fedora" class="headerlink" title="CentOS / RHEL / Red Hat / Fedora"></a>CentOS / RHEL / Red Hat / Fedora</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service network stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network restart</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Ubuntu-Debian"><a href="#Ubuntu-Debian" class="headerlink" title="Ubuntu/Debian"></a>Ubuntu/Debian</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service networking stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking restart</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Arch-Linux-Manjaro-Linux"><a href="#Arch-Linux-Manjaro-Linux" class="headerlink" title="Arch Linux/Manjaro Linux"></a>Arch Linux/Manjaro Linux</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> systemctl stop systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl restart systemd-networkd</span></span><br></pre></td></tr></table></figure>
-
-<p>希望以后不要忘了</p>
+<h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
+<p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
+<p>所以本文所写的程序也是给外部FLASH字库准备的</p>
+<h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
+<h2 id="FLASHI配置"><a href="#FLASHI配置" class="headerlink" title="FLASHI配置"></a>FLASHI配置</h2><p>这一段可以去看<a href="/blog/posts/243fe895.html"><code>STM32CubeMX配置SPI读写外部FLASH</code></a>，在那里面有详细介绍</p>
+<h2 id="有关配置FLASH的一些小问题"><a href="#有关配置FLASH的一些小问题" class="headerlink" title="有关配置FLASH的一些小问题"></a>有关配置FLASH的一些小问题</h2><ul>
+<li>如果驱动文件不是自己写，而是在资料中找，那么一定要注意选择与FLASH芯片相应的驱动文件，因为有些新的驱动文件所使用的指令组合对于较老的FLASH芯片而言是不识别的</li>
+<li>一定要看好字库文件在FLASH的位置，而且千万不要所以更改FLASH芯片中的内容</li>
+</ul>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>把驱动文件写出来后，定义好全局变量，就没啥问题了。怎么去显示中文通常lcd的驱动文件里都有，可以照着慢慢写一个(<em>^▽^</em>)</p>
 
       
     </div>
@@ -616,7 +615,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="http://zzttzz.gitee.io/blog/posts/d27b4817.html" title="Linux各类发行板网络服务重启方式">http://zzttzz.gitee.io/blog/posts/d27b4817.html</a>
+    <a href="http://zzttzz.gitee.io/blog/posts/ee64b9e4.html" title="STM32CubeMX配置LCD显示中文字符">http://zzttzz.gitee.io/blog/posts/ee64b9e4.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -629,15 +628,13 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/Linux/" rel="tag"># Linux</a>
+            <a href="/blog/tags/STM32/" rel="tag"># STM32</a>
           
-            <a href="/blog/tags/Manjaro/" rel="tag"># Manjaro</a>
+            <a href="/blog/tags/STM32CubeMX/" rel="tag"># STM32CubeMX</a>
           
-            <a href="/blog/tags/Ubuntu/" rel="tag"># Ubuntu</a>
+            <a href="/blog/tags/LCD/" rel="tag"># LCD</a>
           
-            <a href="/blog/tags/CentOS/" rel="tag"># CentOS</a>
-          
-            <a href="/blog/tags/%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%87%8D%E5%90%AF/" rel="tag"># 网络服务重启</a>
+            <a href="/blog/tags/%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87/" rel="tag"># 显示中文</a>
           
         </div>
       
@@ -650,8 +647,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/posts/ba9c4b95.html" rel="next" title="PicGo配置gitee图床">
-                <i class="fa fa-chevron-left"></i> PicGo配置gitee图床
+              <a href="/blog/posts/243fe895.html" rel="next" title="STM32CubeMX配置SPI读写外部FLASH">
+                <i class="fa fa-chevron-left"></i> STM32CubeMX配置SPI读写外部FLASH
               </a>
             
           </div>
@@ -659,10 +656,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/posts/a840fa9b.html" rel="prev" title="STM32F4_GPIO的八种工作模式">
-                STM32F4_GPIO的八种工作模式 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1117,7 +1110,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CentOS-RHEL-Red-Hat-Fedora"><span class="nav-number">1.</span> <span class="nav-text">CentOS &#x2F; RHEL &#x2F; Red Hat &#x2F; Fedora</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu-Debian"><span class="nav-number">2.</span> <span class="nav-text">Ubuntu&#x2F;Debian</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Arch-Linux-Manjaro-Linux"><span class="nav-number">3.</span> <span class="nav-text">Arch Linux&#x2F;Manjaro Linux</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#字库位置"><span class="nav-number">1.</span> <span class="nav-text">字库位置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LTDC配置"><span class="nav-number">2.</span> <span class="nav-text">LTDC配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FLASHI配置"><span class="nav-number">3.</span> <span class="nav-text">FLASHI配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有关配置FLASH的一些小问题"><span class="nav-number">4.</span> <span class="nav-text">有关配置FLASH的一些小问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束"><span class="nav-number">5.</span> <span class="nav-text">结束</span></a></li></ol></div>
             
 
           </div>

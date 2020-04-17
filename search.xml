@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>STM32CubeMX配置LCD显示中文字符</title>
+    <url>/blog/posts/ee64b9e4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
+<p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
+<p>所以本文所写的程序也是给外部FLASH字库准备的</p>
+<h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
+<h2 id="FLASHI配置"><a href="#FLASHI配置" class="headerlink" title="FLASHI配置"></a>FLASHI配置</h2><p>这一段可以去看<a href="/blog/posts/243fe895.html"><code>STM32CubeMX配置SPI读写外部FLASH</code></a>，在那里面有详细介绍</p>
+<h2 id="有关配置FLASH的一些小问题"><a href="#有关配置FLASH的一些小问题" class="headerlink" title="有关配置FLASH的一些小问题"></a>有关配置FLASH的一些小问题</h2><ul>
+<li>如果驱动文件不是自己写，而是在资料中找，那么一定要注意选择与FLASH芯片相应的驱动文件，因为有些新的驱动文件所使用的指令组合对于较老的FLASH芯片而言是不识别的</li>
+<li>一定要看好字库文件在FLASH的位置，而且千万不要所以更改FLASH芯片中的内容</li>
+</ul>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>把驱动文件写出来后，定义好全局变量，就没啥问题了。怎么去显示中文通常lcd的驱动文件里都有，可以照着慢慢写一个(<em>^▽^</em>)</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>LCD</tag>
+        <tag>显示中文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>STM32CubeMX配置SPI读写外部FLASH</title>
     <url>/blog/posts/243fe895.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
@@ -190,8 +220,8 @@
         <tag>STM32CubeMX</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
-        <tag>LTDC</tag>
         <tag>LCD</tag>
+        <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
       </tags>
@@ -214,8 +244,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>CodeBlocks</tag>
         <tag>C</tag>
+        <tag>CodeBlocks</tag>
       </tags>
   </entry>
   <entry>
@@ -1054,8 +1084,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1086,8 +1116,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1163,8 +1193,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1200,8 +1230,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -1671,9 +1701,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
