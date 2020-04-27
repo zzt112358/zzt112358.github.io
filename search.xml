@@ -27,14 +27,15 @@
 <p><code>Invalid read of size 8</code>表示内存越界访问了8个字节大小</p>
 <p>在后面则是这个越界的详细信息</p>
 <p>还有一些其他的信息输出，比如内存泄露等等。</p>
+<h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><p>在我的理解中，这个工具就是虚拟出一个新的CPU和内存空间，然后吧程序放在这个新的系统中运行，但是现在只能虚拟出32位的环境，其实没啥影响</p>
 ]]></content>
       <categories>
         <category>工具分享</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
         <tag>工具分享</tag>
+        <tag>C语言学习</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
       </tags>
@@ -613,9 +614,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
+        <tag>ARM</tag>
         <tag>SPI</tag>
         <tag>FLASH</tag>
-        <tag>ARM</tag>
       </tags>
   </entry>
   <entry>
@@ -757,10 +758,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
-        <tag>HAL</tag>
-        <tag>LTDC</tag>
         <tag>ARM</tag>
+        <tag>HAL</tag>
+        <tag>LCD</tag>
+        <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
       </tags>
@@ -783,8 +784,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CodeBlocks</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -952,10 +953,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>HAL</tag>
-        <tag>ARM</tag>
         <tag>MDK-ARM</tag>
         <tag>MDK</tag>
+        <tag>ARM</tag>
+        <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
       </tags>
   </entry>
@@ -1623,8 +1624,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1655,8 +1656,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1732,8 +1733,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1769,8 +1770,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
