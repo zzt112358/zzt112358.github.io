@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux下的进程内存检查工具-valgrind</title>
+    <url>/blog/posts/d2593696.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
+<h2 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h2><p>linux系统安装命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -S valgrind</span><br></pre></td></tr></table></figure>
+
+<p>我几乎不用windows写C，环境配置太麻烦了</p>
+<h2 id="简易使用"><a href="#简易使用" class="headerlink" title="简易使用"></a>简易使用</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s</span><br></pre></td></tr></table></figure>
+
+<p>在后面加上你运行程序的命令即可</p>
+<p>例子：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s ./shell_sys</span><br></pre></td></tr></table></figure>
+
+<p>这是我编写的一个学习项目</p>
+<p>在输出信息中可以找到如下信息：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">==13854== Invalid <span class="built_in">read</span> of size 8</span><br><span class="line">==13854==    at 0x10DC57: view_p_and_s (gui.c:281)</span><br><span class="line">==13854==    by 0x10EBA6: ceo_window_add_p_button_clicked (gui.c:496)</span><br><span class="line">==13854==    by 0x55DA09F: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C2828E: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C28364: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x55F5619: g_closure_invoke (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D6AD3: ??? (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D9AB8: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C26870: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C5F56C: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==  Address 0xa424b08 is 8 bytes after a block of size 400 alloc<span class="string">'d</span></span><br><span class="line"><span class="string">==13854==    at 0x483BD7B: realloc (vg_replace_malloc.c:836)</span></span><br><span class="line"><span class="string">==13854==    by 0x10CE6E: ceo_gui (gui.c:88)</span></span><br><span class="line"><span class="string">==13854==    by 0x10E5B2: load_button (gui.c:405)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DA09F: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x49CD530: ??? (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x55F5619: g_closure_invoke (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D697D: ??? (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D95CB: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4DEF0: gtk_accel_group_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4E04D: gtk_accel_groups_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br></pre></td></tr></table></figure>
+
+<p><code>Invalid read of size 8</code>表示内存越界访问了8个字节大小</p>
+<p>在后面则是这个越界的详细信息</p>
+<p>还有一些其他的信息输出，比如内存泄露等等。</p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>C语言学习</tag>
+        <tag>C</tag>
+        <tag>工具分享</tag>
+        <tag>Linux</tag>
+        <tag>valgrind</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C-GTK常用函数功能整理</title>
     <url>/blog/posts/19640569.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
@@ -255,6 +294,118 @@
 <td></td>
 </tr>
 </tbody></table>
+<h2 id="GtkFixed"><a href="#GtkFixed" class="headerlink" title="GtkFixed"></a>GtkFixed</h2><table>
+<thead>
+<tr>
+<th>函数</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>gtk_fixed_new</code></td>
+<td>新建一个新的容器</td>
+</tr>
+<tr>
+<td><code>gtk_fixed_put</code></td>
+<td>在容器的给定位置添加部件</td>
+</tr>
+<tr>
+<td><code>gtk_fixed_move</code></td>
+<td>移动容器中的一个部件到指定位置</td>
+</tr>
+</tbody></table>
+<h2 id="GtkGrid"><a href="#GtkGrid" class="headerlink" title="GtkGrid"></a>GtkGrid</h2><table>
+<thead>
+<tr>
+<th>函数</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>gtk_grid_new</code></td>
+<td>创建一个新的网格部件</td>
+</tr>
+<tr>
+<td><code>gtk_grid_attach</code></td>
+<td>将一个部件添加到网格</td>
+</tr>
+<tr>
+<td><code>gtk_grid_attach_next_to</code></td>
+<td>将一个部件添加到一个给定部件周围</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_child_at</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>gtk_grid_insert_row</code></td>
+<td>在指定位置插入一行</td>
+</tr>
+<tr>
+<td><code>gtk_grid_insert_column</code></td>
+<td>在指定位置插入一列</td>
+</tr>
+<tr>
+<td><code>gtk_grid_remove_row</code></td>
+<td>删除指定一行</td>
+</tr>
+<tr>
+<td><code>gtk_grid_remove_column</code></td>
+<td>删除指定一列</td>
+</tr>
+<tr>
+<td><code>gtk_grid_insert_next_to</code></td>
+<td>在指定位置插入行或列</td>
+</tr>
+<tr>
+<td><code>gtk_grid_set_row_homogeneous</code></td>
+<td>设置是否所有的行都具有相同的高度</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_row_homogeneous</code></td>
+<td>获得是否所有的行都具有相同的高度</td>
+</tr>
+<tr>
+<td><code>gtk_grid_set_row_spacing</code></td>
+<td>设置网格行之间的间距</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_row_spacing</code></td>
+<td>获得网格行之间的间距</td>
+</tr>
+<tr>
+<td><code>gtk_grid_set_column_homogeneous</code></td>
+<td>设置是否所有的列都具有相同的宽度</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_column_homogeneous</code></td>
+<td>获得是否所有的列都具有相同的宽度</td>
+</tr>
+<tr>
+<td><code>gtk_grid_set_column_spacing</code></td>
+<td>设置网格列之间的间距</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_column_spacing</code></td>
+<td>获得网格列之间的间距</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_baseline_row</code></td>
+<td>获得网格全局基线的行</td>
+</tr>
+<tr>
+<td><code>gtk_grid_set_baseline_row</code></td>
+<td>设置网格全局基线的行</td>
+</tr>
+<tr>
+<td><code>gtk_grid_set_row_baseline_position</code></td>
+<td>设置基准线上网格的应如何定位</td>
+</tr>
+<tr>
+<td><code>gtk_grid_get_row_baseline_position</code></td>
+<td>获得基准线上网格的应如何定位的设置</td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
         <category>C语言学习</category>
@@ -462,9 +613,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>ARM</tag>
         <tag>SPI</tag>
         <tag>FLASH</tag>
+        <tag>ARM</tag>
       </tags>
   </entry>
   <entry>
@@ -606,10 +757,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>ARM</tag>
-        <tag>HAL</tag>
         <tag>LCD</tag>
+        <tag>HAL</tag>
         <tag>LTDC</tag>
+        <tag>ARM</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
       </tags>
@@ -632,8 +783,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>CodeBlocks</tag>
         <tag>C</tag>
+        <tag>CodeBlocks</tag>
       </tags>
   </entry>
   <entry>
@@ -801,10 +952,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
+        <tag>HAL</tag>
+        <tag>ARM</tag>
         <tag>MDK-ARM</tag>
         <tag>MDK</tag>
-        <tag>ARM</tag>
-        <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
       </tags>
   </entry>
@@ -1472,8 +1623,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1504,8 +1655,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1581,8 +1732,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1618,8 +1769,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -2636,8 +2787,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
