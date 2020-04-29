@@ -10,7 +10,6 @@
 <!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
 <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
 <h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
-<h2 id="GTK与程序内变量冲突"><a href="#GTK与程序内变量冲突" class="headerlink" title="GTK与程序内变量冲突"></a>GTK与程序内变量冲突</h2><p><code>connectfd</code>这个变量名就不要在有GTK的程序里使用了</p>
 ]]></content>
       <categories>
         <category>C语言学习</category>
@@ -54,8 +53,8 @@
         <category>工具分享</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>工具分享</tag>
+        <tag>C</tag>
         <tag>C语言学习</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
@@ -779,9 +778,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
+        <tag>LCD</tag>
         <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
@@ -2809,8 +2808,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
