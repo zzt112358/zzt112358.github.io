@@ -9,8 +9,25 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>点滴积累知识</description>
-    <pubDate>Mon, 27 Apr 2020 03:52:32 GMT</pubDate>
+    <pubDate>Wed, 29 Apr 2020 08:52:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>GTK的一些记录</title>
+      <link>http://zzttzz.gitee.io/blog/posts/62378a77.html</link>
+      <guid>http://zzttzz.gitee.io/blog/posts/62378a77.html</guid>
+      <pubDate>Wed, 29 Apr 2020 08:49:46 GMT</pubDate>
+      <description>
+      
+        &lt;!--注释--&gt;
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释--><a id="more"></a><!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)--><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p><h2 id="GTK与程序内变量冲突"><a href="#GTK与程序内变量冲突" class="headerlink" title="GTK与程序内变量冲突"></a>GTK与程序内变量冲突</h2><p><code>connectfd</code>这个变量名就不要在有GTK的程序里使用了</p>]]></content:encoded>
+      
+      <comments>http://zzttzz.gitee.io/blog/posts/62378a77.html#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Linux下的进程内存检查工具-valgrind</title>
