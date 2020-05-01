@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>codeblocks设置自动补全C标准库函数</title>
+    <url>/blog/posts/1710e6e2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<p>最近在<code>Linux</code>上编写C程序，用的<code>codeblocks</code>作为编写软件，发现了一个貌似只有部分<code>Linux</code>系统里会出现的问题</p>
+<p><code>codeblocks</code>不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。</p>
+<p>所以就需要修复<code>codeblocks</code>的自动补全功能和参数提示功能。</p>
+<p>我在<code>Ubuntu</code>、<code>Win10</code>、<code>Manjaro Linux</code>三个系统都测试了一下，其中只有<code>Manjaro Linux</code>下<code>codeblocks</code>对C标准库函数的自动补全功能会失效，但是编译没有错误，由此猜测是该系统中C标准库文件在<code>codeblocks</code>自动补全时的引用失效。</p>
+<p>解决方案：把<code>/usr/include/</code>添加在<code>codeblocks</code>的头文件索引目录里就行了，如下图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200501134400.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>C语言学习</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>C语言学习</tag>
+        <tag>codeblocks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GTK的一些记录</title>
     <url>/blog/posts/62378a77.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
@@ -778,9 +803,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
+        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
-        <tag>LCD</tag>
         <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
@@ -2808,8 +2833,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>windows</tag>
         <tag>geek</tag>
+        <tag>windows</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
