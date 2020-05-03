@@ -118,7 +118,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
 <meta property="article:published_time" content="2020-05-03T05:35:09.000Z">
-<meta property="article:modified_time" content="2020-05-03T05:45:55.369Z">
+<meta property="article:modified_time" content="2020-05-03T06:01:55.099Z">
 <meta property="article:author" content="ZZT">
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="Manjaro">
@@ -446,7 +446,7 @@
                 
               
 
-              <time title="创建时间：2020-05-03 13:35:09 / 修改时间：13:45:55" itemprop="dateCreated datePublished" datetime="2020-05-03T13:35:09+08:00">2020-05-03</time>
+              <time title="创建时间：2020-05-03 13:35:09 / 修改时间：14:01:55" itemprop="dateCreated datePublished" datetime="2020-05-03T13:35:09+08:00">2020-05-03</time>
             
 
             
@@ -529,7 +529,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2k</span>
+                <span title="本文字数">1.9k</span>
               
 
               
@@ -571,18 +571,14 @@
 <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
 <p>AnBox相比较其他安卓模拟器的优点：直接让安卓程序运行在Linux上，几乎没有性能损耗</p>
 <p>当然也有着一些缺点：只能运行支持x86CPU的安卓程序</p>
-<p>在这里记录一下manjaro安装anbox时的经过和遇到的一些问题</p>
+<p>在这里记录一下manjaro安装anbox时的经过</p>
 <h2 id="安装源"><a href="#安装源" class="headerlink" title="安装源"></a>安装源</h2><p>AUR里有anbox的全部安装源</p>
 <p>运行如下命令即可安装</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yay -s anbox-modules-dkms-git</span><br><span class="line">yay -s anbox-git</span><br></pre></td></tr></table></figure>
 
 <h2 id="安装adb工具"><a href="#安装adb工具" class="headerlink" title="安装adb工具"></a>安装adb工具</h2><p>anbox不支持界面安装，只能通过adb调试的方式安装apk</p>
-<h2 id="启动anbox核心服务"><a href="#启动anbox核心服务" class="headerlink" title="启动anbox核心服务"></a>启动anbox核心服务</h2><p>这里是一大难点</p>
-<p>arch系的Linux系统服务管理好像和其他系的Linux系统不一样</p>
-<p>官方给的命令是：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo modprobe ashmem_linux</span><br><span class="line">sudo modprobe binder_linux</span><br></pre></td></tr></table></figure>
+<h2 id="启动anbox核心服务"><a href="#启动anbox核心服务" class="headerlink" title="启动anbox核心服务"></a>启动anbox核心服务</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo modprobe ashmem_linux</span><br><span class="line">sudo modprobe binder_linux</span><br></pre></td></tr></table></figure>
 
-<p>但是，我在manjaro下怎么也启动不了服务，谷歌了一下，才发现启动服务的命令应该是这个：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start anbox-container-manager.service</span><br></pre></td></tr></table></figure>
 
 <h2 id="安装完成"><a href="#安装完成" class="headerlink" title="安装完成"></a>安装完成</h2><p>其实在图形化界面是可以设置anbox安卓的有关设置，只是安装apk貌似只能通过adb安装，因为默认安卓系统里是没有Google商店的</p>
@@ -1171,7 +1167,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">3:11</span>
+    <span title="站点阅读时长">3:10</span>
   
 </div>
 
