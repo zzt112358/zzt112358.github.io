@@ -66,6 +66,7 @@
 <!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
 <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
 <h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
+<h2 id="GTK在Manjaro-KDE环境下所有的界面都没有菜单"><a href="#GTK在Manjaro-KDE环境下所有的界面都没有菜单" class="headerlink" title="GTK在Manjaro+KDE环境下所有的界面都没有菜单"></a>GTK在Manjaro+KDE环境下所有的界面都没有菜单</h2><p>仔细找找有没有安装<code>全局菜单</code>这个小部件，GTK的菜单可以再这个小部件里找到</p>
 ]]></content>
       <categories>
         <category>C语言学习</category>
@@ -109,8 +110,8 @@
         <category>工具分享</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>工具分享</tag>
+        <tag>C</tag>
         <tag>C语言学习</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
@@ -834,11 +835,11 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
-        <tag>LTDC</tag>
+        <tag>LCD</tag>
         <tag>Keil</tag>
+        <tag>LTDC</tag>
         <tag>MKD-ARM</tag>
       </tags>
   </entry>
