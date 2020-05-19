@@ -109,8 +109,8 @@
         <category>工具分享</category>
       </categories>
       <tags>
-        <tag>工具分享</tag>
         <tag>C</tag>
+        <tag>工具分享</tag>
         <tag>C语言学习</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
@@ -834,9 +834,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
+        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
-        <tag>LCD</tag>
         <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
