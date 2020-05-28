@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux处理Windows文本时去除“r”符号</title>
+    <url>/blog/posts/85d45c87.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
+
+<a id="more"></a>
+
+<!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
+<p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
+<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
+<p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p>
+<h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>\r</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Manjaro-Linux安装AnBox实现Linux直接运行安卓程序</title>
     <url>/blog/posts/33b17553.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释-->
@@ -837,8 +859,8 @@
         <tag>STM32CubeMX</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
-        <tag>LCD</tag>
         <tag>LTDC</tag>
+        <tag>LCD</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
       </tags>
@@ -2051,9 +2073,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
+        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2525,8 +2547,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>windows</tag>
         <tag>geek</tag>
+        <tag>windows</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>

@@ -9,8 +9,25 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>点滴积累知识</description>
-    <pubDate>Sun, 03 May 2020 06:01:55 GMT</pubDate>
+    <pubDate>Thu, 28 May 2020 23:30:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Linux处理Windows文本时去除“r”符号</title>
+      <link>http://zzttzz.gitee.io/blog/posts/85d45c87.html</link>
+      <guid>http://zzttzz.gitee.io/blog/posts/85d45c87.html</guid>
+      <pubDate>Thu, 28 May 2020 23:25:53 GMT</pubDate>
+      <description>
+      
+        &lt;!--注释--&gt;
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--注释--><a id="more"></a><!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)--><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p><p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p><h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      <comments>http://zzttzz.gitee.io/blog/posts/85d45c87.html#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Manjaro-Linux安装AnBox实现Linux直接运行安卓程序</title>
