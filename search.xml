@@ -174,9 +174,9 @@
         <category>工具分享</category>
       </categories>
       <tags>
+        <tag>工具分享</tag>
         <tag>C语言学习</tag>
         <tag>C</tag>
-        <tag>工具分享</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
       </tags>
@@ -925,8 +925,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CodeBlocks</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
