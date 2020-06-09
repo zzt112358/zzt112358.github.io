@@ -899,9 +899,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
+        <tag>LCD</tag>
         <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
@@ -2589,8 +2589,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
