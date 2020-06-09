@@ -175,8 +175,8 @@
       </categories>
       <tags>
         <tag>C</tag>
-        <tag>C语言学习</tag>
         <tag>工具分享</tag>
+        <tag>C语言学习</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
       </tags>
@@ -789,8 +789,8 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LTDC</tag>
         <tag>HAL</tag>
+        <tag>LTDC</tag>
       </tags>
   </entry>
   <entry>
@@ -899,12 +899,12 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LTDC</tag>
-        <tag>LCD</tag>
+        <tag>ARM</tag>
         <tag>HAL</tag>
+        <tag>LCD</tag>
+        <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
-        <tag>ARM</tag>
       </tags>
   </entry>
   <entry>
@@ -1094,10 +1094,10 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>HAL</tag>
-        <tag>ARM</tag>
         <tag>MDK-ARM</tag>
         <tag>MDK</tag>
+        <tag>ARM</tag>
+        <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
       </tags>
   </entry>
@@ -2115,9 +2115,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
+        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2240,8 +2240,8 @@
 
 <!--![pic](https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)-->
 <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="pic"></p>
-<p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>sidebar</code>,<code>post</code>项改为<code>true</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Creative Commons 4.0 International License.</span></span><br><span class="line"><span class="comment"># See: https://creativecommons.org/share-your-work/licensing-types-examples</span></span><br><span class="line"><span class="comment"># Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero</span></span><br><span class="line"><span class="comment"># You can set a language value if you prefer a translated version of CC license.</span></span><br><span class="line"><span class="comment"># CC licenses are available in 39 languages, where you can find the specific and correct abbreviation you need.</span></span><br><span class="line"><span class="comment"># Valid values of language: deed.zh, deed.fr, deed.de, etc.</span></span><br><span class="line"><span class="attr">creative_commons:</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">by-nc-sa</span></span><br><span class="line"><span class="attr">  sidebar:</span> <span class="literal">true</span> </span><br><span class="line"><span class="attr">  post:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  language:</span> <span class="string">zh-CN</span></span><br></pre></td></tr></table></figure>
+<p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Declare license on posts</span></span><br><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">3.0</span></span><br><span class="line"><span class="attr">  license_url:</span> <span class="attr">https://creativecommons.org/licenses/by-nc-sa/3.0/</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>注：<code>sidebar</code>指的是侧栏下方,<code>post</code>指的是文章底部,效果可参考本站</p>
@@ -2589,8 +2589,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>windows</tag>
         <tag>geek</tag>
+        <tag>windows</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
