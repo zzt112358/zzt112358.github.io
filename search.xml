@@ -115,8 +115,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>codeblocks</tag>
       </tags>
   </entry>
@@ -136,8 +136,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>GTK</tag>
       </tags>
   </entry>
@@ -174,9 +174,9 @@
         <category>工具分享</category>
       </categories>
       <tags>
-        <tag>工具分享</tag>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
+        <tag>工具分享</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
       </tags>
@@ -925,8 +925,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>CodeBlocks</tag>
         <tag>C</tag>
+        <tag>CodeBlocks</tag>
       </tags>
   </entry>
   <entry>
@@ -1765,8 +1765,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1797,8 +1797,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1874,8 +1874,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1911,8 +1911,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>C语言学习</tag>
+        <tag>C</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -2589,8 +2589,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>windows</tag>
         <tag>geek</tag>
+        <tag>windows</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
