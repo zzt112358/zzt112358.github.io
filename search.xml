@@ -2115,9 +2115,9 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2589,8 +2589,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>geek</tag>
         <tag>windows</tag>
+        <tag>geek</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
