@@ -6,11 +6,51 @@
     <title>ZZT Blog</title>
     <link>http://zzttzz.gitee.io/blog/</link>
     
-    <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="/blog/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>点滴积累知识</description>
-    <pubDate>Wed, 10 Jun 2020 00:45:02 GMT</pubDate>
+    <pubDate>Wed, 10 Jun 2020 13:02:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows下批量重命名文件</title>
+      <link>http://zzttzz.gitee.io/blog/posts/5222b711.html</link>
+      <guid>http://zzttzz.gitee.io/blog/posts/5222b711.html</guid>
+      <pubDate>Wed, 10 Jun 2020 12:34:31 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\blog\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\blog\assets\js\APlayer.m
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204426.png" alt="cmd第一步"></p><h2 id="在Excel中编辑数据"><a href="#在Excel中编辑数据" class="headerlink" title="在Excel中编辑数据"></a>在Excel中编辑数据</h2><ul><li>先在第一列整理好需要重命名的文件名<ul><li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204622.png" alt="Excel第一步"></li></ul></li><li>然后在第二列用Excel便捷的列出重命名后的文件名<ul><li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204753.png" alt="excel第二步"></li></ul></li><li>最后使用<code>CONCATENATE</code>函数或者<code>&amp;</code>符号在第三列拼接处重命名批处理命令<ul><li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610205026.png" alt="Excel第三步"></li></ul></li></ul><h2 id="把Excel拼接出的批处理命令拷贝到批处理文件中"><a href="#把Excel拼接出的批处理命令拷贝到批处理文件中" class="headerlink" title="把Excel拼接出的批处理命令拷贝到批处理文件中"></a>把Excel拼接出的批处理命令拷贝到批处理文件中</h2><blockquote><p>注：批处理文件需要和需要重命名的文件同目录<br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610205155.png" alt="批处理第一步"></p></blockquote><p>保存，双击批处理文件，批量重命名完成<br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610210119.png" alt="批量重命名完成"></p>]]></content:encoded>
+      
+      <comments>http://zzttzz.gitee.io/blog/posts/5222b711.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>重新返回WordPress记录</title>
+      <link>http://zzttzz.gitee.io/blog/posts/12bdfd9a.html</link>
+      <guid>http://zzttzz.gitee.io/blog/posts/12bdfd9a.html</guid>
+      <pubDate>Wed, 10 Jun 2020 09:22:17 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\blog\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\blog\assets\js\APlayer.m
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>有一天，我发现了阿里云对学生购买服务器有优惠<a href="https://promotion.aliyun.com/ntms/act/campus2018.html" target="_blank" rel="noopener">云翼计划</a>于是就买了一台试试，然后就突然想把当初因为没有可用的空间而使用<code>Hexo</code>做记录的博客再次搬回<code>WordPress</code></p><p>毕竟<code>WordPress</code>实在是太方便了</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><ul><li>购买服务器</li><li>购买域名</li><li>搭建网站</li></ul><h2 id="错误记录"><a href="#错误记录" class="headerlink" title="错误记录"></a>错误记录</h2><ol><li><code>WordPress</code>设置固定连接和伪静态导致文章页面404</li><li><code>TOC+</code>插件设置不完全导致文章目录出现大量问题</li><li><code>markdown</code>语法仍然在<code>WordPress</code>不能获得很好的支持</li></ol>]]></content:encoded>
+      
+      <comments>http://zzttzz.gitee.io/blog/posts/12bdfd9a.html#disqus_thread</comments>
+    </item>
     
     <item>
       <title>电脑开机提示error:no_such_partition</title>
