@@ -4,7 +4,7 @@
     <title>Windows下批量重命名文件</title>
     <url>/blog/posts/5222b711.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204426.png" alt="cmd第一步"></p>
 <h2 id="在Excel中编辑数据"><a href="#在Excel中编辑数据" class="headerlink" title="在Excel中编辑数据"></a>在Excel中编辑数据</h2><ul>
@@ -142,8 +142,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>codeblocks</tag>
       </tags>
   </entry>
@@ -157,8 +157,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>GTK</tag>
       </tags>
   </entry>
@@ -189,9 +189,9 @@
         <category>工具分享</category>
       </categories>
       <tags>
+        <tag>C</tag>
         <tag>工具分享</tag>
         <tag>C语言学习</tag>
-        <tag>C</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
       </tags>
@@ -872,9 +872,9 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
+        <tag>LCD</tag>
         <tag>LTDC</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
@@ -892,8 +892,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CodeBlocks</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -1642,8 +1642,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1668,8 +1668,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1739,8 +1739,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1770,8 +1770,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -2370,8 +2370,8 @@ int main(void)
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>windows</tag>
         <tag>geek</tag>
+        <tag>windows</tag>
         <tag>软件卸载</tag>
       </tags>
   </entry>
