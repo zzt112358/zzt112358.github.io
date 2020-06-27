@@ -1,123 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>CSGO练习投掷物有关指令</title>
-    <url>/posts/4dbff450.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="设置比赛时间"><a href="#设置比赛时间" class="headerlink" title="设置比赛时间"></a>设置比赛时间</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式</span></span><br><span class="line"></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="关闭队友伤害"><a href="#关闭队友伤害" class="headerlink" title="关闭队友伤害"></a>关闭队友伤害</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_teammates_are_enemies <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="开启作弊模式"><a href="#开启作弊模式" class="headerlink" title="开启作弊模式"></a>开启作弊模式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_cheats <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="允许投掷物5枚"><a href="#允许投掷物5枚" class="headerlink" title="允许投掷物5枚"></a>允许投掷物5枚</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ammo_grenade_limit_total <span class="number">5</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="无限弹药手雷"><a href="#无限弹药手雷" class="headerlink" title="无限弹药手雷"></a>无限弹药手雷</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_infinite_ammo <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="开启投掷物轨迹"><a href="#开启投掷物轨迹" class="headerlink" title="开启投掷物轨迹"></a>开启投掷物轨迹</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_grenade_trajectory <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="钱数目设置16000"><a href="#钱数目设置16000" class="headerlink" title="钱数目设置16000"></a>钱数目设置16000</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_startmoney <span class="number">16000</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="地图重新开始"><a href="#地图重新开始" class="headerlink" title="地图重新开始"></a>地图重新开始</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_restartgame <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式比赛时间60分钟</span></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式比赛时间60分钟</span></span><br><span class="line"></span><br><span class="line">mp_teammates_are_enemies <span class="number">0</span> <span class="comment">#关闭队友伤害</span></span><br><span class="line"></span><br><span class="line">sv_cheats <span class="number">1</span> <span class="comment">#开启作弊模式</span></span><br><span class="line"></span><br><span class="line">ammo_grenade_limit_total <span class="number">5</span> <span class="comment">#允许投掷物5枚</span></span><br><span class="line"></span><br><span class="line">sv_infinite_ammo <span class="number">1</span> <span class="comment">#无限弹药手雷</span></span><br><span class="line"></span><br><span class="line">sv_grenade_trajectory <span class="number">1</span> <span class="comment">#开启投掷物轨迹</span></span><br><span class="line"></span><br><span class="line">mp_startmoney <span class="number">16000</span> <span class="comment">#钱数目设置16000</span></span><br><span class="line"></span><br><span class="line">mp_restartgame <span class="number">1</span> <span class="comment">#地图重新开始</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>CSGO</category>
-      </categories>
-      <tags>
-        <tag>CSGO</tag>
-        <tag>投掷物</tag>
-        <tag>道具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言学习-取整数的个位,十位,百位</title>
-    <url>/posts/c934aed8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此文主要介绍一种取整数的个十、百、位的方法</p>
-<h2 id="主要代码"><a href="#主要代码" class="headerlink" title="主要代码"></a>主要代码</h2><p>看门见山，直接放出代码：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">123</span>;</span><br><span class="line">    <span class="keyword">int</span> ge, shi, bai;</span><br><span class="line">    ge = a % <span class="number">10</span>;</span><br><span class="line">    shi = a % <span class="number">100</span> / <span class="number">10</span>;</span><br><span class="line">    bai = a / <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"数为：%d，个位是：%d，十位是：%d，百位是：%d。"</span>, a, ge, shi, bai);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>效果如下</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201828.PNG" alt="c_geshibai"></p>
-<h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><ul>
-<li>整数取10的余数则为个位</li>
-<li>整数取100的余数在除以十，则个位被删掉</li>
-<li>整数除以100，则十位和个位被删掉</li>
-</ul>
-]]></content>
-      <categories>
-        <category>C语言学习</category>
-      </categories>
-      <tags>
-        <tag>C语言学习</tag>
-        <tag>C</tag>
-        <tag>取个位</tag>
-        <tag>取十位</tag>
-        <tag>取百位</tag>
-        <tag>方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cencrack在线工具包</title>
-    <url>/posts/9bb596ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201852.gif" alt="演示"></p>
-<p>2.5M大小,多达五百多个常用(非常用)工具.</p>
-<p>最新版各种优化,未下载的软件变成了黑白图标,不论是下载速度,还是大文件的超速下载,都堪称一绝,欢迎下载体验!</p>
-<p>出现未联网、(获取版本信息失败)等网络问题,请把防火墙关掉,或者信任程序联网！</p>
-<p>看看你的网络环境是否能访问 <a href="http://a.cencrack.com:88/tools/" target="_blank" rel="noopener">http://a.cencrack.com:88/tools/</a>,如果不能访问则无法下载里面大部分工具.</p>
-<hr>
-<p>注意：若出现以下错误：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201847.jpg" alt="错误"></p>
-<ol>
-<li>打开：控制版面</li>
-<li>找到：程序和功能</li>
-<li>打开“打开或关闭Windows功能”</li>
-<li>找到并点开“旧版组件”选项</li>
-<li>勾选“DirectPlay”后确定</li>
-</ol>
-<blockquote>
-<p>如果win10启动或关闭Windows功能 内 无启用旧版功能.可以看下Legacy Components,这个里面有DirectPlay,把他勾选了就可以！</p>
-<p>总之就是要找到 DirectPlay 这个功能把它开启!.</p>
-<p>win8 或者 win10系统 才会可能出现此错误,请按照以上方法解决,如果无效请百度一下另外方法.</p>
-</blockquote>
-<hr>
-<ul>
-<li><p><a href="http://a.cencrack.com:88/tools/tool/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.txt" target="_blank" rel="noopener">点击查看–&gt;&gt;&gt;更新日志</a></p>
-</li>
-<li><p><a href="http://a.cencrack.com:88/tools/tool/" target="_blank" rel="noopener">点击查看–&gt;&gt;&gt;文件列表</a></p>
-</li>
-</ul>
-<hr>
-<p>本文转载自<a href="http://cencrack.com/" target="_blank" rel="noopener">cencrack 的个人博客</a></p>
-<p>此文链接<a href="http://cencrack.com/?post=18" target="_blank" rel="noopener">Cencrack在线工具包</a></p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>工具分享</tag>
-        <tag>Cencrack</tag>
-        <tag>工具包</tag>
-        <tag>在线工具包</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CodeBlocks配置编译器以及调试器</title>
-    <url>/posts/ac65f6e8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093312.png" alt=""></p>
-<h2 id="配置调试器"><a href="#配置调试器" class="headerlink" title="配置调试器"></a>配置调试器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093328.png" alt=""></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093409.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>C语言学习</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>CodeBlocks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C-GTK常用函数功能整理</title>
     <url>/posts/19640569.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>GTK版本：3.0</p>
@@ -487,6 +370,96 @@
       </tags>
   </entry>
   <entry>
+    <title>CSGO练习投掷物有关指令</title>
+    <url>/posts/4dbff450.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="设置比赛时间"><a href="#设置比赛时间" class="headerlink" title="设置比赛时间"></a>设置比赛时间</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式</span></span><br><span class="line"></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="关闭队友伤害"><a href="#关闭队友伤害" class="headerlink" title="关闭队友伤害"></a>关闭队友伤害</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_teammates_are_enemies <span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="开启作弊模式"><a href="#开启作弊模式" class="headerlink" title="开启作弊模式"></a>开启作弊模式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_cheats <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="允许投掷物5枚"><a href="#允许投掷物5枚" class="headerlink" title="允许投掷物5枚"></a>允许投掷物5枚</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ammo_grenade_limit_total <span class="number">5</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="无限弹药手雷"><a href="#无限弹药手雷" class="headerlink" title="无限弹药手雷"></a>无限弹药手雷</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_infinite_ammo <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="开启投掷物轨迹"><a href="#开启投掷物轨迹" class="headerlink" title="开启投掷物轨迹"></a>开启投掷物轨迹</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_grenade_trajectory <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="钱数目设置16000"><a href="#钱数目设置16000" class="headerlink" title="钱数目设置16000"></a>钱数目设置16000</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_startmoney <span class="number">16000</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="地图重新开始"><a href="#地图重新开始" class="headerlink" title="地图重新开始"></a>地图重新开始</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_restartgame <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式比赛时间60分钟</span></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式比赛时间60分钟</span></span><br><span class="line"></span><br><span class="line">mp_teammates_are_enemies <span class="number">0</span> <span class="comment">#关闭队友伤害</span></span><br><span class="line"></span><br><span class="line">sv_cheats <span class="number">1</span> <span class="comment">#开启作弊模式</span></span><br><span class="line"></span><br><span class="line">ammo_grenade_limit_total <span class="number">5</span> <span class="comment">#允许投掷物5枚</span></span><br><span class="line"></span><br><span class="line">sv_infinite_ammo <span class="number">1</span> <span class="comment">#无限弹药手雷</span></span><br><span class="line"></span><br><span class="line">sv_grenade_trajectory <span class="number">1</span> <span class="comment">#开启投掷物轨迹</span></span><br><span class="line"></span><br><span class="line">mp_startmoney <span class="number">16000</span> <span class="comment">#钱数目设置16000</span></span><br><span class="line"></span><br><span class="line">mp_restartgame <span class="number">1</span> <span class="comment">#地图重新开始</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>CSGO</category>
+      </categories>
+      <tags>
+        <tag>CSGO</tag>
+        <tag>投掷物</tag>
+        <tag>道具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CodeBlocks配置编译器以及调试器</title>
+    <url>/posts/ac65f6e8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093312.png" alt=""></p>
+<h2 id="配置调试器"><a href="#配置调试器" class="headerlink" title="配置调试器"></a>配置调试器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093328.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093409.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>C语言学习</category>
+      </categories>
+      <tags>
+        <tag>CodeBlocks</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cencrack在线工具包</title>
+    <url>/posts/9bb596ae.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201852.gif" alt="演示"></p>
+<p>2.5M大小,多达五百多个常用(非常用)工具.</p>
+<p>最新版各种优化,未下载的软件变成了黑白图标,不论是下载速度,还是大文件的超速下载,都堪称一绝,欢迎下载体验!</p>
+<p>出现未联网、(获取版本信息失败)等网络问题,请把防火墙关掉,或者信任程序联网！</p>
+<p>看看你的网络环境是否能访问 <a href="http://a.cencrack.com:88/tools/" target="_blank" rel="noopener">http://a.cencrack.com:88/tools/</a>,如果不能访问则无法下载里面大部分工具.</p>
+<hr>
+<p>注意：若出现以下错误：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201847.jpg" alt="错误"></p>
+<ol>
+<li>打开：控制版面</li>
+<li>找到：程序和功能</li>
+<li>打开“打开或关闭Windows功能”</li>
+<li>找到并点开“旧版组件”选项</li>
+<li>勾选“DirectPlay”后确定</li>
+</ol>
+<blockquote>
+<p>如果win10启动或关闭Windows功能 内 无启用旧版功能.可以看下Legacy Components,这个里面有DirectPlay,把他勾选了就可以！</p>
+<p>总之就是要找到 DirectPlay 这个功能把它开启!.</p>
+<p>win8 或者 win10系统 才会可能出现此错误,请按照以上方法解决,如果无效请百度一下另外方法.</p>
+</blockquote>
+<hr>
+<ul>
+<li><p><a href="http://a.cencrack.com:88/tools/tool/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.txt" target="_blank" rel="noopener">点击查看–&gt;&gt;&gt;更新日志</a></p>
+</li>
+<li><p><a href="http://a.cencrack.com:88/tools/tool/" target="_blank" rel="noopener">点击查看–&gt;&gt;&gt;文件列表</a></p>
+</li>
+</ul>
+<hr>
+<p>本文转载自<a href="http://cencrack.com/" target="_blank" rel="noopener">cencrack 的个人博客</a></p>
+<p>此文链接<a href="http://cencrack.com/?post=18" target="_blank" rel="noopener">Cencrack在线工具包</a></p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>工具分享</tag>
+        <tag>Cencrack</tag>
+        <tag>工具包</tag>
+        <tag>在线工具包</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言学习-后缀表达式</title>
     <url>/posts/64376614.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>后缀表达式又称为逆波兰式或逆波兰记法，是一种把运算符写在操作符之后的表达式。</p>
@@ -511,30 +484,37 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
   </entry>
   <entry>
-    <title>C语言学习-字符串转整数</title>
-    <url>/posts/93e92635.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>利用C语言标准库中的<code>int atoi()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = atoi(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>C语言学习-取整数的个位,十位,百位</title>
+    <url>/posts/c934aed8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此文主要介绍一种取整数的个十、百、位的方法</p>
+<h2 id="主要代码"><a href="#主要代码" class="headerlink" title="主要代码"></a>主要代码</h2><p>看门见山，直接放出代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">123</span>;</span><br><span class="line">    <span class="keyword">int</span> ge, shi, bai;</span><br><span class="line">    ge = a % <span class="number">10</span>;</span><br><span class="line">    shi = a % <span class="number">100</span> / <span class="number">10</span>;</span><br><span class="line">    bai = a / <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"数为：%d，个位是：%d，十位是：%d，百位是：%d。"</span>, a, ge, shi, bai);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>自己编写函数实现</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">str_to_int</span><span class="params">(<span class="keyword">char</span>* p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> slong = <span class="number">-1</span>, num = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (; *(p + slong + <span class="number">1</span>) &lt;= <span class="string">'9'</span> &amp;&amp; *(p + slong + <span class="number">1</span>) &gt;= <span class="string">'0'</span>; slong++);</span><br><span class="line">	<span class="keyword">for</span> (; slong &gt;= <span class="number">0</span>; slong--)</span><br><span class="line">		num += (*(p++) - (<span class="string">'0'</span> - <span class="number">0</span>)) * <span class="built_in">pow</span>(<span class="number">10</span>, slong);</span><br><span class="line">	<span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = str_to_int(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>利用C语言标准库中的<code>double atof()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">double</span> num = atof(<span class="string">"1234.5678"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>效果如下</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201828.PNG" alt="c_geshibai"></p>
+<h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><ul>
+<li>整数取10的余数则为个位</li>
+<li>整数取100的余数在除以十，则个位被删掉</li>
+<li>整数除以100，则十位和个位被删掉</li>
+</ul>
 ]]></content>
       <categories>
         <category>C语言学习</category>
       </categories>
       <tags>
+        <tag>C</tag>
         <tag>C语言学习</tag>
-        <tag>字符串转整数</tag>
+        <tag>取个位</tag>
+        <tag>取十位</tag>
+        <tag>取百位</tag>
+        <tag>方法</tag>
       </tags>
   </entry>
   <entry>
@@ -678,11 +658,50 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
+    <url>/posts/aea07eb6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>使用C语言标准库中的<code>printf</code>函数和<code>scanf</code>函数简化单片机编程中串口输入输出部分的编写</p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p><code>printf</code>和<code>scanf</code>函数内部都会引用一对输入输出一个单位数据的函数，所以我们需要重写这一对函数，从而让<code>printf</code>和<code>scanf</code>函数重定向至UART输入输出函数</p>
+<h2 id="详细代码"><a href="#详细代码" class="headerlink" title="详细代码"></a>详细代码</h2><h3 id="宏定义部分"><a href="#宏定义部分" class="headerlink" title="宏定义部分"></a>宏定义部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 输出函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line">	</span><br><span class="line"><span class="comment">/* 输入函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br></pre></td></tr></table></figure>
+
+<p>使用此类宏定义的原因是：大部分编译器<code>printf</code>和<code>scanf</code>函数的内部引用函数是<code>fputc</code>和<code>fgetc</code>函数，但GCC和部分编译器的内部引用函数是<code>__io_putchar</code>和<code>__io_getchar</code>函数</p>
+<h3 id="重写部分"><a href="#重写部分" class="headerlink" title="重写部分"></a>重写部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);  <span class="comment">//UART输出单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library scanf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">	HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);   <span class="comment">//UATR输入单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>然后就可以尽情地使用<code>printf</code>和<code>scanf</code>函数输入输出了</p>
+<blockquote>
+<p>注：也可以将<code>printf</code>函数重定向至液晶显示屏的输出函数</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>C语言</tag>
+        <tag>UATR</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GTK的一些记录</title>
+    <url>/posts/62378a77.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
+<h2 id="GTK在Manjaro-KDE环境下所有的界面都没有菜单"><a href="#GTK在Manjaro-KDE环境下所有的界面都没有菜单" class="headerlink" title="GTK在Manjaro+KDE环境下所有的界面都没有菜单"></a>GTK在Manjaro+KDE环境下所有的界面都没有菜单</h2><p>仔细找找有没有安装<code>全局菜单</code>这个小部件，GTK的菜单可以再这个小部件里找到</p>
+]]></content>
+      <categories>
+        <category>C语言学习</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>C语言学习</tag>
+        <tag>GTK</tag>
       </tags>
   </entry>
   <entry>
@@ -748,49 +767,10 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
-    <url>/posts/aea07eb6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>使用C语言标准库中的<code>printf</code>函数和<code>scanf</code>函数简化单片机编程中串口输入输出部分的编写</p>
-<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p><code>printf</code>和<code>scanf</code>函数内部都会引用一对输入输出一个单位数据的函数，所以我们需要重写这一对函数，从而让<code>printf</code>和<code>scanf</code>函数重定向至UART输入输出函数</p>
-<h2 id="详细代码"><a href="#详细代码" class="headerlink" title="详细代码"></a>详细代码</h2><h3 id="宏定义部分"><a href="#宏定义部分" class="headerlink" title="宏定义部分"></a>宏定义部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 输出函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line">	</span><br><span class="line"><span class="comment">/* 输入函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br></pre></td></tr></table></figure>
-
-<p>使用此类宏定义的原因是：大部分编译器<code>printf</code>和<code>scanf</code>函数的内部引用函数是<code>fputc</code>和<code>fgetc</code>函数，但GCC和部分编译器的内部引用函数是<code>__io_putchar</code>和<code>__io_getchar</code>函数</p>
-<h3 id="重写部分"><a href="#重写部分" class="headerlink" title="重写部分"></a>重写部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);  <span class="comment">//UART输出单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library scanf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">	HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);   <span class="comment">//UATR输入单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>然后就可以尽情地使用<code>printf</code>和<code>scanf</code>函数输入输出了</p>
-<blockquote>
-<p>注：也可以将<code>printf</code>函数重定向至液晶显示屏的输出函数</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>C语言</tag>
-        <tag>UATR</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GTK的一些记录</title>
-    <url>/posts/62378a77.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
-<h2 id="GTK在Manjaro-KDE环境下所有的界面都没有菜单"><a href="#GTK在Manjaro-KDE环境下所有的界面都没有菜单" class="headerlink" title="GTK在Manjaro+KDE环境下所有的界面都没有菜单"></a>GTK在Manjaro+KDE环境下所有的界面都没有菜单</h2><p>仔细找找有没有安装<code>全局菜单</code>这个小部件，GTK的菜单可以再这个小部件里找到</p>
-]]></content>
-      <categories>
-        <category>C语言学习</category>
-      </categories>
-      <tags>
-        <tag>C语言学习</tag>
-        <tag>C</tag>
-        <tag>GTK</tag>
       </tags>
   </entry>
   <entry>
@@ -822,6 +802,26 @@
       </tags>
   </entry>
   <entry>
+    <title>C语言学习-字符串转整数</title>
+    <url>/posts/93e92635.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>利用C语言标准库中的<code>int atoi()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = atoi(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>自己编写函数实现</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">str_to_int</span><span class="params">(<span class="keyword">char</span>* p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> slong = <span class="number">-1</span>, num = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (; *(p + slong + <span class="number">1</span>) &lt;= <span class="string">'9'</span> &amp;&amp; *(p + slong + <span class="number">1</span>) &gt;= <span class="string">'0'</span>; slong++);</span><br><span class="line">	<span class="keyword">for</span> (; slong &gt;= <span class="number">0</span>; slong--)</span><br><span class="line">		num += (*(p++) - (<span class="string">'0'</span> - <span class="number">0</span>)) * <span class="built_in">pow</span>(<span class="number">10</span>, slong);</span><br><span class="line">	<span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = str_to_int(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>利用C语言标准库中的<code>double atof()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">double</span> num = atof(<span class="string">"1234.5678"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>C语言学习</category>
+      </categories>
+      <tags>
+        <tag>C语言学习</tag>
+        <tag>字符串转整数</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux下zip文件解压乱码问题处理</title>
     <url>/posts/44513157.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><ul>
@@ -847,40 +847,6 @@
         <tag>7z</tag>
         <tag>乱码</tag>
         <tag>压缩文件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux下的进程内存检查工具-valgrind</title>
-    <url>/posts/d2593696.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
-<h2 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h2><p>linux系统安装命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -S valgrind</span><br></pre></td></tr></table></figure>
-
-<p>我几乎不用windows写C，环境配置太麻烦了</p>
-<h2 id="简易使用"><a href="#简易使用" class="headerlink" title="简易使用"></a>简易使用</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s</span><br></pre></td></tr></table></figure>
-
-<p>在后面加上你运行程序的命令即可</p>
-<p>例子：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s ./shell_sys</span><br></pre></td></tr></table></figure>
-
-<p>这是我编写的一个学习项目</p>
-<p>在输出信息中可以找到如下信息：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">==13854== Invalid <span class="built_in">read</span> of size 8</span><br><span class="line">==13854==    at 0x10DC57: view_p_and_s (gui.c:281)</span><br><span class="line">==13854==    by 0x10EBA6: ceo_window_add_p_button_clicked (gui.c:496)</span><br><span class="line">==13854==    by 0x55DA09F: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C2828E: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C28364: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x55F5619: g_closure_invoke (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D6AD3: ??? (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D9AB8: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C26870: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C5F56C: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==  Address 0xa424b08 is 8 bytes after a block of size 400 alloc<span class="string">'d</span></span><br><span class="line"><span class="string">==13854==    at 0x483BD7B: realloc (vg_replace_malloc.c:836)</span></span><br><span class="line"><span class="string">==13854==    by 0x10CE6E: ceo_gui (gui.c:88)</span></span><br><span class="line"><span class="string">==13854==    by 0x10E5B2: load_button (gui.c:405)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DA09F: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x49CD530: ??? (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x55F5619: g_closure_invoke (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D697D: ??? (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D95CB: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4DEF0: gtk_accel_group_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4E04D: gtk_accel_groups_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br></pre></td></tr></table></figure>
-
-<p><code>Invalid read of size 8</code>表示内存越界访问了8个字节大小</p>
-<p>在后面则是这个越界的详细信息</p>
-<p>还有一些其他的信息输出，比如内存泄露等等。</p>
-<h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><p>在我的理解中，这个工具就是虚拟出一个新的CPU和内存空间，然后吧程序放在这个新的系统中运行，但是现在只能虚拟出32位的环境，其实没啥影响</p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>C语言学习</tag>
-        <tag>C</tag>
-        <tag>工具分享</tag>
-        <tag>Linux</tag>
-        <tag>valgrind</tag>
       </tags>
   </entry>
   <entry>
@@ -955,19 +921,37 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux处理Windows文本时去除“r”符号</title>
-    <url>/posts/85d45c87.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
-<p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p>
-<h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>
+    <title>Linux下的进程内存检查工具-valgrind</title>
+    <url>/posts/d2593696.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
+<h2 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h2><p>linux系统安装命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -S valgrind</span><br></pre></td></tr></table></figure>
+
+<p>我几乎不用windows写C，环境配置太麻烦了</p>
+<h2 id="简易使用"><a href="#简易使用" class="headerlink" title="简易使用"></a>简易使用</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s</span><br></pre></td></tr></table></figure>
+
+<p>在后面加上你运行程序的命令即可</p>
+<p>例子：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s ./shell_sys</span><br></pre></td></tr></table></figure>
+
+<p>这是我编写的一个学习项目</p>
+<p>在输出信息中可以找到如下信息：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">==13854== Invalid <span class="built_in">read</span> of size 8</span><br><span class="line">==13854==    at 0x10DC57: view_p_and_s (gui.c:281)</span><br><span class="line">==13854==    by 0x10EBA6: ceo_window_add_p_button_clicked (gui.c:496)</span><br><span class="line">==13854==    by 0x55DA09F: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C2828E: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C28364: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x55F5619: g_closure_invoke (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D6AD3: ??? (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D9AB8: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C26870: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C5F56C: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==  Address 0xa424b08 is 8 bytes after a block of size 400 alloc<span class="string">'d</span></span><br><span class="line"><span class="string">==13854==    at 0x483BD7B: realloc (vg_replace_malloc.c:836)</span></span><br><span class="line"><span class="string">==13854==    by 0x10CE6E: ceo_gui (gui.c:88)</span></span><br><span class="line"><span class="string">==13854==    by 0x10E5B2: load_button (gui.c:405)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DA09F: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x49CD530: ??? (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x55F5619: g_closure_invoke (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D697D: ??? (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D95CB: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4DEF0: gtk_accel_group_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4E04D: gtk_accel_groups_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br></pre></td></tr></table></figure>
+
+<p><code>Invalid read of size 8</code>表示内存越界访问了8个字节大小</p>
+<p>在后面则是这个越界的详细信息</p>
+<p>还有一些其他的信息输出，比如内存泄露等等。</p>
+<h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><p>在我的理解中，这个工具就是虚拟出一个新的CPU和内存空间，然后吧程序放在这个新的系统中运行，但是现在只能虚拟出32位的环境，其实没啥影响</p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>工具分享</category>
       </categories>
       <tags>
+        <tag>C</tag>
+        <tag>工具分享</tag>
+        <tag>C语言学习</tag>
         <tag>Linux</tag>
-        <tag>\r</tag>
+        <tag>valgrind</tag>
       </tags>
   </entry>
   <entry>
@@ -993,6 +977,31 @@
 
 <p>然后保存即可</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Linux各类发行板网络服务重启方式</title>
+    <url>/posts/d27b4817.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
+<p>然后发现<code>manjaro linux</code>中木的<code>service</code>命令</p>
+<p>所以就在网上找了找，防止以后忘了，记在这里</p>
+<h2 id="CentOS-RHEL-Red-Hat-Fedora"><a href="#CentOS-RHEL-Red-Hat-Fedora" class="headerlink" title="CentOS / RHEL / Red Hat / Fedora"></a>CentOS / RHEL / Red Hat / Fedora</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service network stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network restart</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Ubuntu-Debian"><a href="#Ubuntu-Debian" class="headerlink" title="Ubuntu/Debian"></a>Ubuntu/Debian</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service networking stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking restart</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Arch-Linux-Manjaro-Linux"><a href="#Arch-Linux-Manjaro-Linux" class="headerlink" title="Arch Linux/Manjaro Linux"></a>Arch Linux/Manjaro Linux</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> systemctl stop systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl restart systemd-networkd</span></span><br></pre></td></tr></table></figure>
+
+<p>希望以后不要忘了</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Manjaro</tag>
+        <tag>Ubuntu</tag>
+        <tag>CentOS</tag>
+        <tag>网络服务重启</tag>
+      </tags>
   </entry>
   <entry>
     <title>Linux中的chattr命令</title>
@@ -1029,83 +1038,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux各类发行板网络服务重启方式</title>
-    <url>/posts/d27b4817.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
-<p>然后发现<code>manjaro linux</code>中木的<code>service</code>命令</p>
-<p>所以就在网上找了找，防止以后忘了，记在这里</p>
-<h2 id="CentOS-RHEL-Red-Hat-Fedora"><a href="#CentOS-RHEL-Red-Hat-Fedora" class="headerlink" title="CentOS / RHEL / Red Hat / Fedora"></a>CentOS / RHEL / Red Hat / Fedora</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service network stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network restart</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Ubuntu-Debian"><a href="#Ubuntu-Debian" class="headerlink" title="Ubuntu/Debian"></a>Ubuntu/Debian</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service networking stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service networking restart</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Arch-Linux-Manjaro-Linux"><a href="#Arch-Linux-Manjaro-Linux" class="headerlink" title="Arch Linux/Manjaro Linux"></a>Arch Linux/Manjaro Linux</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> systemctl stop systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start systemd-networkd</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl restart systemd-networkd</span></span><br></pre></td></tr></table></figure>
-
-<p>希望以后不要忘了</p>
+    <title>Linux处理Windows文本时去除“r”符号</title>
+    <url>/posts/85d45c87.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
+<p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p>
+<h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Linux</category>
       </categories>
       <tags>
         <tag>Linux</tag>
-        <tag>Manjaro</tag>
-        <tag>Ubuntu</tag>
-        <tag>CentOS</tag>
-        <tag>网络服务重启</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32CubeMX+MDK-ARM点亮第一个LED的灯</title>
-    <url>/posts/909682.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>每次学习新的东西第一件事干的就是点灯︿(￣︶￣)︿</p>
-<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="STM32CubeMX"><a href="#STM32CubeMX" class="headerlink" title="STM32CubeMX"></a>STM32CubeMX</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141220.png" alt=""></p>
-<p>下载地址：<a href="https://www.st.com/zh/development-tools/stm32cubemx.html" target="_blank" rel="noopener">STM32CubeMX</a></p>
-<p>安装教程百度</p>
-<h3 id="MDK-ARM"><a href="#MDK-ARM" class="headerlink" title="MDK-ARM"></a>MDK-ARM</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141413.png" alt=""></p>
-<p>下载地址：<a href="https://www.keil.com/demo/eval/arm.htm" target="_blank" rel="noopener">MDK-ARM</a></p>
-<p>安装+破解教程百度</p>
-<h3 id="配置环境包"><a href="#配置环境包" class="headerlink" title="配置环境包"></a>配置环境包</h3><h4 id="STM32CubeMX配置环境包"><a href="#STM32CubeMX配置环境包" class="headerlink" title="STM32CubeMX配置环境包"></a>STM32CubeMX配置环境包</h4><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141606.png" alt=""></p>
-<p>点击<code>INSTALL/REMOVE</code>,在弹出的界面中选择你需要的包</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141653.png" alt=""></p>
-<h4 id="MDK-ARM配置环境包"><a href="#MDK-ARM配置环境包" class="headerlink" title="MDK-ARM配置环境包"></a>MDK-ARM配置环境包</h4><p><a href="https://www.keil.com/dd2/Pack/" target="_blank" rel="noopener">官方下载网站</a></p>
-<p>找到你需要的包，比如我用的是F4系列的</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142132.png" alt=""></p>
-<h2 id="新建并配置STM32CubeMX项目"><a href="#新建并配置STM32CubeMX项目" class="headerlink" title="新建并配置STM32CubeMX项目"></a>新建并配置STM32CubeMX项目</h2><p>点击<code>ACCESS TO MCU SELECTOR</code></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142244.png" alt=""></p>
-<p>在弹出的窗口中选择你所用的单片机芯片型号,然后点击右上角的<code>Start Project</code></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142431.png" alt=""></p>
-<p>查看板子原理图，找到灯所对应的<code>GPIO</code>口</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142554.png" alt=""></p>
-<p>左键点击对应的<code>GPIO</code>口，设置为输出；右键点击设置其标签</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142633.png" alt=""><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142727.png" alt=""></p>
-<p>选择左侧栏的<code>GPIO</code>，然后点击那个小三角，打开<code>GPIO</code>详细设置</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142816.png" alt=""></p>
-<p>设置<code>GPIO</code>口的工作模式</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142901.png" alt=""></p>
-<p>时钟默认16MHz</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405143011.png" alt=""></p>
-<p>在输出配置中选择<code>MDK-ARM</code></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405143041.png" alt=""></p>
-<p>最后点击右上角的<code>GENERATE CODE</code>,到处<code>MDK-ARM</code>项目文件</p>
-<h2 id="在MDK-ARM中编写代码"><a href="#在MDK-ARM中编写代码" class="headerlink" title="在MDK-ARM中编写代码"></a>在MDK-ARM中编写代码</h2><p>在<code>STM32CubeMX</code>为我们预留的代码段中编写<code>LED</code>控制代码,使用<code>HAL</code>库</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">  <span class="comment">/* USER CODE END WHILE */</span></span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDR_Pin);                              <span class="comment">//红色灯反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDG_Pin);                              <span class="comment">//绿色灯反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDB_Pin);                              <span class="comment">//蓝色灯反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDR_Pin|LEDG_Pin|LEDB_Pin);            <span class="comment">//全部反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN 3 */</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：切记要在项目配置中选择你的仿真器，<code>STM32CubeMX</code>选的默认仿真器很迷</p>
-</blockquote>
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>编译，烧录，重启</p>
-<p>又是一个点亮小程序(～￣▽￣)～ </p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>MDK-ARM</tag>
-        <tag>MDK</tag>
-        <tag>ARM</tag>
-        <tag>HAL</tag>
-        <tag>点亮第一个LED的灯</tag>
+        <tag>\r</tag>
       </tags>
   </entry>
   <entry>
@@ -1151,30 +1096,6 @@
       <tags>
         <tag>Linux</tag>
         <tag>中文输入法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32CubeMX配置LCD显示中文字符</title>
-    <url>/posts/ee64b9e4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
-<p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
-<p>所以本文所写的程序也是给外部FLASH字库准备的</p>
-<h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
-<h2 id="FLASHI配置"><a href="#FLASHI配置" class="headerlink" title="FLASHI配置"></a>FLASHI配置</h2><p>这一段可以去看<a href="/blog/posts/243fe895.html"><code>STM32CubeMX配置SPI读写外部FLASH</code></a>，在那里面有详细介绍</p>
-<h2 id="有关配置FLASH的一些小问题"><a href="#有关配置FLASH的一些小问题" class="headerlink" title="有关配置FLASH的一些小问题"></a>有关配置FLASH的一些小问题</h2><ul>
-<li>如果驱动文件不是自己写，而是在资料中找，那么一定要注意选择与FLASH芯片相应的驱动文件，因为有些新的驱动文件所使用的指令组合对于较老的FLASH芯片而言是不识别的</li>
-<li>一定要看好字库文件在FLASH的位置，而且千万不要所以更改FLASH芯片中的内容</li>
-</ul>
-<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>把驱动文件写出来后，定义好全局变量，就没啥问题了。怎么去显示中文通常lcd的驱动文件里都有，可以照着慢慢写一个(<em>^▽^</em>)</p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
-        <tag>显示中文</tag>
       </tags>
   </entry>
   <entry>
@@ -1244,6 +1165,288 @@
         <tag>Linux</tag>
         <tag>源</tag>
         <tag>linux源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置LCD显示中文字符</title>
+    <url>/posts/ee64b9e4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
+<p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
+<p>所以本文所写的程序也是给外部FLASH字库准备的</p>
+<h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
+<h2 id="FLASHI配置"><a href="#FLASHI配置" class="headerlink" title="FLASHI配置"></a>FLASHI配置</h2><p>这一段可以去看<a href="/blog/posts/243fe895.html"><code>STM32CubeMX配置SPI读写外部FLASH</code></a>，在那里面有详细介绍</p>
+<h2 id="有关配置FLASH的一些小问题"><a href="#有关配置FLASH的一些小问题" class="headerlink" title="有关配置FLASH的一些小问题"></a>有关配置FLASH的一些小问题</h2><ul>
+<li>如果驱动文件不是自己写，而是在资料中找，那么一定要注意选择与FLASH芯片相应的驱动文件，因为有些新的驱动文件所使用的指令组合对于较老的FLASH芯片而言是不识别的</li>
+<li>一定要看好字库文件在FLASH的位置，而且千万不要所以更改FLASH芯片中的内容</li>
+</ul>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>把驱动文件写出来后，定义好全局变量，就没啥问题了。怎么去显示中文通常lcd的驱动文件里都有，可以照着慢慢写一个(<em>^▽^</em>)</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>LCD</tag>
+        <tag>显示中文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX+MDK-ARM点亮第一个LED的灯</title>
+    <url>/posts/909682.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>每次学习新的东西第一件事干的就是点灯︿(￣︶￣)︿</p>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="STM32CubeMX"><a href="#STM32CubeMX" class="headerlink" title="STM32CubeMX"></a>STM32CubeMX</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141220.png" alt=""></p>
+<p>下载地址：<a href="https://www.st.com/zh/development-tools/stm32cubemx.html" target="_blank" rel="noopener">STM32CubeMX</a></p>
+<p>安装教程百度</p>
+<h3 id="MDK-ARM"><a href="#MDK-ARM" class="headerlink" title="MDK-ARM"></a>MDK-ARM</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141413.png" alt=""></p>
+<p>下载地址：<a href="https://www.keil.com/demo/eval/arm.htm" target="_blank" rel="noopener">MDK-ARM</a></p>
+<p>安装+破解教程百度</p>
+<h3 id="配置环境包"><a href="#配置环境包" class="headerlink" title="配置环境包"></a>配置环境包</h3><h4 id="STM32CubeMX配置环境包"><a href="#STM32CubeMX配置环境包" class="headerlink" title="STM32CubeMX配置环境包"></a>STM32CubeMX配置环境包</h4><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141606.png" alt=""></p>
+<p>点击<code>INSTALL/REMOVE</code>,在弹出的界面中选择你需要的包</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141653.png" alt=""></p>
+<h4 id="MDK-ARM配置环境包"><a href="#MDK-ARM配置环境包" class="headerlink" title="MDK-ARM配置环境包"></a>MDK-ARM配置环境包</h4><p><a href="https://www.keil.com/dd2/Pack/" target="_blank" rel="noopener">官方下载网站</a></p>
+<p>找到你需要的包，比如我用的是F4系列的</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142132.png" alt=""></p>
+<h2 id="新建并配置STM32CubeMX项目"><a href="#新建并配置STM32CubeMX项目" class="headerlink" title="新建并配置STM32CubeMX项目"></a>新建并配置STM32CubeMX项目</h2><p>点击<code>ACCESS TO MCU SELECTOR</code></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142244.png" alt=""></p>
+<p>在弹出的窗口中选择你所用的单片机芯片型号,然后点击右上角的<code>Start Project</code></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142431.png" alt=""></p>
+<p>查看板子原理图，找到灯所对应的<code>GPIO</code>口</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142554.png" alt=""></p>
+<p>左键点击对应的<code>GPIO</code>口，设置为输出；右键点击设置其标签</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142633.png" alt=""><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142727.png" alt=""></p>
+<p>选择左侧栏的<code>GPIO</code>，然后点击那个小三角，打开<code>GPIO</code>详细设置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142816.png" alt=""></p>
+<p>设置<code>GPIO</code>口的工作模式</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405142901.png" alt=""></p>
+<p>时钟默认16MHz</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405143011.png" alt=""></p>
+<p>在输出配置中选择<code>MDK-ARM</code></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405143041.png" alt=""></p>
+<p>最后点击右上角的<code>GENERATE CODE</code>,到处<code>MDK-ARM</code>项目文件</p>
+<h2 id="在MDK-ARM中编写代码"><a href="#在MDK-ARM中编写代码" class="headerlink" title="在MDK-ARM中编写代码"></a>在MDK-ARM中编写代码</h2><p>在<code>STM32CubeMX</code>为我们预留的代码段中编写<code>LED</code>控制代码,使用<code>HAL</code>库</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">  <span class="comment">/* USER CODE END WHILE */</span></span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDR_Pin);                              <span class="comment">//红色灯反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDG_Pin);                              <span class="comment">//绿色灯反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDB_Pin);                              <span class="comment">//蓝色灯反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">HAL_GPIO_TogglePin(GPIOH,LEDR_Pin|LEDG_Pin|LEDB_Pin);            <span class="comment">//全部反转</span></span><br><span class="line">HAL_Delay(<span class="number">1000</span>);</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN 3 */</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：切记要在项目配置中选择你的仿真器，<code>STM32CubeMX</code>选的默认仿真器很迷</p>
+</blockquote>
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>编译，烧录，重启</p>
+<p>又是一个点亮小程序(～￣▽￣)～ </p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>MDK-ARM</tag>
+        <tag>MDK</tag>
+        <tag>ARM</tag>
+        <tag>HAL</tag>
+        <tag>点亮第一个LED的灯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置LTDC</title>
+    <url>/posts/7109b92c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="事先安排"><a href="#事先安排" class="headerlink" title="事先安排"></a>事先安排</h2><p>已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415114924.png" alt=""></p>
+<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="使用芯片"><a href="#使用芯片" class="headerlink" title="使用芯片"></a>使用芯片</h3><p>我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115526.png" alt=""></p>
+<h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><h4 id="开启外部高速时钟HSE"><a href="#开启外部高速时钟HSE" class="headerlink" title="开启外部高速时钟HSE"></a>开启外部高速时钟HSE</h4><p>在配置页面RCC下开启HSE</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115900.png" alt=""></p>
+<h4 id="开启LCD-TFT时钟"><a href="#开启LCD-TFT时钟" class="headerlink" title="开启LCD-TFT时钟"></a>开启LCD-TFT时钟</h4><p>在配置页面开启LTDC功能</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115631.png" alt=""></p>
+<h4 id="配置时钟"><a href="#配置时钟" class="headerlink" title="配置时钟"></a>配置时钟</h4><p>在时钟配置页面配置系统主频和LCD-TFT频率</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415120512.jpg" alt=""></p>
+<blockquote>
+<p>注：LCD-TFT频率过高会导致花屏，缺失等不正常显示行为</p>
+</blockquote>
+<h3 id="配置串口"><a href="#配置串口" class="headerlink" title="配置串口"></a>配置串口</h3><p>在配置页面开启串口异步模式，其余按照默认量设置即可</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415120826.png" alt=""></p>
+<h3 id="配置FMC-SDRAM"><a href="#配置FMC-SDRAM" class="headerlink" title="配置FMC-SDRAM"></a>配置FMC-SDRAM</h3><h4 id="功能配置"><a href="#功能配置" class="headerlink" title="功能配置"></a>功能配置</h4><p>查找官方资料，找到FMC的地址框图</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415121844.png" alt=""></p>
+<p>这里我使用的是<code>SDRAM Bank 2</code>作为显存，起始地址为<code>0xD0000000</code></p>
+<p>在配置页面开启SDRAM，其设置如下</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122152.png" alt=""></p>
+<p>SDRAM详细设置如下</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122236.png" alt=""></p>
+<p>其中<code>SDRAM control</code>设置不必多说，但下面的<code>SDRAM timing in memory clock cycles</code>的配置是根据你所用的SDRAM芯片种类所确定的，我所使用的芯片型号是<code>IS42S16400J-7TLI</code>配置如图，其实实在不确定的话都设置为16也不是不可以</p>
+<h4 id="引脚配置"><a href="#引脚配置" class="headerlink" title="引脚配置"></a>引脚配置</h4><p>选择<code>GPIO Settings</code>标签页，查看此处设置的引脚是否与开发板原理图上的引脚相对应</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122710.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122836.png" alt=""></p>
+<h3 id="配置LTDC"><a href="#配置LTDC" class="headerlink" title="配置LTDC"></a>配置LTDC</h3><h4 id="功能配置-1"><a href="#功能配置-1" class="headerlink" title="功能配置"></a>功能配置</h4><h5 id="背景配置"><a href="#背景配置" class="headerlink" title="背景配置"></a>背景配置</h5><p>在配置页面LTDC下选择数据类型，这里我选择的是RGB888,然后按照下图数据配置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122929.png" alt=""></p>
+<p>其中，下图这两项由显示屏的所决定，可自行查阅</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415123227.png" alt=""></p>
+<p>然后，如下图设置低电位使能和配置时钟，最下面的三项是设置背景颜色的</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415123350.png" alt=""></p>
+<h5 id="图层显存配置"><a href="#图层显存配置" class="headerlink" title="图层显存配置"></a>图层显存配置</h5><p>总图如下</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415190615.png" alt=""></p>
+<h4 id="引脚配置-1"><a href="#引脚配置-1" class="headerlink" title="引脚配置"></a>引脚配置</h4><p>切记，一定要比对引脚是否正确，并且把所有GPIO的速度都设置为<code>Very High</code></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124348.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124431.png" alt=""></p>
+<h3 id="配置DMA2D"><a href="#配置DMA2D" class="headerlink" title="配置DMA2D"></a>配置DMA2D</h3><p>DMA2D是专门为显存到显示屏高速通信所准备的DMA模块</p>
+<p>其实没啥可配置的，开启DMA2D后选择RTM模式，按照你的图层数据格式选择DMA2D的数据格式即可</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124637.png" alt=""></p>
+<h3 id="配置LCD数据使能引脚以及背光引脚"><a href="#配置LCD数据使能引脚以及背光引脚" class="headerlink" title="配置LCD数据使能引脚以及背光引脚"></a>配置LCD数据使能引脚以及背光引脚</h3><p>我这里LTDC开启后是没有配置LCD数据使能引脚和背光引脚的，所以需要按照原理图去配置相应引脚</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124838.png" alt=""></p>
+<p>并且我在这里配置了一个LED灯的引脚，用作<del>看着舒服(￣▽￣)</del>*</p>
+<h3 id="输出MDK-ARM项目文件"><a href="#输出MDK-ARM项目文件" class="headerlink" title="输出MDK-ARM项目文件"></a>输出MDK-ARM项目文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124951.png" alt=""></p>
+<p>至此，STM32CubeMX工作结束</p>
+<h2 id="Keil5配置"><a href="#Keil5配置" class="headerlink" title="Keil5配置"></a>Keil5配置</h2><p>打开那令人眼疼又异常熟悉的界面<del>~</del></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415130215.png" alt=""></p>
+<h3 id="重定向printf-到串口输出函数"><a href="#重定向printf-到串口输出函数" class="headerlink" title="重定向printf()到串口输出函数"></a>重定向printf()到串口输出函数</h3><p>所有项目第一件事：搞定串口输出函数</p>
+<p>引用<code>stdio.h</code>文件</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN Includes */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"stdio.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END Includes */</span></span><br></pre></td></tr></table></figure>
+
+<p>重写fputc()函数</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//重定向printf至串口输出函数</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fputc</span><span class="params">(<span class="keyword">int</span> ch,FILE *f)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	HAL_UART_Transmit(&amp;huart1,(<span class="keyword">uint8_t</span> *)&amp;ch,<span class="number">1</span>,<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在错误调用函数下写输出错误代码</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  This function is executed in case of error occurrence.</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Error_Handler</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN Error_Handler_Debug */</span></span><br><span class="line">  <span class="comment">/* User can add his own implementation to report the HAL error return state */</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"Error_Handler\r\n"</span>);</span><br><span class="line">  <span class="comment">/* USER CODE END Error_Handler_Debug */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="移植LTDC使能函数"><a href="#移植LTDC使能函数" class="headerlink" title="移植LTDC使能函数"></a>移植LTDC使能函数</h3><p>这种函数通常我会直接写在main.c文件中，写在驱动文件里离STM32CubeMX自动生成的初始化函数太远，不好配置</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  使能显示</span></span><br><span class="line"><span class="comment">  * @retval 无</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">USER_LTCD_ENABLE</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	  <span class="comment">/* 开显示 */</span></span><br><span class="line">  __HAL_LTDC_ENABLE(&amp;hltdc);</span><br><span class="line">  HAL_GPIO_WritePin(LTDC_DISP_GPIO_Port, LTDC_DISP_Pin, GPIO_PIN_SET);<span class="comment">/* LCD_DISP使能*/</span></span><br><span class="line">  HAL_GPIO_WritePin(LTDC_BL_GPIO_Port, LTDC_BL_Pin, GPIO_PIN_SET);  <span class="comment">/* 开背光*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  禁能显示</span></span><br><span class="line"><span class="comment">  * @retval 无</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">USER_LTCD_DISABLE</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	  <span class="comment">/* 关显示 */</span></span><br><span class="line">  __HAL_LTDC_DISABLE(&amp;hltdc);</span><br><span class="line">  HAL_GPIO_WritePin(LTDC_DISP_GPIO_Port, LTDC_DISP_Pin, GPIO_PIN_RESET);<span class="comment">/* LCD_DISP使不能*/</span></span><br><span class="line">  HAL_GPIO_WritePin(LTDC_BL_GPIO_Port, LTDC_BL_Pin, GPIO_PIN_RESET);  <span class="comment">/* 关背光*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在LTDC初始化函数结尾引用LTDC使能函数</p>
+<h3 id="移植SDRAM初始配置函数"><a href="#移植SDRAM初始配置函数" class="headerlink" title="移植SDRAM初始配置函数"></a>移植SDRAM初始配置函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  对SDRAM芯片进行初始化配置</span></span><br><span class="line"><span class="comment">  * @param  None. </span></span><br><span class="line"><span class="comment">  * @retval None.</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">USER_SDRAM_ENABLE</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FMC_SDRAM_CommandTypeDef Command;</span><br><span class="line">	</span><br><span class="line">  __IO <span class="keyword">uint32_t</span> tmpmrd =<span class="number">0</span>;</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 1:  Configure a clock configuration enable command */</span></span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_CLK_ENABLE;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">1</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Step 2: Insert 100 us minimum delay */</span> </span><br><span class="line">  <span class="comment">/* Inserted delay is equal to 1 ms due to systick time base unit (ms) */</span></span><br><span class="line">  HAL_Delay(<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Step 3: Configure a PALL (precharge all) command */</span> </span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_PALL;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">1</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);  </span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 4: Configure an Auto Refresh command */</span> </span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_AUTOREFRESH_MODE;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">4</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 5: Program the external memory mode register */</span></span><br><span class="line">  tmpmrd = (<span class="keyword">uint32_t</span>)SDRAM_MODEREG_BURST_LENGTH_2          |</span><br><span class="line">                     SDRAM_MODEREG_BURST_TYPE_SEQUENTIAL   |</span><br><span class="line">                     SDRAM_MODEREG_CAS_LATENCY_3           |</span><br><span class="line">                     SDRAM_MODEREG_OPERATING_MODE_STANDARD |</span><br><span class="line">                     SDRAM_MODEREG_WRITEBURST_MODE_SINGLE;</span><br><span class="line">  </span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_LOAD_MODE;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">1</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = tmpmrd;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 6: Set the refresh rate counter */</span></span><br><span class="line">  <span class="comment">/* Set the device refresh rate */</span></span><br><span class="line">  HAL_SDRAM_ProgramRefreshRate(&amp;hsdram1, REFRESH_COUNT); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在SDRAM初始化函数末尾引用SDRAM初始配置函数</p>
+<h3 id="引用驱动函数"><a href="#引用驱动函数" class="headerlink" title="引用驱动函数"></a>引用驱动函数</h3><ul>
+<li>如果驱动文件里有同main.c文件中同类的变量或常量，需要使用<code>extern</code>标识符和宏定义替换掉驱动文件中的变量或常量，如下</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">extern</span> DMA2D_HandleTypeDef hdma2d;</span><br><span class="line"></span><br><span class="line"><span class="keyword">extern</span> LTDC_HandleTypeDef hltdc;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  LtdcHandler hltdc</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  Dma2dHandler hdma2d</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>和项目无关的驱动函数一定要删干净，可以先删类型定义和变量，然后编译，哪里出错删哪里</li>
+<li>一定要删掉main.c中已实现的功能函数以及变量，防止后期码代码时函数调用混乱导致可移植性下降</li>
+<li>仔细阅读驱动文件的宏定义和数据，按照自己的开发环境去修改驱动文件的宏定义和数据</li>
+</ul>
+<p>干完这些，就可以实现一些基本的功能了，比如刷屏实验以及字符显示</p>
+<h3 id="字符显示实验"><a href="#字符显示实验" class="headerlink" title="字符显示实验"></a>字符显示实验</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">LCD_SetLayerVisible(<span class="number">1</span>,DISABLE);</span><br><span class="line">LCD_SetLayerVisible(<span class="number">0</span>,ENABLE);</span><br><span class="line">LCD_SetTransparency(<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">LCD_SetTransparency(<span class="number">0</span>,<span class="number">255</span>);</span><br><span class="line">LCD_SelectLayer(<span class="number">0</span>);</span><br><span class="line">LCD_Clear(LCD_COLOR_BLUE);</span><br><span class="line">LCD_SetTextColor(LCD_COLOR_RED);</span><br><span class="line">LCD_SetBackColor(LCD_COLOR_BLUE);</span><br><span class="line">LCD_SetFont(&amp;Font24);</span><br><span class="line">LCD_DisplayStringLine(<span class="number">1</span>,(<span class="keyword">uint8_t</span> *)<span class="string">"ok!!"</span>);</span><br><span class="line">LCD_DrawCircle(<span class="number">200</span>,<span class="number">200</span>,<span class="number">100</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="LED配置"><a href="#LED配置" class="headerlink" title="LED配置"></a>LED配置</h3><p>在滴答定时器中断区编写程序，让LED闪烁</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> time_flag=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief This function handles System tick timer.</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">SysTick_Handler</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN SysTick_IRQn 0 */</span></span><br><span class="line">		</span><br><span class="line">	<span class="keyword">if</span>(time_flag&gt;=<span class="number">1000</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		HAL_GPIO_TogglePin(GPIOH,LED_G_Pin);</span><br><span class="line">		time_flag=<span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	time_flag+=<span class="number">1</span>;</span><br><span class="line">	</span><br><span class="line">  <span class="comment">/* USER CODE END SysTick_IRQn 0 */</span></span><br><span class="line">  HAL_IncTick();</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN SysTick_IRQn 1 */</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* USER CODE END SysTick_IRQn 1 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>下载至开发板，重启开发板</p>
+<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p>官方驱动文件目录</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">STM32Cube_FW_F4_V1.25.0&#x2F;Drivers&#x2F;BSP&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>项目文件下载</p>
+<ul>
+<li>链接：<a href="https://pan.baidu.com/s/1P7m3ch2QDxkNCh27rSpSjQ" target="_blank" rel="noopener">百度网盘</a> 提取码：<code>pto5</code></li>
+</ul>
+<p>文件校验数据</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">名称: LCD_Basis.7z</span><br><span class="line">大小: 6040859 字节 (5899 KiB)</span><br><span class="line">CRC32: 5E230E1B</span><br><span class="line">CRC64: D8466336C068497F</span><br><span class="line">SHA256: 8E0E95E778AB12D838E8BE9CD2D2CF06602DBEE4D17240536ED90735C49893D9</span><br><span class="line">SHA1: FF69897C0492E27D7D2B38C75F4CC2F83B4D111D</span><br><span class="line">BLAKE2sp: FEE6B0BA79D124F4FCBBCA423130411FBDA09BBA890318FD4E1DEEFB02FDED7B</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>LCD</tag>
+        <tag>ARM</tag>
+        <tag>HAL</tag>
+        <tag>LTDC</tag>
+        <tag>Keil</tag>
+        <tag>MKD-ARM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置LTDC时遇到的一些问题</title>
+    <url>/posts/3e4bdf1e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题一：引脚对不上"><a href="#问题一：引脚对不上" class="headerlink" title="问题一：引脚对不上"></a>问题一：引脚对不上</h2><p>STM32CubeMX默认配置的引脚与板子设计时所使用的引脚对不上，导致初始化失败</p>
+<h2 id="问题二：HAL库与标准库是不兼容的"><a href="#问题二：HAL库与标准库是不兼容的" class="headerlink" title="问题二：HAL库与标准库是不兼容的"></a>问题二：HAL库与标准库是不兼容的</h2><p>HAL库的初始化结构体以及一部分的宏定义是不兼容的</p>
+<p>建议尽量不要参考标准库使用HAL库，如果需要，那么要追究到寄存器操作的程度来保证对HAL库的使用而导致的行动是与标准库一致的</p>
+<p>目前遇到的例子：</p>
+<ul>
+<li>在标准库中LTDC初始化图层时所使用的结构体决不能同HAL库具有等效功能的结构体相互参照，因为它们的图层初始化函数对结构体的使用方式是不同的</li>
+</ul>
+<h2 id="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"><a href="#问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复" class="headerlink" title="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"></a>问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复</h2><p>解决方案：删掉驱动文件上与自动生成代码有功能重复的代码</p>
+<h2 id="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"><a href="#问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突" class="headerlink" title="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"></a>问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突</h2><p>解决方案：使用<code>extern</code>标识符和<code>#define</code>宏定义替换掉驱动文件中的数据定义</p>
+<h2 id="问题五：LCD-TFT时钟频率过高而导致花屏"><a href="#问题五：LCD-TFT时钟频率过高而导致花屏" class="headerlink" title="问题五：LCD-TFT时钟频率过高而导致花屏"></a>问题五：LCD-TFT时钟频率过高而导致花屏</h2><p>问题详细表征：显示屏花屏，并且会快速左右或上下抖动</p>
+<p>解决方案：降低LCD-TFT频率</p>
+<h2 id="问题六：显存与屏幕数据格式不同导致花屏"><a href="#问题六：显存与屏幕数据格式不同导致花屏" class="headerlink" title="问题六：显存与屏幕数据格式不同导致花屏"></a>问题六：显存与屏幕数据格式不同导致花屏</h2><p>问题详细表征：显示屏花屏，并且出现较密的格子纹路，会对清屏等指令做出反映，但反映不正确</p>
+<p>解决方案：注意数据格式，尤其是ARGB8888和RGB888的区别。前者32位数据，一个像素点占显存4个字节;后者24位数据，程序调用时处理32位数据，一个像素点占显存3个字节</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>HAL</tag>
+        <tag>LTDC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置SPI读写外部FLASH</title>
+    <url>/posts/243fe895.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
+<h2 id="FLASH芯片简介"><a href="#FLASH芯片简介" class="headerlink" title="FLASH芯片简介"></a>FLASH芯片简介</h2><p>也没啥可说的，直接上图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131001.png" alt=""></p>
+<p>这个图有点错误，我板子上的串行FLASH是16MB的</p>
+<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><p>配置到180MHz</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131330.png" alt=""></p>
+<h3 id="端口配置"><a href="#端口配置" class="headerlink" title="端口配置"></a>端口配置</h3><p>根据原理图配置相应引脚的复用功能</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131506.png" alt=""></p>
+<p>这里需要注意的是端口PI8需要单独配置推挽输出</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131455.png" alt=""></p>
+<h3 id="复用功能配置"><a href="#复用功能配置" class="headerlink" title="复用功能配置"></a>复用功能配置</h3><h4 id="SPI配置"><a href="#SPI配置" class="headerlink" title="SPI配置"></a>SPI配置</h4><p>仅仅和FLASH通讯，不用更改太多设置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131608.png" alt=""></p>
+<p>这里设置分频为16是因为高频率貌似会导致FLASH读数据失败(我觉得更大可能是我的程序出现了问题)</p>
+<h4 id="串口配置"><a href="#串口配置" class="headerlink" title="串口配置"></a>串口配置</h4><p>开启异步模式，默认配置即可</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131743.png" alt=""></p>
+<h2 id="Keil配置"><a href="#Keil配置" class="headerlink" title="Keil配置"></a>Keil配置</h2><h3 id="移植驱动文件"><a href="#移植驱动文件" class="headerlink" title="移植驱动文件"></a>移植驱动文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131841.png" alt=""></p>
+<h3 id="完善SPI初始化函数"><a href="#完善SPI初始化函数" class="headerlink" title="完善SPI初始化函数"></a>完善SPI初始化函数</h3><p>在系统自动生成的初始化函数末尾添加如下代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN SPI1_Init 2 */</span></span><br><span class="line">  __HAL_SPI_ENABLE(&amp;hspi1);</span><br><span class="line"><span class="comment">/* USER CODE END SPI1_Init 2 */</span></span><br></pre></td></tr></table></figure>
+
+<p>这段代码的功能是使能SPI功能</p>
+<h3 id="重定向printf-函数和scanf-函数"><a href="#重定向printf-函数和scanf-函数" class="headerlink" title="重定向printf()函数和scanf()函数"></a>重定向printf()函数和scanf()函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN PD */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* Private function prototypes -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 尝试重写scanf函数 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END PD */</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* Place your implementation of fputc here */</span></span><br><span class="line">    <span class="comment">/* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */</span></span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//尝试重写scanf函数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">    HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="编写读写实验主代码"><a href="#编写读写实验主代码" class="headerlink" title="编写读写实验主代码"></a>编写读写实验主代码</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN 2 */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"系统初始化完毕\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"FLASH ID:%X		FLASH Device ID:%X\r\n"</span>,SPI_FLASH_ReadID(),SPI_FLASH_ReadDeviceID());</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入需要储存到FLASH的数据(最多80字符):\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">char</span> data1[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">char</span> data2[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%s"</span>,data1);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">int</span> data_size=<span class="keyword">sizeof</span>(data1);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"写入FLASH的数据：%s\r\n"</span>,data1);</span><br><span class="line">	SPI_FLASH_SectorErase(<span class="number">0x00000</span>);</span><br><span class="line">	SPI_FLASH_BufferWrite((<span class="keyword">uint8_t</span> *)data1,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	SPI_FLASH_BufferRead((<span class="keyword">uint8_t</span> *)data2,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"读取FLASH的数据：%s\r\n"</span>,data2);</span><br><span class="line"><span class="comment">/* USER CODE END 2 */</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416135452.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>ARM</tag>
+        <tag>SPI</tag>
+        <tag>FLASH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32_HAL库中的回调函数[callback]同中断处理函数的关系</title>
+    <url>/posts/52920140.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>其实很简单：中断回调函数是封装在中断函数中的子函数</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  This function handles EXTI interrupt request.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_IRQHandler</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span> <span class="comment">//中断处理函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* EXTI line interrupt detected */</span></span><br><span class="line">  <span class="keyword">if</span>(__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != RESET)</span><br><span class="line">  &#123;</span><br><span class="line">    __HAL_GPIO_EXTI_CLEAR_IT(GPIO_Pin);</span><br><span class="line">    HAL_GPIO_EXTI_Callback(GPIO_Pin); <span class="comment">//中断回调函数</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>且中断回调函数的声明是这样的</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  EXTI line detection callbacks.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">__<span class="function">weak <span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_Callback</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* Prevent unused argument(s) compilation warning */</span></span><br><span class="line">  UNUSED(GPIO_Pin);</span><br><span class="line">  <span class="comment">/* <span class="doctag">NOTE:</span> This function Should not be modified, when the callback is needed,</span></span><br><span class="line"><span class="comment">           the HAL_GPIO_EXTI_Callback could be implemented in the user file</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>很明显，中断回调函数使用了<code>__weak</code>标识符，使得用户只需将处理中断的代码写在用户文件中重写的中断回调函数<code>void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)</code>便可</p>
+<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>便于将用户所写的代码控制在可数的几个文件中，便于移植和简化了开发过程</p>
+<h2 id="劣势"><a href="#劣势" class="headerlink" title="劣势"></a>劣势</h2><p>函数的嵌套一定程度上会导致单片机运行效率降低，且有可能会提高调试难度</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>HAL</tag>
+        <tag>中断函数</tag>
+        <tag>中断</tag>
+        <tag>回调函数</tag>
+        <tag>callback</tag>
       </tags>
   </entry>
   <entry>
@@ -1403,209 +1606,6 @@
       </tags>
   </entry>
   <entry>
-    <title>STM32CubeMX配置LTDC</title>
-    <url>/posts/7109b92c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="事先安排"><a href="#事先安排" class="headerlink" title="事先安排"></a>事先安排</h2><p>已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415114924.png" alt=""></p>
-<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="使用芯片"><a href="#使用芯片" class="headerlink" title="使用芯片"></a>使用芯片</h3><p>我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115526.png" alt=""></p>
-<h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><h4 id="开启外部高速时钟HSE"><a href="#开启外部高速时钟HSE" class="headerlink" title="开启外部高速时钟HSE"></a>开启外部高速时钟HSE</h4><p>在配置页面RCC下开启HSE</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115900.png" alt=""></p>
-<h4 id="开启LCD-TFT时钟"><a href="#开启LCD-TFT时钟" class="headerlink" title="开启LCD-TFT时钟"></a>开启LCD-TFT时钟</h4><p>在配置页面开启LTDC功能</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115631.png" alt=""></p>
-<h4 id="配置时钟"><a href="#配置时钟" class="headerlink" title="配置时钟"></a>配置时钟</h4><p>在时钟配置页面配置系统主频和LCD-TFT频率</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415120512.jpg" alt=""></p>
-<blockquote>
-<p>注：LCD-TFT频率过高会导致花屏，缺失等不正常显示行为</p>
-</blockquote>
-<h3 id="配置串口"><a href="#配置串口" class="headerlink" title="配置串口"></a>配置串口</h3><p>在配置页面开启串口异步模式，其余按照默认量设置即可</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415120826.png" alt=""></p>
-<h3 id="配置FMC-SDRAM"><a href="#配置FMC-SDRAM" class="headerlink" title="配置FMC-SDRAM"></a>配置FMC-SDRAM</h3><h4 id="功能配置"><a href="#功能配置" class="headerlink" title="功能配置"></a>功能配置</h4><p>查找官方资料，找到FMC的地址框图</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415121844.png" alt=""></p>
-<p>这里我使用的是<code>SDRAM Bank 2</code>作为显存，起始地址为<code>0xD0000000</code></p>
-<p>在配置页面开启SDRAM，其设置如下</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122152.png" alt=""></p>
-<p>SDRAM详细设置如下</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122236.png" alt=""></p>
-<p>其中<code>SDRAM control</code>设置不必多说，但下面的<code>SDRAM timing in memory clock cycles</code>的配置是根据你所用的SDRAM芯片种类所确定的，我所使用的芯片型号是<code>IS42S16400J-7TLI</code>配置如图，其实实在不确定的话都设置为16也不是不可以</p>
-<h4 id="引脚配置"><a href="#引脚配置" class="headerlink" title="引脚配置"></a>引脚配置</h4><p>选择<code>GPIO Settings</code>标签页，查看此处设置的引脚是否与开发板原理图上的引脚相对应</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122710.png" alt=""></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122836.png" alt=""></p>
-<h3 id="配置LTDC"><a href="#配置LTDC" class="headerlink" title="配置LTDC"></a>配置LTDC</h3><h4 id="功能配置-1"><a href="#功能配置-1" class="headerlink" title="功能配置"></a>功能配置</h4><h5 id="背景配置"><a href="#背景配置" class="headerlink" title="背景配置"></a>背景配置</h5><p>在配置页面LTDC下选择数据类型，这里我选择的是RGB888,然后按照下图数据配置</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415122929.png" alt=""></p>
-<p>其中，下图这两项由显示屏的所决定，可自行查阅</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415123227.png" alt=""></p>
-<p>然后，如下图设置低电位使能和配置时钟，最下面的三项是设置背景颜色的</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415123350.png" alt=""></p>
-<h5 id="图层显存配置"><a href="#图层显存配置" class="headerlink" title="图层显存配置"></a>图层显存配置</h5><p>总图如下</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415190615.png" alt=""></p>
-<h4 id="引脚配置-1"><a href="#引脚配置-1" class="headerlink" title="引脚配置"></a>引脚配置</h4><p>切记，一定要比对引脚是否正确，并且把所有GPIO的速度都设置为<code>Very High</code></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124348.png" alt=""></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124431.png" alt=""></p>
-<h3 id="配置DMA2D"><a href="#配置DMA2D" class="headerlink" title="配置DMA2D"></a>配置DMA2D</h3><p>DMA2D是专门为显存到显示屏高速通信所准备的DMA模块</p>
-<p>其实没啥可配置的，开启DMA2D后选择RTM模式，按照你的图层数据格式选择DMA2D的数据格式即可</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124637.png" alt=""></p>
-<h3 id="配置LCD数据使能引脚以及背光引脚"><a href="#配置LCD数据使能引脚以及背光引脚" class="headerlink" title="配置LCD数据使能引脚以及背光引脚"></a>配置LCD数据使能引脚以及背光引脚</h3><p>我这里LTDC开启后是没有配置LCD数据使能引脚和背光引脚的，所以需要按照原理图去配置相应引脚</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124838.png" alt=""></p>
-<p>并且我在这里配置了一个LED灯的引脚，用作<del>看着舒服(￣▽￣)</del>*</p>
-<h3 id="输出MDK-ARM项目文件"><a href="#输出MDK-ARM项目文件" class="headerlink" title="输出MDK-ARM项目文件"></a>输出MDK-ARM项目文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124951.png" alt=""></p>
-<p>至此，STM32CubeMX工作结束</p>
-<h2 id="Keil5配置"><a href="#Keil5配置" class="headerlink" title="Keil5配置"></a>Keil5配置</h2><p>打开那令人眼疼又异常熟悉的界面<del>~</del></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415130215.png" alt=""></p>
-<h3 id="重定向printf-到串口输出函数"><a href="#重定向printf-到串口输出函数" class="headerlink" title="重定向printf()到串口输出函数"></a>重定向printf()到串口输出函数</h3><p>所有项目第一件事：搞定串口输出函数</p>
-<p>引用<code>stdio.h</code>文件</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN Includes */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"stdio.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END Includes */</span></span><br></pre></td></tr></table></figure>
-
-<p>重写fputc()函数</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//重定向printf至串口输出函数</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fputc</span><span class="params">(<span class="keyword">int</span> ch,FILE *f)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	HAL_UART_Transmit(&amp;huart1,(<span class="keyword">uint8_t</span> *)&amp;ch,<span class="number">1</span>,<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在错误调用函数下写输出错误代码</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  This function is executed in case of error occurrence.</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Error_Handler</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN Error_Handler_Debug */</span></span><br><span class="line">  <span class="comment">/* User can add his own implementation to report the HAL error return state */</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"Error_Handler\r\n"</span>);</span><br><span class="line">  <span class="comment">/* USER CODE END Error_Handler_Debug */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="移植LTDC使能函数"><a href="#移植LTDC使能函数" class="headerlink" title="移植LTDC使能函数"></a>移植LTDC使能函数</h3><p>这种函数通常我会直接写在main.c文件中，写在驱动文件里离STM32CubeMX自动生成的初始化函数太远，不好配置</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  使能显示</span></span><br><span class="line"><span class="comment">  * @retval 无</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">USER_LTCD_ENABLE</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	  <span class="comment">/* 开显示 */</span></span><br><span class="line">  __HAL_LTDC_ENABLE(&amp;hltdc);</span><br><span class="line">  HAL_GPIO_WritePin(LTDC_DISP_GPIO_Port, LTDC_DISP_Pin, GPIO_PIN_SET);<span class="comment">/* LCD_DISP使能*/</span></span><br><span class="line">  HAL_GPIO_WritePin(LTDC_BL_GPIO_Port, LTDC_BL_Pin, GPIO_PIN_SET);  <span class="comment">/* 开背光*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  禁能显示</span></span><br><span class="line"><span class="comment">  * @retval 无</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">USER_LTCD_DISABLE</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	  <span class="comment">/* 关显示 */</span></span><br><span class="line">  __HAL_LTDC_DISABLE(&amp;hltdc);</span><br><span class="line">  HAL_GPIO_WritePin(LTDC_DISP_GPIO_Port, LTDC_DISP_Pin, GPIO_PIN_RESET);<span class="comment">/* LCD_DISP使不能*/</span></span><br><span class="line">  HAL_GPIO_WritePin(LTDC_BL_GPIO_Port, LTDC_BL_Pin, GPIO_PIN_RESET);  <span class="comment">/* 关背光*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在LTDC初始化函数结尾引用LTDC使能函数</p>
-<h3 id="移植SDRAM初始配置函数"><a href="#移植SDRAM初始配置函数" class="headerlink" title="移植SDRAM初始配置函数"></a>移植SDRAM初始配置函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  对SDRAM芯片进行初始化配置</span></span><br><span class="line"><span class="comment">  * @param  None. </span></span><br><span class="line"><span class="comment">  * @retval None.</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">USER_SDRAM_ENABLE</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FMC_SDRAM_CommandTypeDef Command;</span><br><span class="line">	</span><br><span class="line">  __IO <span class="keyword">uint32_t</span> tmpmrd =<span class="number">0</span>;</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 1:  Configure a clock configuration enable command */</span></span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_CLK_ENABLE;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">1</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Step 2: Insert 100 us minimum delay */</span> </span><br><span class="line">  <span class="comment">/* Inserted delay is equal to 1 ms due to systick time base unit (ms) */</span></span><br><span class="line">  HAL_Delay(<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Step 3: Configure a PALL (precharge all) command */</span> </span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_PALL;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">1</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);  </span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 4: Configure an Auto Refresh command */</span> </span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_AUTOREFRESH_MODE;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">4</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 5: Program the external memory mode register */</span></span><br><span class="line">  tmpmrd = (<span class="keyword">uint32_t</span>)SDRAM_MODEREG_BURST_LENGTH_2          |</span><br><span class="line">                     SDRAM_MODEREG_BURST_TYPE_SEQUENTIAL   |</span><br><span class="line">                     SDRAM_MODEREG_CAS_LATENCY_3           |</span><br><span class="line">                     SDRAM_MODEREG_OPERATING_MODE_STANDARD |</span><br><span class="line">                     SDRAM_MODEREG_WRITEBURST_MODE_SINGLE;</span><br><span class="line">  </span><br><span class="line">  Command.CommandMode             = FMC_SDRAM_CMD_LOAD_MODE;</span><br><span class="line">  Command.CommandTarget           = FMC_SDRAM_CMD_TARGET_BANK2;</span><br><span class="line">  Command.AutoRefreshNumber       = <span class="number">1</span>;</span><br><span class="line">  Command.ModeRegisterDefinition  = tmpmrd;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Send the command */</span></span><br><span class="line">  HAL_SDRAM_SendCommand(&amp;hsdram1, &amp;Command, SDRAM_TIMEOUT);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* Step 6: Set the refresh rate counter */</span></span><br><span class="line">  <span class="comment">/* Set the device refresh rate */</span></span><br><span class="line">  HAL_SDRAM_ProgramRefreshRate(&amp;hsdram1, REFRESH_COUNT); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在SDRAM初始化函数末尾引用SDRAM初始配置函数</p>
-<h3 id="引用驱动函数"><a href="#引用驱动函数" class="headerlink" title="引用驱动函数"></a>引用驱动函数</h3><ul>
-<li>如果驱动文件里有同main.c文件中同类的变量或常量，需要使用<code>extern</code>标识符和宏定义替换掉驱动文件中的变量或常量，如下</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">extern</span> DMA2D_HandleTypeDef hdma2d;</span><br><span class="line"></span><br><span class="line"><span class="keyword">extern</span> LTDC_HandleTypeDef hltdc;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  LtdcHandler hltdc</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  Dma2dHandler hdma2d</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>和项目无关的驱动函数一定要删干净，可以先删类型定义和变量，然后编译，哪里出错删哪里</li>
-<li>一定要删掉main.c中已实现的功能函数以及变量，防止后期码代码时函数调用混乱导致可移植性下降</li>
-<li>仔细阅读驱动文件的宏定义和数据，按照自己的开发环境去修改驱动文件的宏定义和数据</li>
-</ul>
-<p>干完这些，就可以实现一些基本的功能了，比如刷屏实验以及字符显示</p>
-<h3 id="字符显示实验"><a href="#字符显示实验" class="headerlink" title="字符显示实验"></a>字符显示实验</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">LCD_SetLayerVisible(<span class="number">1</span>,DISABLE);</span><br><span class="line">LCD_SetLayerVisible(<span class="number">0</span>,ENABLE);</span><br><span class="line">LCD_SetTransparency(<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">LCD_SetTransparency(<span class="number">0</span>,<span class="number">255</span>);</span><br><span class="line">LCD_SelectLayer(<span class="number">0</span>);</span><br><span class="line">LCD_Clear(LCD_COLOR_BLUE);</span><br><span class="line">LCD_SetTextColor(LCD_COLOR_RED);</span><br><span class="line">LCD_SetBackColor(LCD_COLOR_BLUE);</span><br><span class="line">LCD_SetFont(&amp;Font24);</span><br><span class="line">LCD_DisplayStringLine(<span class="number">1</span>,(<span class="keyword">uint8_t</span> *)<span class="string">"ok!!"</span>);</span><br><span class="line">LCD_DrawCircle(<span class="number">200</span>,<span class="number">200</span>,<span class="number">100</span>);</span><br></pre></td></tr></table></figure>
-
-<h3 id="LED配置"><a href="#LED配置" class="headerlink" title="LED配置"></a>LED配置</h3><p>在滴答定时器中断区编写程序，让LED闪烁</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> time_flag=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief This function handles System tick timer.</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">SysTick_Handler</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN SysTick_IRQn 0 */</span></span><br><span class="line">		</span><br><span class="line">	<span class="keyword">if</span>(time_flag&gt;=<span class="number">1000</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		HAL_GPIO_TogglePin(GPIOH,LED_G_Pin);</span><br><span class="line">		time_flag=<span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	time_flag+=<span class="number">1</span>;</span><br><span class="line">	</span><br><span class="line">  <span class="comment">/* USER CODE END SysTick_IRQn 0 */</span></span><br><span class="line">  HAL_IncTick();</span><br><span class="line">  <span class="comment">/* USER CODE BEGIN SysTick_IRQn 1 */</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* USER CODE END SysTick_IRQn 1 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>下载至开发板，重启开发板</p>
-<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p>官方驱动文件目录</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">STM32Cube_FW_F4_V1.25.0&#x2F;Drivers&#x2F;BSP&#x2F;</span><br></pre></td></tr></table></figure>
-
-<p>项目文件下载</p>
-<ul>
-<li>链接：<a href="https://pan.baidu.com/s/1P7m3ch2QDxkNCh27rSpSjQ" target="_blank" rel="noopener">百度网盘</a> 提取码：<code>pto5</code></li>
-</ul>
-<p>文件校验数据</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">名称: LCD_Basis.7z</span><br><span class="line">大小: 6040859 字节 (5899 KiB)</span><br><span class="line">CRC32: 5E230E1B</span><br><span class="line">CRC64: D8466336C068497F</span><br><span class="line">SHA256: 8E0E95E778AB12D838E8BE9CD2D2CF06602DBEE4D17240536ED90735C49893D9</span><br><span class="line">SHA1: FF69897C0492E27D7D2B38C75F4CC2F83B4D111D</span><br><span class="line">BLAKE2sp: FEE6B0BA79D124F4FCBBCA423130411FBDA09BBA890318FD4E1DEEFB02FDED7B</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>ARM</tag>
-        <tag>HAL</tag>
-        <tag>LCD</tag>
-        <tag>LTDC</tag>
-        <tag>Keil</tag>
-        <tag>MKD-ARM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32CubeMX配置LTDC时遇到的一些问题</title>
-    <url>/posts/3e4bdf1e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题一：引脚对不上"><a href="#问题一：引脚对不上" class="headerlink" title="问题一：引脚对不上"></a>问题一：引脚对不上</h2><p>STM32CubeMX默认配置的引脚与板子设计时所使用的引脚对不上，导致初始化失败</p>
-<h2 id="问题二：HAL库与标准库是不兼容的"><a href="#问题二：HAL库与标准库是不兼容的" class="headerlink" title="问题二：HAL库与标准库是不兼容的"></a>问题二：HAL库与标准库是不兼容的</h2><p>HAL库的初始化结构体以及一部分的宏定义是不兼容的</p>
-<p>建议尽量不要参考标准库使用HAL库，如果需要，那么要追究到寄存器操作的程度来保证对HAL库的使用而导致的行动是与标准库一致的</p>
-<p>目前遇到的例子：</p>
-<ul>
-<li>在标准库中LTDC初始化图层时所使用的结构体决不能同HAL库具有等效功能的结构体相互参照，因为它们的图层初始化函数对结构体的使用方式是不同的</li>
-</ul>
-<h2 id="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"><a href="#问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复" class="headerlink" title="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"></a>问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复</h2><p>解决方案：删掉驱动文件上与自动生成代码有功能重复的代码</p>
-<h2 id="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"><a href="#问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突" class="headerlink" title="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"></a>问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突</h2><p>解决方案：使用<code>extern</code>标识符和<code>#define</code>宏定义替换掉驱动文件中的数据定义</p>
-<h2 id="问题五：LCD-TFT时钟频率过高而导致花屏"><a href="#问题五：LCD-TFT时钟频率过高而导致花屏" class="headerlink" title="问题五：LCD-TFT时钟频率过高而导致花屏"></a>问题五：LCD-TFT时钟频率过高而导致花屏</h2><p>问题详细表征：显示屏花屏，并且会快速左右或上下抖动</p>
-<p>解决方案：降低LCD-TFT频率</p>
-<h2 id="问题六：显存与屏幕数据格式不同导致花屏"><a href="#问题六：显存与屏幕数据格式不同导致花屏" class="headerlink" title="问题六：显存与屏幕数据格式不同导致花屏"></a>问题六：显存与屏幕数据格式不同导致花屏</h2><p>问题详细表征：显示屏花屏，并且出现较密的格子纹路，会对清屏等指令做出反映，但反映不正确</p>
-<p>解决方案：注意数据格式，尤其是ARGB8888和RGB888的区别。前者32位数据，一个像素点占显存4个字节;后者24位数据，程序调用时处理32位数据，一个像素点占显存3个字节</p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>HAL</tag>
-        <tag>LTDC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32CubeMX配置SPI读写外部FLASH</title>
-    <url>/posts/243fe895.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
-<h2 id="FLASH芯片简介"><a href="#FLASH芯片简介" class="headerlink" title="FLASH芯片简介"></a>FLASH芯片简介</h2><p>也没啥可说的，直接上图：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131001.png" alt=""></p>
-<p>这个图有点错误，我板子上的串行FLASH是16MB的</p>
-<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><p>配置到180MHz</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131330.png" alt=""></p>
-<h3 id="端口配置"><a href="#端口配置" class="headerlink" title="端口配置"></a>端口配置</h3><p>根据原理图配置相应引脚的复用功能</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131506.png" alt=""></p>
-<p>这里需要注意的是端口PI8需要单独配置推挽输出</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131455.png" alt=""></p>
-<h3 id="复用功能配置"><a href="#复用功能配置" class="headerlink" title="复用功能配置"></a>复用功能配置</h3><h4 id="SPI配置"><a href="#SPI配置" class="headerlink" title="SPI配置"></a>SPI配置</h4><p>仅仅和FLASH通讯，不用更改太多设置</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131608.png" alt=""></p>
-<p>这里设置分频为16是因为高频率貌似会导致FLASH读数据失败(我觉得更大可能是我的程序出现了问题)</p>
-<h4 id="串口配置"><a href="#串口配置" class="headerlink" title="串口配置"></a>串口配置</h4><p>开启异步模式，默认配置即可</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131743.png" alt=""></p>
-<h2 id="Keil配置"><a href="#Keil配置" class="headerlink" title="Keil配置"></a>Keil配置</h2><h3 id="移植驱动文件"><a href="#移植驱动文件" class="headerlink" title="移植驱动文件"></a>移植驱动文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131841.png" alt=""></p>
-<h3 id="完善SPI初始化函数"><a href="#完善SPI初始化函数" class="headerlink" title="完善SPI初始化函数"></a>完善SPI初始化函数</h3><p>在系统自动生成的初始化函数末尾添加如下代码：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN SPI1_Init 2 */</span></span><br><span class="line">  __HAL_SPI_ENABLE(&amp;hspi1);</span><br><span class="line"><span class="comment">/* USER CODE END SPI1_Init 2 */</span></span><br></pre></td></tr></table></figure>
-
-<p>这段代码的功能是使能SPI功能</p>
-<h3 id="重定向printf-函数和scanf-函数"><a href="#重定向printf-函数和scanf-函数" class="headerlink" title="重定向printf()函数和scanf()函数"></a>重定向printf()函数和scanf()函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN PD */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* Private function prototypes -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 尝试重写scanf函数 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END PD */</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* Place your implementation of fputc here */</span></span><br><span class="line">    <span class="comment">/* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */</span></span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//尝试重写scanf函数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">    HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="编写读写实验主代码"><a href="#编写读写实验主代码" class="headerlink" title="编写读写实验主代码"></a>编写读写实验主代码</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN 2 */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"系统初始化完毕\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"FLASH ID:%X		FLASH Device ID:%X\r\n"</span>,SPI_FLASH_ReadID(),SPI_FLASH_ReadDeviceID());</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入需要储存到FLASH的数据(最多80字符):\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">char</span> data1[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">char</span> data2[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%s"</span>,data1);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">int</span> data_size=<span class="keyword">sizeof</span>(data1);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"写入FLASH的数据：%s\r\n"</span>,data1);</span><br><span class="line">	SPI_FLASH_SectorErase(<span class="number">0x00000</span>);</span><br><span class="line">	SPI_FLASH_BufferWrite((<span class="keyword">uint8_t</span> *)data1,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	SPI_FLASH_BufferRead((<span class="keyword">uint8_t</span> *)data2,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"读取FLASH的数据：%s\r\n"</span>,data2);</span><br><span class="line"><span class="comment">/* USER CODE END 2 */</span></span><br></pre></td></tr></table></figure>
-
-<p>效果如图：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416135452.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>ARM</tag>
-        <tag>SPI</tag>
-        <tag>FLASH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32_HAL库中的回调函数[callback]同中断处理函数的关系</title>
-    <url>/posts/52920140.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>其实很简单：中断回调函数是封装在中断函数中的子函数</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  This function handles EXTI interrupt request.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_IRQHandler</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span> <span class="comment">//中断处理函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* EXTI line interrupt detected */</span></span><br><span class="line">  <span class="keyword">if</span>(__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != RESET)</span><br><span class="line">  &#123;</span><br><span class="line">    __HAL_GPIO_EXTI_CLEAR_IT(GPIO_Pin);</span><br><span class="line">    HAL_GPIO_EXTI_Callback(GPIO_Pin); <span class="comment">//中断回调函数</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>且中断回调函数的声明是这样的</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  EXTI line detection callbacks.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">__<span class="function">weak <span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_Callback</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* Prevent unused argument(s) compilation warning */</span></span><br><span class="line">  UNUSED(GPIO_Pin);</span><br><span class="line">  <span class="comment">/* <span class="doctag">NOTE:</span> This function Should not be modified, when the callback is needed,</span></span><br><span class="line"><span class="comment">           the HAL_GPIO_EXTI_Callback could be implemented in the user file</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>很明显，中断回调函数使用了<code>__weak</code>标识符，使得用户只需将处理中断的代码写在用户文件中重写的中断回调函数<code>void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)</code>便可</p>
-<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>便于将用户所写的代码控制在可数的几个文件中，便于移植和简化了开发过程</p>
-<h2 id="劣势"><a href="#劣势" class="headerlink" title="劣势"></a>劣势</h2><p>函数的嵌套一定程度上会导致单片机运行效率降低，且有可能会提高调试难度</p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>HAL</tag>
-        <tag>中断函数</tag>
-        <tag>中断</tag>
-        <tag>回调函数</tag>
-        <tag>callback</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>STM32配置Keil在SRAM中调试</title>
     <url>/posts/80d81344.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>虽然SRAM掉电清空，但是FLASH擦写实在是太慢了，对于我这种编程一小时50分钟在调试的新手而言，擦除数据的进度条是无比漫长的o(╥﹏╥)o</p>
@@ -1665,6 +1665,40 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows下批量重命名文件</title>
+    <url>/posts/5222b711.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204426.png" alt="cmd第一步"></p>
+<h2 id="在Excel中编辑数据"><a href="#在Excel中编辑数据" class="headerlink" title="在Excel中编辑数据"></a>在Excel中编辑数据</h2><ul>
+<li>先在第一列整理好需要重命名的文件名<ul>
+<li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204622.png" alt="Excel第一步"></li>
+</ul>
+</li>
+<li>然后在第二列用Excel便捷的列出重命名后的文件名<ul>
+<li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204753.png" alt="excel第二步"></li>
+</ul>
+</li>
+<li>最后使用<code>CONCATENATE</code>函数或者<code>&amp;</code>符号在第三列拼接处重命名批处理命令<ul>
+<li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610205026.png" alt="Excel第三步"></li>
+</ul>
+</li>
+</ul>
+<h2 id="把Excel拼接出的批处理命令拷贝到批处理文件中"><a href="#把Excel拼接出的批处理命令拷贝到批处理文件中" class="headerlink" title="把Excel拼接出的批处理命令拷贝到批处理文件中"></a>把Excel拼接出的批处理命令拷贝到批处理文件中</h2><blockquote>
+<p>注：批处理文件需要和需要重命名的文件同目录<br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610205155.png" alt="批处理第一步"></p>
+</blockquote>
+<p>保存，双击批处理文件，批量重命名完成<br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610210119.png" alt="批量重命名完成"></p>
+]]></content>
+      <categories>
+        <category>方法积累</category>
+      </categories>
+      <tags>
+        <tag>重命名文件</tag>
+        <tag>方法积累</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VSCode配置C语言运行调试环境</title>
     <url>/posts/6133db72.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>具体配置方向分为三种：</p>
@@ -1706,40 +1740,6 @@
       <tags>
         <tag>C</tag>
         <tag>VSCode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows下批量重命名文件</title>
-    <url>/posts/5222b711.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204426.png" alt="cmd第一步"></p>
-<h2 id="在Excel中编辑数据"><a href="#在Excel中编辑数据" class="headerlink" title="在Excel中编辑数据"></a>在Excel中编辑数据</h2><ul>
-<li>先在第一列整理好需要重命名的文件名<ul>
-<li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204622.png" alt="Excel第一步"></li>
-</ul>
-</li>
-<li>然后在第二列用Excel便捷的列出重命名后的文件名<ul>
-<li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204753.png" alt="excel第二步"></li>
-</ul>
-</li>
-<li>最后使用<code>CONCATENATE</code>函数或者<code>&amp;</code>符号在第三列拼接处重命名批处理命令<ul>
-<li><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610205026.png" alt="Excel第三步"></li>
-</ul>
-</li>
-</ul>
-<h2 id="把Excel拼接出的批处理命令拷贝到批处理文件中"><a href="#把Excel拼接出的批处理命令拷贝到批处理文件中" class="headerlink" title="把Excel拼接出的批处理命令拷贝到批处理文件中"></a>把Excel拼接出的批处理命令拷贝到批处理文件中</h2><blockquote>
-<p>注：批处理文件需要和需要重命名的文件同目录<br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610205155.png" alt="批处理第一步"></p>
-</blockquote>
-<p>保存，双击批处理文件，批量重命名完成<br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610210119.png" alt="批量重命名完成"></p>
-]]></content>
-      <categories>
-        <category>方法积累</category>
-      </categories>
-      <tags>
-        <tag>重命名文件</tag>
-        <tag>方法积累</tag>
       </tags>
   </entry>
   <entry>
@@ -1815,6 +1815,80 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo-next在文章和侧栏下方添加版权信息</title>
+    <url>/posts/b34fddce.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Declare license on posts</span></span><br><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">3.0</span></span><br><span class="line"><span class="attr">  license_url:</span> <span class="attr">https://creativecommons.org/licenses/by-nc-sa/3.0/</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：<code>sidebar</code>指的是侧栏下方,<code>post</code>指的是文章底部,效果可参考本站</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>添加版权信息</tag>
+        <tag>版权信息</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next配置点击爆炸效果</title>
+    <url>/posts/6864067c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="next主题文件的配置"><a href="#next主题文件的配置" class="headerlink" title="next主题文件的配置"></a><strong>next主题文件的配置</strong></h2><p>打开next主题文件,定位到以下代码区：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>将<code>fireworks</code>改为<code>true</code>,如下：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p><del>效果可见本博客的点击效果</del></p>
+<h2 id="配置时遇到的坑"><a href="#配置时遇到的坑" class="headerlink" title="配置时遇到的坑"></a><strong>配置时遇到的坑</strong></h2><p>有些版本的next对这个特效的默认引用地址在<code>./js/忘了/fireworks.js</code>,但是呢,这个特效文件他在这个位置：<code>./js/fireworks.js</code></p>
+<p>对于这个问题可以再文件<code>_layout.swig</code>中修复</p>
+<p>并且因为本博客的存放位置原因，所以只能写死链接：<code>https://zzttzz.gitee.io/blog/js/fireworks.js</code></p>
+<blockquote>
+<p><code>_layout.swig</code>文件在next主题文件夹下的<code>layout</code>文件夹下</p>
+</blockquote>
+<p>定位到如下代码区：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/忘了/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>修改为：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"//zzttzz.gitee.io/blog/js/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>便可</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>点击爆炸效果</tag>
+        <tag>点击爆炸</tag>
+        <tag>爆炸效果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next添加右上角GitHub挂件</title>
+    <url>/posts/96ddfe32.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># `Follow me on GitHub` banner in the top-right corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  permalink:</span> <span class="attr">https://github.com/zzt112358</span></span><br><span class="line"><span class="attr">  title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：需要把<code>permalink</code>项改为你自己的github链接哦,效果可参考本站</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>github挂件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-next上传到自己的服务器后font-awesome图标无法显示的解决办法</title>
     <url>/posts/193d509e.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -1867,83 +1941,9 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>codeblocks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-next在文章和侧栏下方添加版权信息</title>
-    <url>/posts/b34fddce.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Declare license on posts</span></span><br><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">3.0</span></span><br><span class="line"><span class="attr">  license_url:</span> <span class="attr">https://creativecommons.org/licenses/by-nc-sa/3.0/</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：<code>sidebar</code>指的是侧栏下方,<code>post</code>指的是文章底部,效果可参考本站</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>添加版权信息</tag>
-        <tag>版权信息</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-next添加右上角GitHub挂件</title>
-    <url>/posts/96ddfe32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># `Follow me on GitHub` banner in the top-right corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  permalink:</span> <span class="attr">https://github.com/zzt112358</span></span><br><span class="line"><span class="attr">  title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：需要把<code>permalink</code>项改为你自己的github链接哦,效果可参考本站</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>github挂件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-next配置点击爆炸效果</title>
-    <url>/posts/6864067c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="next主题文件的配置"><a href="#next主题文件的配置" class="headerlink" title="next主题文件的配置"></a><strong>next主题文件的配置</strong></h2><p>打开next主题文件,定位到以下代码区：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-<p>将<code>fireworks</code>改为<code>true</code>,如下：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p><del>效果可见本博客的点击效果</del></p>
-<h2 id="配置时遇到的坑"><a href="#配置时遇到的坑" class="headerlink" title="配置时遇到的坑"></a><strong>配置时遇到的坑</strong></h2><p>有些版本的next对这个特效的默认引用地址在<code>./js/忘了/fireworks.js</code>,但是呢,这个特效文件他在这个位置：<code>./js/fireworks.js</code></p>
-<p>对于这个问题可以再文件<code>_layout.swig</code>中修复</p>
-<p>并且因为本博客的存放位置原因，所以只能写死链接：<code>https://zzttzz.gitee.io/blog/js/fireworks.js</code></p>
-<blockquote>
-<p><code>_layout.swig</code>文件在next主题文件夹下的<code>layout</code>文件夹下</p>
-</blockquote>
-<p>定位到如下代码区：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/忘了/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>修改为：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"//zzttzz.gitee.io/blog/js/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>便可</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>点击爆炸效果</tag>
-        <tag>点击爆炸</tag>
-        <tag>爆炸效果</tag>
       </tags>
   </entry>
   <entry>
@@ -1998,6 +1998,122 @@
       <tags>
         <tag>Linux</tag>
         <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mkv文件处理工具-mkvtoolnix</title>
+    <url>/posts/eeec278f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="mkvtoolnix工具简介"><a href="#mkvtoolnix工具简介" class="headerlink" title="mkvtoolnix工具简介"></a>mkvtoolnix工具简介</h2><p>MKVToolNix是一个用于创建，检查和修改mkv文件的工具，可用于Lunx，其他Unices和Windows</p>
+<blockquote>
+<p>官网原文：MKVToolNix is a set of tools to create, alter and inspect Matroska files under Linux, other Unices and Windows.</p>
+</blockquote>
+<h3 id="工具截图"><a href="#工具截图" class="headerlink" title="工具截图"></a>工具截图</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102216.png" alt=""></p>
+<blockquote>
+<p>截图的版本是43.0.0，官网现在最新是44.0.0</p>
+</blockquote>
+<h3 id="官网截图"><a href="#官网截图" class="headerlink" title="官网截图"></a>官网截图</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102343.png" alt=""></p>
+<p><a href="https://mkvtoolnix.download/" target="_blank" rel="noopener">官网地址：https://mkvtoolnix.download/</a></p>
+<h2 id="mkvtoolnix工具功能"><a href="#mkvtoolnix工具功能" class="headerlink" title="mkvtoolnix工具功能"></a>mkvtoolnix工具功能</h2><ul>
+<li>文件混流</li>
+<li>检查mkv文件信息</li>
+<li>编辑mkv文件头部</li>
+<li>编辑mkv文件章节</li>
+</ul>
+<h3 id="文件混流"><a href="#文件混流" class="headerlink" title="文件混流"></a>文件混流</h3><p>第一标签页中可以让多个文件混流为一个mkv文件，也可以让多个文件混轮到一个mkv文件内</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102749.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102939.png" alt=""></p>
+<p>第二标签页控制mkv文件的输出</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103006.png" alt=""></p>
+<p>第三标签页可以添加自定义的附件</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103202.png" alt=""></p>
+<h3 id="检查mkv文件信息"><a href="#检查mkv文件信息" class="headerlink" title="检查mkv文件信息"></a>检查mkv文件信息</h3><p>这里做例子的是我自己吧从B站下载的视频和字幕文件混流的mkv文件</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103316.png" alt=""></p>
+<h3 id="编辑mkv文件头部"><a href="#编辑mkv文件头部" class="headerlink" title="编辑mkv文件头部"></a>编辑mkv文件头部</h3><p>这里做例子的是我自己吧从B站下载的视频和字幕文件混流的mkv文件</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103503.png" alt=""></p>
+<h3 id="编辑mkv文件章节"><a href="#编辑mkv文件章节" class="headerlink" title="编辑mkv文件章节"></a>编辑mkv文件章节</h3><p>这里做例子的是我自己吧从B站下载的视频和字幕文件混流的mkv文件</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103609.png" alt=""></p>
+<h2 id="mkvtoolnix工具安装"><a href="#mkvtoolnix工具安装" class="headerlink" title="mkvtoolnix工具安装"></a>mkvtoolnix工具安装</h2><p>官网上有各种平台的安装文件和安装方法</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103753.png" alt=""></p>
+<p>由于我只用<code>Windows</code>和<code>manjaro linux</code>所以只介绍这两个系统的安装方式</p>
+<h3 id="Windows安装方式"><a href="#Windows安装方式" class="headerlink" title="Windows安装方式"></a>Windows安装方式</h3><ul>
+<li><p>点击<code>Downloads</code>进入下载页面</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104100.png" alt=""></p>
+</li>
+<li><p>点击<code>Windows</code>跳转到相应的部分</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104239.png" alt=""></p>
+</li>
+<li><p>点击图中的链接</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104430.png" alt=""></p>
+<p>不要去点击下面那酷似下载链接的超链接，那是SHA校验</p>
+</li>
+<li><p>进入软件网站后根据自己的系统选择相应的文件去下载</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104718.png" alt=""></p>
+</li>
+</ul>
+<h3 id="manjaro-linux安装方式"><a href="#manjaro-linux安装方式" class="headerlink" title="manjaro linux安装方式"></a>manjaro linux安装方式</h3><p>因为<code>manjaro linux</code>是<code>arch linux</code>系的系统，使用<code>pacman</code>管理安装包，所以直接运行下面的命令就行了</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">pacman -S mkvtoolnix-cli mkvtoolnix-gui</span><br></pre></td></tr></table></figure>
+
+<p>在这里也可以看出来<code>mkvtoolnix</code>是由命令行程序<code>mkvtoolnix-cli</code>和图形化界面<code>mkvtoolnix-gui</code>组成，类似于<code>arch linux</code>中的<code>Qv2ray</code></p>
+<h2 id="mkvtoolnix使用说明"><a href="#mkvtoolnix使用说明" class="headerlink" title="mkvtoolnix使用说明"></a>mkvtoolnix使用说明</h2><p>建议去<a href="https://mkvtoolnix.download/" target="_blank" rel="noopener">官网</a>找说明文档</p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>工具分享</tag>
+        <tag>mkvtoolnix</tag>
+        <tag>mkv</tag>
+        <tag>mkv文件处理工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享一个windows软件卸载工具-Geek</title>
+    <url>/posts/f1266071.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
+<p>重点是免费版<strong>完全绿色无需安装</strong>,<strong>下载即用</strong>,<strong>无广告</strong>,非常良心.</p>
+<p>官网有收费pro版,不过我觉得日常使用免费版就足够了.</p>
+<p>下载链接： <a href="https://geekuninstaller.com" target="_blank" rel="noopener">官网地址</a></p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>工具分享</tag>
+        <tag>geek</tag>
+        <tag>windows</tag>
+        <tag>软件卸载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享一个windows下的一个个性化工具集-uTools</title>
+    <url>/posts/1798eddd.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>首先,我大力推荐这款软件,非常好用,方便.</p>
+</blockquote>
+<p><a href="https://u.tools" target="_blank" rel="noopener">官网-</a><a href="https://u.tools" target="_blank" rel="noopener">https://u.tools</a></p>
+<h3 id="官方简介："><a href="#官方简介：" class="headerlink" title="官方简介："></a>官方简介：</h3><p>uTools是一个极简、插件化、跨平台的现代桌面软件.通过自由选配丰富的插件,打造你得心应手的工具集合.当你熟悉它后,能够为你节约大量时间,让你可以更加专注地改变世界.</p>
+<p>说白了就是个插件集合,非常方便好用的插件集合.</p>
+<h3 id="支持的插件"><a href="#支持的插件" class="headerlink" title="支持的插件"></a>支持的插件</h3><blockquote>
+<p>简单来说,就是很强大</p>
+</blockquote>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201744.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201747.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201749.PNG" alt="Pic"></p>
+<h3 id="设置页面"><a href="#设置页面" class="headerlink" title="设置页面"></a>设置页面</h3><blockquote>
+<p>支持自定义快捷键</p>
+</blockquote>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201754.PNG" alt="Pic"></p>
+<hr>
+<p>结语： 非常推荐</p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>工具分享</tag>
+        <tag>windows</tag>
+        <tag>工具</tag>
+        <tag>uTools</tag>
+        <tag>插件</tag>
+        <tag>工具集</tag>
       </tags>
   </entry>
   <entry>
@@ -2236,104 +2352,6 @@ int main(void)
       </tags>
   </entry>
   <entry>
-    <title>分享一个windows下的一个个性化工具集-uTools</title>
-    <url>/posts/1798eddd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>首先,我大力推荐这款软件,非常好用,方便.</p>
-</blockquote>
-<p><a href="https://u.tools" target="_blank" rel="noopener">官网-</a><a href="https://u.tools" target="_blank" rel="noopener">https://u.tools</a></p>
-<h3 id="官方简介："><a href="#官方简介：" class="headerlink" title="官方简介："></a>官方简介：</h3><p>uTools是一个极简、插件化、跨平台的现代桌面软件.通过自由选配丰富的插件,打造你得心应手的工具集合.当你熟悉它后,能够为你节约大量时间,让你可以更加专注地改变世界.</p>
-<p>说白了就是个插件集合,非常方便好用的插件集合.</p>
-<h3 id="支持的插件"><a href="#支持的插件" class="headerlink" title="支持的插件"></a>支持的插件</h3><blockquote>
-<p>简单来说,就是很强大</p>
-</blockquote>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201744.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201747.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201749.PNG" alt="Pic"></p>
-<h3 id="设置页面"><a href="#设置页面" class="headerlink" title="设置页面"></a>设置页面</h3><blockquote>
-<p>支持自定义快捷键</p>
-</blockquote>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201754.PNG" alt="Pic"></p>
-<hr>
-<p>结语： 非常推荐</p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>工具分享</tag>
-        <tag>windows</tag>
-        <tag>工具</tag>
-        <tag>uTools</tag>
-        <tag>插件</tag>
-        <tag>工具集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mkv文件处理工具-mkvtoolnix</title>
-    <url>/posts/eeec278f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="mkvtoolnix工具简介"><a href="#mkvtoolnix工具简介" class="headerlink" title="mkvtoolnix工具简介"></a>mkvtoolnix工具简介</h2><p>MKVToolNix是一个用于创建，检查和修改mkv文件的工具，可用于Lunx，其他Unices和Windows</p>
-<blockquote>
-<p>官网原文：MKVToolNix is a set of tools to create, alter and inspect Matroska files under Linux, other Unices and Windows.</p>
-</blockquote>
-<h3 id="工具截图"><a href="#工具截图" class="headerlink" title="工具截图"></a>工具截图</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102216.png" alt=""></p>
-<blockquote>
-<p>截图的版本是43.0.0，官网现在最新是44.0.0</p>
-</blockquote>
-<h3 id="官网截图"><a href="#官网截图" class="headerlink" title="官网截图"></a>官网截图</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102343.png" alt=""></p>
-<p><a href="https://mkvtoolnix.download/" target="_blank" rel="noopener">官网地址：https://mkvtoolnix.download/</a></p>
-<h2 id="mkvtoolnix工具功能"><a href="#mkvtoolnix工具功能" class="headerlink" title="mkvtoolnix工具功能"></a>mkvtoolnix工具功能</h2><ul>
-<li>文件混流</li>
-<li>检查mkv文件信息</li>
-<li>编辑mkv文件头部</li>
-<li>编辑mkv文件章节</li>
-</ul>
-<h3 id="文件混流"><a href="#文件混流" class="headerlink" title="文件混流"></a>文件混流</h3><p>第一标签页中可以让多个文件混流为一个mkv文件，也可以让多个文件混轮到一个mkv文件内</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102749.png" alt=""></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402102939.png" alt=""></p>
-<p>第二标签页控制mkv文件的输出</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103006.png" alt=""></p>
-<p>第三标签页可以添加自定义的附件</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103202.png" alt=""></p>
-<h3 id="检查mkv文件信息"><a href="#检查mkv文件信息" class="headerlink" title="检查mkv文件信息"></a>检查mkv文件信息</h3><p>这里做例子的是我自己吧从B站下载的视频和字幕文件混流的mkv文件</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103316.png" alt=""></p>
-<h3 id="编辑mkv文件头部"><a href="#编辑mkv文件头部" class="headerlink" title="编辑mkv文件头部"></a>编辑mkv文件头部</h3><p>这里做例子的是我自己吧从B站下载的视频和字幕文件混流的mkv文件</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103503.png" alt=""></p>
-<h3 id="编辑mkv文件章节"><a href="#编辑mkv文件章节" class="headerlink" title="编辑mkv文件章节"></a>编辑mkv文件章节</h3><p>这里做例子的是我自己吧从B站下载的视频和字幕文件混流的mkv文件</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103609.png" alt=""></p>
-<h2 id="mkvtoolnix工具安装"><a href="#mkvtoolnix工具安装" class="headerlink" title="mkvtoolnix工具安装"></a>mkvtoolnix工具安装</h2><p>官网上有各种平台的安装文件和安装方法</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402103753.png" alt=""></p>
-<p>由于我只用<code>Windows</code>和<code>manjaro linux</code>所以只介绍这两个系统的安装方式</p>
-<h3 id="Windows安装方式"><a href="#Windows安装方式" class="headerlink" title="Windows安装方式"></a>Windows安装方式</h3><ul>
-<li><p>点击<code>Downloads</code>进入下载页面</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104100.png" alt=""></p>
-</li>
-<li><p>点击<code>Windows</code>跳转到相应的部分</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104239.png" alt=""></p>
-</li>
-<li><p>点击图中的链接</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104430.png" alt=""></p>
-<p>不要去点击下面那酷似下载链接的超链接，那是SHA校验</p>
-</li>
-<li><p>进入软件网站后根据自己的系统选择相应的文件去下载</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402104718.png" alt=""></p>
-</li>
-</ul>
-<h3 id="manjaro-linux安装方式"><a href="#manjaro-linux安装方式" class="headerlink" title="manjaro linux安装方式"></a>manjaro linux安装方式</h3><p>因为<code>manjaro linux</code>是<code>arch linux</code>系的系统，使用<code>pacman</code>管理安装包，所以直接运行下面的命令就行了</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">pacman -S mkvtoolnix-cli mkvtoolnix-gui</span><br></pre></td></tr></table></figure>
-
-<p>在这里也可以看出来<code>mkvtoolnix</code>是由命令行程序<code>mkvtoolnix-cli</code>和图形化界面<code>mkvtoolnix-gui</code>组成，类似于<code>arch linux</code>中的<code>Qv2ray</code></p>
-<h2 id="mkvtoolnix使用说明"><a href="#mkvtoolnix使用说明" class="headerlink" title="mkvtoolnix使用说明"></a>mkvtoolnix使用说明</h2><p>建议去<a href="https://mkvtoolnix.download/" target="_blank" rel="noopener">官网</a>找说明文档</p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>工具分享</tag>
-        <tag>mkvtoolnix</tag>
-        <tag>mkv</tag>
-        <tag>mkv文件处理工具</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
     <url>/posts/c25dba02.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -2364,80 +2382,6 @@ int main(void)
         <tag>frp</tag>
         <tag>内网穿透</tag>
         <tag>免费内网穿透</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>本博客使用的随机图片接口</title>
-    <url>/posts/937e33b3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>废话不多说,直接放链接</p>
-<ul>
-<li><p><a href="https://img.xjh.me/random_img.php?type=bg&amp;ctype=nature&amp;return=302" target="_blank" rel="noopener">https://img.xjh.me/random_img.php?type=bg&amp;ctype=nature&amp;return=302</a> (早期使用,现已不用)</p>
-</li>
-<li><p><a href="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" target="_blank" rel="noopener">https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture</a> (现已不用)</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>建站相关</category>
-      </categories>
-      <tags>
-        <tag>随机图片</tag>
-        <tag>接口</tag>
-        <tag>随机图片接口</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分享一个windows软件卸载工具-Geek</title>
-    <url>/posts/f1266071.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
-<p>重点是免费版<strong>完全绿色无需安装</strong>,<strong>下载即用</strong>,<strong>无广告</strong>,非常良心.</p>
-<p>官网有收费pro版,不过我觉得日常使用免费版就足够了.</p>
-<p>下载链接： <a href="https://geekuninstaller.com" target="_blank" rel="noopener">官网地址</a></p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>工具分享</tag>
-        <tag>windows</tag>
-        <tag>geek</tag>
-        <tag>软件卸载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电脑开机提示error:no_such_partition</title>
-    <url>/posts/c0ca22a7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="发生原因"><a href="#发生原因" class="headerlink" title="发生原因"></a>发生原因</h2><p>根据我的推测，电脑开机失败提示<code>error: no such partiton</code>的原因极大可能是GRUB引导程序无法找到相应的系统启动分区</p>
-<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ul>
-<li>键入命令<code>ls</code>查看所有的磁盘分区</li>
-<li>键入命令<code>set</code>查看当前设置的引导分区</li>
-<li>键入命令<code>set prefix=</code>设置grub启动文件所在位置</li>
-<li>键入命令<code>set root=</code>设置引导分区<ul>
-<li><blockquote>
-<p>注：如果不知道自己系统的引导分区在哪里，那么挨个尝试吧</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li>最后键入命令<code>set</code>查看是否设置完毕</li>
-<li>输入<code>insmod normal</code>之后继续输入<code>normal</code>命令，启动系统</li>
-<li>在进入系统后需要刷新grub的引导文件，防止下次启动时不能正常引导系统启动<ul>
-<li>在root权限下输入以下命令：<ul>
-<li><code>update-grub</code></li>
-<li><code>grub-install 这里填写你的引导分区</code></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>电脑相关</category>
-      </categories>
-      <tags>
-        <tag>电脑相关</tag>
-        <tag>开机失败</tag>
-        <tag>no_such_partition</tag>
       </tags>
   </entry>
   <entry>
@@ -2481,6 +2425,62 @@ int main(void)
         <tag>PicGo</tag>
         <tag>图床</tag>
         <tag>图床软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本博客使用的随机图片接口</title>
+    <url>/posts/937e33b3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>废话不多说,直接放链接</p>
+<ul>
+<li><p><a href="https://img.xjh.me/random_img.php?type=bg&amp;ctype=nature&amp;return=302" target="_blank" rel="noopener">https://img.xjh.me/random_img.php?type=bg&amp;ctype=nature&amp;return=302</a> (早期使用,现已不用)</p>
+</li>
+<li><p><a href="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" target="_blank" rel="noopener">https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture</a> (现已不用)</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>建站相关</category>
+      </categories>
+      <tags>
+        <tag>随机图片</tag>
+        <tag>接口</tag>
+        <tag>随机图片接口</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>电脑开机提示error:no_such_partition</title>
+    <url>/posts/c0ca22a7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="发生原因"><a href="#发生原因" class="headerlink" title="发生原因"></a>发生原因</h2><p>根据我的推测，电脑开机失败提示<code>error: no such partiton</code>的原因极大可能是GRUB引导程序无法找到相应的系统启动分区</p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ul>
+<li>键入命令<code>ls</code>查看所有的磁盘分区</li>
+<li>键入命令<code>set</code>查看当前设置的引导分区</li>
+<li>键入命令<code>set prefix=</code>设置grub启动文件所在位置</li>
+<li>键入命令<code>set root=</code>设置引导分区<ul>
+<li><blockquote>
+<p>注：如果不知道自己系统的引导分区在哪里，那么挨个尝试吧</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>最后键入命令<code>set</code>查看是否设置完毕</li>
+<li>输入<code>insmod normal</code>之后继续输入<code>normal</code>命令，启动系统</li>
+<li>在进入系统后需要刷新grub的引导文件，防止下次启动时不能正常引导系统启动<ul>
+<li>在root权限下输入以下命令：<ul>
+<li><code>update-grub</code></li>
+<li><code>grub-install 这里填写你的引导分区</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>电脑相关</tag>
+        <tag>开机失败</tag>
+        <tag>no_such_partition</tag>
       </tags>
   </entry>
   <entry>
