@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSGO练习投掷物有关指令</title>
+    <url>/posts/4dbff450.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="设置比赛时间"><a href="#设置比赛时间" class="headerlink" title="设置比赛时间"></a>设置比赛时间</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式</span></span><br><span class="line"></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="关闭队友伤害"><a href="#关闭队友伤害" class="headerlink" title="关闭队友伤害"></a>关闭队友伤害</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_teammates_are_enemies <span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="开启作弊模式"><a href="#开启作弊模式" class="headerlink" title="开启作弊模式"></a>开启作弊模式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_cheats <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="允许投掷物5枚"><a href="#允许投掷物5枚" class="headerlink" title="允许投掷物5枚"></a>允许投掷物5枚</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ammo_grenade_limit_total <span class="number">5</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="无限弹药手雷"><a href="#无限弹药手雷" class="headerlink" title="无限弹药手雷"></a>无限弹药手雷</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_infinite_ammo <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="开启投掷物轨迹"><a href="#开启投掷物轨迹" class="headerlink" title="开启投掷物轨迹"></a>开启投掷物轨迹</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_grenade_trajectory <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="钱数目设置16000"><a href="#钱数目设置16000" class="headerlink" title="钱数目设置16000"></a>钱数目设置16000</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_startmoney <span class="number">16000</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="地图重新开始"><a href="#地图重新开始" class="headerlink" title="地图重新开始"></a>地图重新开始</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_restartgame <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式比赛时间60分钟</span></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式比赛时间60分钟</span></span><br><span class="line"></span><br><span class="line">mp_teammates_are_enemies <span class="number">0</span> <span class="comment">#关闭队友伤害</span></span><br><span class="line"></span><br><span class="line">sv_cheats <span class="number">1</span> <span class="comment">#开启作弊模式</span></span><br><span class="line"></span><br><span class="line">ammo_grenade_limit_total <span class="number">5</span> <span class="comment">#允许投掷物5枚</span></span><br><span class="line"></span><br><span class="line">sv_infinite_ammo <span class="number">1</span> <span class="comment">#无限弹药手雷</span></span><br><span class="line"></span><br><span class="line">sv_grenade_trajectory <span class="number">1</span> <span class="comment">#开启投掷物轨迹</span></span><br><span class="line"></span><br><span class="line">mp_startmoney <span class="number">16000</span> <span class="comment">#钱数目设置16000</span></span><br><span class="line"></span><br><span class="line">mp_restartgame <span class="number">1</span> <span class="comment">#地图重新开始</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>CSGO</category>
+      </categories>
+      <tags>
+        <tag>CSGO</tag>
+        <tag>投掷物</tag>
+        <tag>道具</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C-GTK常用函数功能整理</title>
     <url>/posts/19640569.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>GTK版本：3.0</p>
@@ -370,36 +400,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CSGO练习投掷物有关指令</title>
-    <url>/posts/4dbff450.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="设置比赛时间"><a href="#设置比赛时间" class="headerlink" title="设置比赛时间"></a>设置比赛时间</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式</span></span><br><span class="line"></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="关闭队友伤害"><a href="#关闭队友伤害" class="headerlink" title="关闭队友伤害"></a>关闭队友伤害</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_teammates_are_enemies <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="开启作弊模式"><a href="#开启作弊模式" class="headerlink" title="开启作弊模式"></a>开启作弊模式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_cheats <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="允许投掷物5枚"><a href="#允许投掷物5枚" class="headerlink" title="允许投掷物5枚"></a>允许投掷物5枚</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ammo_grenade_limit_total <span class="number">5</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="无限弹药手雷"><a href="#无限弹药手雷" class="headerlink" title="无限弹药手雷"></a>无限弹药手雷</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_infinite_ammo <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="开启投掷物轨迹"><a href="#开启投掷物轨迹" class="headerlink" title="开启投掷物轨迹"></a>开启投掷物轨迹</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sv_grenade_trajectory <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="钱数目设置16000"><a href="#钱数目设置16000" class="headerlink" title="钱数目设置16000"></a>钱数目设置16000</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_startmoney <span class="number">16000</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="地图重新开始"><a href="#地图重新开始" class="headerlink" title="地图重新开始"></a>地图重新开始</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_restartgame <span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式比赛时间60分钟</span></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式比赛时间60分钟</span></span><br><span class="line"></span><br><span class="line">mp_teammates_are_enemies <span class="number">0</span> <span class="comment">#关闭队友伤害</span></span><br><span class="line"></span><br><span class="line">sv_cheats <span class="number">1</span> <span class="comment">#开启作弊模式</span></span><br><span class="line"></span><br><span class="line">ammo_grenade_limit_total <span class="number">5</span> <span class="comment">#允许投掷物5枚</span></span><br><span class="line"></span><br><span class="line">sv_infinite_ammo <span class="number">1</span> <span class="comment">#无限弹药手雷</span></span><br><span class="line"></span><br><span class="line">sv_grenade_trajectory <span class="number">1</span> <span class="comment">#开启投掷物轨迹</span></span><br><span class="line"></span><br><span class="line">mp_startmoney <span class="number">16000</span> <span class="comment">#钱数目设置16000</span></span><br><span class="line"></span><br><span class="line">mp_restartgame <span class="number">1</span> <span class="comment">#地图重新开始</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>CSGO</category>
-      </categories>
-      <tags>
-        <tag>CSGO</tag>
-        <tag>投掷物</tag>
-        <tag>道具</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CodeBlocks配置编译器以及调试器</title>
     <url>/posts/ac65f6e8.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p>
@@ -457,64 +457,6 @@
         <tag>Cencrack</tag>
         <tag>工具包</tag>
         <tag>在线工具包</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言学习-后缀表达式</title>
-    <url>/posts/64376614.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>后缀表达式又称为逆波兰式或逆波兰记法，是一种把运算符写在操作符之后的表达式。</p>
-<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>后缀表达式在计算机看来却是比较简单易懂的结构。因为计算机普遍采用的内存结构是栈式结构，它执行先进后出的顺序。</p>
-<h2 id="中缀表达式转后缀表达式"><a href="#中缀表达式转后缀表达式" class="headerlink" title="中缀表达式转后缀表达式"></a>中缀表达式转后缀表达式</h2><h3 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h3><p>首先需要分配<code>2个栈</code>，一个作为临时存储运算符的<code>栈S1</code>（含一个结束符号），一个作为输入后缀表达式的栈<code>S2</code>（空栈），<code>S1栈</code>可先放入优先级最低的运算符#，注意，<code>中缀式应以此最低优先级的运算符结束</code>。可指定其他字符，不一定非#不可。从中缀式的左端开始取字符，逐序进行如下步骤：</p>
-<ol>
-<li>若取出的字符是操作数，则分析出完整的运算数，该操作数直接送入<code>S2栈</code></li>
-<li>若取出的字符是运算符，则将该运算符与S1栈栈顶元素比较，如果该运算符优先级(不包括括号运算符)大于<code>S1栈</code>栈顶运算符优先级，则将该运算符进<code>S1栈</code>，否则，将<code>S1栈</code>的栈顶运算符弹出，送入<code>S2栈</code>中，直至<code>S1栈</code>栈顶运算符低于（不包括等于）该运算符优先级，最后将该运算符送入<code>S1栈</code>。</li>
-<li>若取出的字符是“（”，则直接送入<code>S1栈</code>顶。</li>
-<li>若取出的字符是“）”，则将距离<code>S1栈</code>栈顶最近的“（”之间的运算符，逐个出栈，依次送入<code>S2栈</code>，此时抛弃“（”。</li>
-<li>重复上面的1~4步，直至处理完所有的输入字符</li>
-<li>若取出的字符是“<code>#</code>”，则将S1栈内所有运算符（不包括“<code>#</code>”），逐个出栈，依次送入<code>S2栈</code>。</li>
-</ol>
-<p>完成以上步骤，<code>S2栈</code>便为后缀表达式输出结果。不过<code>S2</code>应做一下逆序处理。便可以按照后缀表达式的计算方法计算了！</p>
-<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>(a+b)*c-(a+b)/e的后缀表达式为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(a+b)*c-(a+b)&#x2F;e</span><br><span class="line">→((a+b)*c)((a+b)&#x2F;e)-</span><br><span class="line">→((a+b)c*)((a+b)e&#x2F;)-</span><br><span class="line">→(ab+c*)(ab+e&#x2F;)-</span><br><span class="line">→ab+c*ab+e&#x2F;-</span><br></pre></td></tr></table></figure>
-
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>感谢百度百科。</p>
-<p>引用的<a href="https://baike.baidu.com/item/%E9%80%86%E6%B3%A2%E5%85%B0%E5%BC%8F/128437?fromtitle=%E5%90%8E%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F&fromid=6160580&fr=aladdin" target="_blank" rel="noopener">百度百科(逆波兰式)</a></p>
-]]></content>
-      <categories>
-        <category>C语言学习</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>C语言学习</tag>
-        <tag>后缀表达式</tag>
-        <tag>表达式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言学习-取整数的个位,十位,百位</title>
-    <url>/posts/c934aed8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此文主要介绍一种取整数的个十、百、位的方法</p>
-<h2 id="主要代码"><a href="#主要代码" class="headerlink" title="主要代码"></a>主要代码</h2><p>看门见山，直接放出代码：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">123</span>;</span><br><span class="line">    <span class="keyword">int</span> ge, shi, bai;</span><br><span class="line">    ge = a % <span class="number">10</span>;</span><br><span class="line">    shi = a % <span class="number">100</span> / <span class="number">10</span>;</span><br><span class="line">    bai = a / <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"数为：%d，个位是：%d，十位是：%d，百位是：%d。"</span>, a, ge, shi, bai);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>效果如下</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201828.PNG" alt="c_geshibai"></p>
-<h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><ul>
-<li>整数取10的余数则为个位</li>
-<li>整数取100的余数在除以十，则个位被删掉</li>
-<li>整数除以100，则十位和个位被删掉</li>
-</ul>
-]]></content>
-      <categories>
-        <category>C语言学习</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>C语言学习</tag>
-        <tag>取个位</tag>
-        <tag>取十位</tag>
-        <tag>取百位</tag>
-        <tag>方法</tag>
       </tags>
   </entry>
   <entry>
@@ -666,34 +608,39 @@
       </tags>
   </entry>
   <entry>
-    <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
-    <url>/posts/aea07eb6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>使用C语言标准库中的<code>printf</code>函数和<code>scanf</code>函数简化单片机编程中串口输入输出部分的编写</p>
-<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p><code>printf</code>和<code>scanf</code>函数内部都会引用一对输入输出一个单位数据的函数，所以我们需要重写这一对函数，从而让<code>printf</code>和<code>scanf</code>函数重定向至UART输入输出函数</p>
-<h2 id="详细代码"><a href="#详细代码" class="headerlink" title="详细代码"></a>详细代码</h2><h3 id="宏定义部分"><a href="#宏定义部分" class="headerlink" title="宏定义部分"></a>宏定义部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 输出函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line">	</span><br><span class="line"><span class="comment">/* 输入函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br></pre></td></tr></table></figure>
+    <title>C语言学习-字符串转整数</title>
+    <url>/posts/93e92635.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>利用C语言标准库中的<code>int atoi()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = atoi(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>使用此类宏定义的原因是：大部分编译器<code>printf</code>和<code>scanf</code>函数的内部引用函数是<code>fputc</code>和<code>fgetc</code>函数，但GCC和部分编译器的内部引用函数是<code>__io_putchar</code>和<code>__io_getchar</code>函数</p>
-<h3 id="重写部分"><a href="#重写部分" class="headerlink" title="重写部分"></a>重写部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);  <span class="comment">//UART输出单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library scanf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">	HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);   <span class="comment">//UATR输入单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>自己编写函数实现</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">str_to_int</span><span class="params">(<span class="keyword">char</span>* p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> slong = <span class="number">-1</span>, num = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (; *(p + slong + <span class="number">1</span>) &lt;= <span class="string">'9'</span> &amp;&amp; *(p + slong + <span class="number">1</span>) &gt;= <span class="string">'0'</span>; slong++);</span><br><span class="line">	<span class="keyword">for</span> (; slong &gt;= <span class="number">0</span>; slong--)</span><br><span class="line">		num += (*(p++) - (<span class="string">'0'</span> - <span class="number">0</span>)) * <span class="built_in">pow</span>(<span class="number">10</span>, slong);</span><br><span class="line">	<span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = str_to_int(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>然后就可以尽情地使用<code>printf</code>和<code>scanf</code>函数输入输出了</p>
-<blockquote>
-<p>注：也可以将<code>printf</code>函数重定向至液晶显示屏的输出函数</p>
-</blockquote>
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>利用C语言标准库中的<code>double atof()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">double</span> num = atof(<span class="string">"1234.5678"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>STM32</category>
+        <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>STM32</tag>
-        <tag>C语言</tag>
-        <tag>UATR</tag>
+        <tag>C语言学习</tag>
+        <tag>字符串转整数</tag>
       </tags>
   </entry>
   <entry>
-    <title>GTK的一些记录</title>
-    <url>/posts/62378a77.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
-<h2 id="GTK在Manjaro-KDE环境下所有的界面都没有菜单"><a href="#GTK在Manjaro-KDE环境下所有的界面都没有菜单" class="headerlink" title="GTK在Manjaro+KDE环境下所有的界面都没有菜单"></a>GTK在Manjaro+KDE环境下所有的界面都没有菜单</h2><p>仔细找找有没有安装<code>全局菜单</code>这个小部件，GTK的菜单可以再这个小部件里找到</p>
+    <title>C语言学习-取整数的个位,十位,百位</title>
+    <url>/posts/c934aed8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此文主要介绍一种取整数的个十、百、位的方法</p>
+<h2 id="主要代码"><a href="#主要代码" class="headerlink" title="主要代码"></a>主要代码</h2><p>看门见山，直接放出代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">123</span>;</span><br><span class="line">    <span class="keyword">int</span> ge, shi, bai;</span><br><span class="line">    ge = a % <span class="number">10</span>;</span><br><span class="line">    shi = a % <span class="number">100</span> / <span class="number">10</span>;</span><br><span class="line">    bai = a / <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"数为：%d，个位是：%d，十位是：%d，百位是：%d。"</span>, a, ge, shi, bai);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>效果如下</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201828.PNG" alt="c_geshibai"></p>
+<h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><ul>
+<li>整数取10的余数则为个位</li>
+<li>整数取100的余数在除以十，则个位被删掉</li>
+<li>整数除以100，则十位和个位被删掉</li>
+</ul>
 ]]></content>
       <categories>
         <category>C语言学习</category>
@@ -701,7 +648,10 @@
       <tags>
         <tag>C</tag>
         <tag>C语言学习</tag>
-        <tag>GTK</tag>
+        <tag>取个位</tag>
+        <tag>取十位</tag>
+        <tag>取百位</tag>
+        <tag>方法</tag>
       </tags>
   </entry>
   <entry>
@@ -774,79 +724,107 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo-NexT添加点击爱心效果</title>
-    <url>/posts/a32d7646.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>本文出处：<a href="https://asdfv1929.github.io/2018/01/26/click-love/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/01/26/click-love/</a></p>
-<p>感谢大佬提供的代码(<em>^_^</em>).</p>
-</blockquote>
-<h2 id="创建JS文件"><a href="#创建JS文件" class="headerlink" title="创建JS文件"></a><strong>创建JS文件</strong></h2><p>在<code>\themes\hexo-theme-next-master\source\js</code>目录中新建文件<code>clicklove.js</code><br>然后把下面的代码拷贝到这个js文件中</p>
-<p>代码如下：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">!<span class="function"><span class="keyword">function</span>(<span class="params">e,t,a</span>)</span>&#123;<span class="function"><span class="keyword">function</span> <span class="title">n</span>(<span class="params"></span>)</span>&#123;c(<span class="string">".heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;"</span>),o(),r()&#125;<span class="function"><span class="keyword">function</span> <span class="title">r</span>(<span class="params"></span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> e=<span class="number">0</span>;e&lt;d.length;e++)d[e].alpha&lt;=<span class="number">0</span>?(t.body.removeChild(d[e].el),d.splice(e,<span class="number">1</span>)):(d[e].y--,d[e].scale+=<span class="number">.004</span>,d[e].alpha-=<span class="number">.013</span>,d[e].el.style.cssText=<span class="string">"left:"</span>+d[e].x+<span class="string">"px;top:"</span>+d[e].y+<span class="string">"px;opacity:"</span>+d[e].alpha+<span class="string">";transform:scale("</span>+d[e].scale+<span class="string">","</span>+d[e].scale+<span class="string">") rotate(45deg);background:"</span>+d[e].color+<span class="string">";z-index:99999"</span>);requestAnimationFrame(r)&#125;<span class="function"><span class="keyword">function</span> <span class="title">o</span>(<span class="params"></span>)</span>&#123;<span class="keyword">var</span> t=<span class="string">"function"</span>==<span class="keyword">typeof</span> e.onclick&amp;&amp;e.onclick;e.onclick=<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;t&amp;&amp;t(),i(e)&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">i</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> a=t.createElement(<span class="string">"div"</span>);a.className=<span class="string">"heart"</span>,d.push(&#123;<span class="attr">el</span>:a,<span class="attr">x</span>:e.clientX<span class="number">-5</span>,<span class="attr">y</span>:e.clientY<span class="number">-5</span>,<span class="attr">scale</span>:<span class="number">1</span>,<span class="attr">alpha</span>:<span class="number">1</span>,<span class="attr">color</span>:s()&#125;),t.body.appendChild(a)&#125;<span class="function"><span class="keyword">function</span> <span class="title">c</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> a=t.createElement(<span class="string">"style"</span>);a.type=<span class="string">"text/css"</span>;<span class="keyword">try</span>&#123;a.appendChild(t.createTextNode(e))&#125;<span class="keyword">catch</span>(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName(<span class="string">"head"</span>)[<span class="number">0</span>].appendChild(a)&#125;<span class="function"><span class="keyword">function</span> <span class="title">s</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span><span class="string">"rgb("</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">","</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">","</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">")"</span>&#125;<span class="keyword">var</span> d=[];e.requestAnimationFrame=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;setTimeout(e,<span class="number">1e3</span>/<span class="number">60</span>)&#125;&#125;(),n()&#125;(<span class="built_in">window</span>,<span class="built_in">document</span>);</span><br></pre></td></tr></table></figure>
-
-<h2 id="引用JS文件"><a href="#引用JS文件" class="headerlink" title="引用JS文件"></a><strong>引用JS文件</strong></h2><p>在文件<code>\themes\hexo-theme-next-master\layout\_layout.swig</code>或文件<code>\themes\hexo-theme-next-master\layout\_partials\footer.swig</code>的<strong>末尾</strong>中添加如下代码：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 页面点击小红心 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/clicklove.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：在文件<code>_layout.swig</code>或<code>footer.swig</code>中添加引用代码均有效</p>
-<p><del>本博客使用的是在<code>_layout.swig</code>文件末尾添加引用代码</del><br><del>本博客使用的是next自带的点击爆炸效果</del></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>桃心效果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言学习-字符串转整数</title>
-    <url>/posts/93e92635.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>利用C语言标准库中的<code>int atoi()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = atoi(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>自己编写函数实现</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">str_to_int</span><span class="params">(<span class="keyword">char</span>* p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> slong = <span class="number">-1</span>, num = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (; *(p + slong + <span class="number">1</span>) &lt;= <span class="string">'9'</span> &amp;&amp; *(p + slong + <span class="number">1</span>) &gt;= <span class="string">'0'</span>; slong++);</span><br><span class="line">	<span class="keyword">for</span> (; slong &gt;= <span class="number">0</span>; slong--)</span><br><span class="line">		num += (*(p++) - (<span class="string">'0'</span> - <span class="number">0</span>)) * <span class="built_in">pow</span>(<span class="number">10</span>, slong);</span><br><span class="line">	<span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = str_to_int(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>利用C语言标准库中的<code>double atof()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">double</span> num = atof(<span class="string">"1234.5678"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>GTK的一些记录</title>
+    <url>/posts/62378a77.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
+<h2 id="GTK在Manjaro-KDE环境下所有的界面都没有菜单"><a href="#GTK在Manjaro-KDE环境下所有的界面都没有菜单" class="headerlink" title="GTK在Manjaro+KDE环境下所有的界面都没有菜单"></a>GTK在Manjaro+KDE环境下所有的界面都没有菜单</h2><p>仔细找找有没有安装<code>全局菜单</code>这个小部件，GTK的菜单可以再这个小部件里找到</p>
 ]]></content>
       <categories>
         <category>C语言学习</category>
       </categories>
       <tags>
+        <tag>C</tag>
         <tag>C语言学习</tag>
-        <tag>字符串转整数</tag>
+        <tag>GTK</tag>
       </tags>
   </entry>
   <entry>
-    <title>Linux下zip文件解压乱码问题处理</title>
-    <url>/posts/44513157.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><ul>
-<li><code>linux</code>与<code>windows</code>系统的压缩文件的默认编码不同，所以导致一部分<code>windows</code>平台下压缩的压缩文件在<code>linux</code>系统下解压乱码</li>
-</ul>
-<h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>现在网络上可以找到的解决方案有如下几点：</p>
-<ul>
-<li>在使用命令<code>unzip</code>是添加参数<code>-O</code>更改解压编码，从而解决文件名乱码问题（将<code>-O</code>封装到<code>unzip</code>命令中）</li>
-<li>正常解压。然后用命令装换文件编码</li>
-<li>如果是<code>arch系的linux</code>系统则非常简单，安装相应的<code>AUR</code>工具即可</li>
-</ul>
-<p>因为我常用<code>manjaro linux</code>，所以在这儿只详细介绍第三种方法</p>
-<h2 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h2><p>使用<code>AUR</code>安装工具<code>unzip-natspec</code>和<code>p7zip-natspec</code>，命令行如下</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yay -S unzip-natspec p7zip-natspec</span><br></pre></td></tr></table></figure>
+    <title>C语言学习-后缀表达式</title>
+    <url>/posts/64376614.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>后缀表达式又称为逆波兰式或逆波兰记法，是一种把运算符写在操作符之后的表达式。</p>
+<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>后缀表达式在计算机看来却是比较简单易懂的结构。因为计算机普遍采用的内存结构是栈式结构，它执行先进后出的顺序。</p>
+<h2 id="中缀表达式转后缀表达式"><a href="#中缀表达式转后缀表达式" class="headerlink" title="中缀表达式转后缀表达式"></a>中缀表达式转后缀表达式</h2><h3 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h3><p>首先需要分配<code>2个栈</code>，一个作为临时存储运算符的<code>栈S1</code>（含一个结束符号），一个作为输入后缀表达式的栈<code>S2</code>（空栈），<code>S1栈</code>可先放入优先级最低的运算符#，注意，<code>中缀式应以此最低优先级的运算符结束</code>。可指定其他字符，不一定非#不可。从中缀式的左端开始取字符，逐序进行如下步骤：</p>
+<ol>
+<li>若取出的字符是操作数，则分析出完整的运算数，该操作数直接送入<code>S2栈</code></li>
+<li>若取出的字符是运算符，则将该运算符与S1栈栈顶元素比较，如果该运算符优先级(不包括括号运算符)大于<code>S1栈</code>栈顶运算符优先级，则将该运算符进<code>S1栈</code>，否则，将<code>S1栈</code>的栈顶运算符弹出，送入<code>S2栈</code>中，直至<code>S1栈</code>栈顶运算符低于（不包括等于）该运算符优先级，最后将该运算符送入<code>S1栈</code>。</li>
+<li>若取出的字符是“（”，则直接送入<code>S1栈</code>顶。</li>
+<li>若取出的字符是“）”，则将距离<code>S1栈</code>栈顶最近的“（”之间的运算符，逐个出栈，依次送入<code>S2栈</code>，此时抛弃“（”。</li>
+<li>重复上面的1~4步，直至处理完所有的输入字符</li>
+<li>若取出的字符是“<code>#</code>”，则将S1栈内所有运算符（不包括“<code>#</code>”），逐个出栈，依次送入<code>S2栈</code>。</li>
+</ol>
+<p>完成以上步骤，<code>S2栈</code>便为后缀表达式输出结果。不过<code>S2</code>应做一下逆序处理。便可以按照后缀表达式的计算方法计算了！</p>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>(a+b)*c-(a+b)/e的后缀表达式为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(a+b)*c-(a+b)&#x2F;e</span><br><span class="line">→((a+b)*c)((a+b)&#x2F;e)-</span><br><span class="line">→((a+b)c*)((a+b)e&#x2F;)-</span><br><span class="line">→(ab+c*)(ab+e&#x2F;)-</span><br><span class="line">→ab+c*ab+e&#x2F;-</span><br></pre></td></tr></table></figure>
 
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>感谢百度百科。</p>
+<p>引用的<a href="https://baike.baidu.com/item/%E9%80%86%E6%B3%A2%E5%85%B0%E5%BC%8F/128437?fromtitle=%E5%90%8E%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F&fromid=6160580&fr=aladdin" target="_blank" rel="noopener">百度百科(逆波兰式)</a></p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>C语言学习</category>
       </categories>
       <tags>
+        <tag>C</tag>
+        <tag>C语言学习</tag>
+        <tag>后缀表达式</tag>
+        <tag>表达式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
+    <url>/posts/aea07eb6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>使用C语言标准库中的<code>printf</code>函数和<code>scanf</code>函数简化单片机编程中串口输入输出部分的编写</p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p><code>printf</code>和<code>scanf</code>函数内部都会引用一对输入输出一个单位数据的函数，所以我们需要重写这一对函数，从而让<code>printf</code>和<code>scanf</code>函数重定向至UART输入输出函数</p>
+<h2 id="详细代码"><a href="#详细代码" class="headerlink" title="详细代码"></a>详细代码</h2><h3 id="宏定义部分"><a href="#宏定义部分" class="headerlink" title="宏定义部分"></a>宏定义部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 输出函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line">	</span><br><span class="line"><span class="comment">/* 输入函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br></pre></td></tr></table></figure>
+
+<p>使用此类宏定义的原因是：大部分编译器<code>printf</code>和<code>scanf</code>函数的内部引用函数是<code>fputc</code>和<code>fgetc</code>函数，但GCC和部分编译器的内部引用函数是<code>__io_putchar</code>和<code>__io_getchar</code>函数</p>
+<h3 id="重写部分"><a href="#重写部分" class="headerlink" title="重写部分"></a>重写部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);  <span class="comment">//UART输出单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library scanf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">	HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);   <span class="comment">//UATR输入单个单位数据的函数</span></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>然后就可以尽情地使用<code>printf</code>和<code>scanf</code>函数输入输出了</p>
+<blockquote>
+<p>注：也可以将<code>printf</code>函数重定向至液晶显示屏的输出函数</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>C语言</tag>
+        <tag>UATR</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux下的进程内存检查工具-valgrind</title>
+    <url>/posts/d2593696.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
+<h2 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h2><p>linux系统安装命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -S valgrind</span><br></pre></td></tr></table></figure>
+
+<p>我几乎不用windows写C，环境配置太麻烦了</p>
+<h2 id="简易使用"><a href="#简易使用" class="headerlink" title="简易使用"></a>简易使用</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s</span><br></pre></td></tr></table></figure>
+
+<p>在后面加上你运行程序的命令即可</p>
+<p>例子：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s ./shell_sys</span><br></pre></td></tr></table></figure>
+
+<p>这是我编写的一个学习项目</p>
+<p>在输出信息中可以找到如下信息：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">==13854== Invalid <span class="built_in">read</span> of size 8</span><br><span class="line">==13854==    at 0x10DC57: view_p_and_s (gui.c:281)</span><br><span class="line">==13854==    by 0x10EBA6: ceo_window_add_p_button_clicked (gui.c:496)</span><br><span class="line">==13854==    by 0x55DA09F: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C2828E: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C28364: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x55F5619: g_closure_invoke (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D6AD3: ??? (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D9AB8: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C26870: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C5F56C: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==  Address 0xa424b08 is 8 bytes after a block of size 400 alloc<span class="string">'d</span></span><br><span class="line"><span class="string">==13854==    at 0x483BD7B: realloc (vg_replace_malloc.c:836)</span></span><br><span class="line"><span class="string">==13854==    by 0x10CE6E: ceo_gui (gui.c:88)</span></span><br><span class="line"><span class="string">==13854==    by 0x10E5B2: load_button (gui.c:405)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DA09F: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x49CD530: ??? (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x55F5619: g_closure_invoke (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D697D: ??? (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D95CB: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4DEF0: gtk_accel_group_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4E04D: gtk_accel_groups_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br></pre></td></tr></table></figure>
+
+<p><code>Invalid read of size 8</code>表示内存越界访问了8个字节大小</p>
+<p>在后面则是这个越界的详细信息</p>
+<p>还有一些其他的信息输出，比如内存泄露等等。</p>
+<h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><p>在我的理解中，这个工具就是虚拟出一个新的CPU和内存空间，然后吧程序放在这个新的系统中运行，但是现在只能虚拟出32位的环境，其实没啥影响</p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>工具分享</tag>
+        <tag>C语言学习</tag>
         <tag>Linux</tag>
-        <tag>zip</tag>
-        <tag>7z</tag>
-        <tag>乱码</tag>
-        <tag>压缩文件</tag>
+        <tag>valgrind</tag>
       </tags>
   </entry>
   <entry>
@@ -887,6 +865,62 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux下zip文件解压乱码问题处理</title>
+    <url>/posts/44513157.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><ul>
+<li><code>linux</code>与<code>windows</code>系统的压缩文件的默认编码不同，所以导致一部分<code>windows</code>平台下压缩的压缩文件在<code>linux</code>系统下解压乱码</li>
+</ul>
+<h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>现在网络上可以找到的解决方案有如下几点：</p>
+<ul>
+<li>在使用命令<code>unzip</code>是添加参数<code>-O</code>更改解压编码，从而解决文件名乱码问题（将<code>-O</code>封装到<code>unzip</code>命令中）</li>
+<li>正常解压。然后用命令装换文件编码</li>
+<li>如果是<code>arch系的linux</code>系统则非常简单，安装相应的<code>AUR</code>工具即可</li>
+</ul>
+<p>因为我常用<code>manjaro linux</code>，所以在这儿只详细介绍第三种方法</p>
+<h2 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h2><p>使用<code>AUR</code>安装工具<code>unzip-natspec</code>和<code>p7zip-natspec</code>，命令行如下</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yay -S unzip-natspec p7zip-natspec</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>zip</tag>
+        <tag>7z</tag>
+        <tag>乱码</tag>
+        <tag>压缩文件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo-NexT添加点击爱心效果</title>
+    <url>/posts/a32d7646.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>本文出处：<a href="https://asdfv1929.github.io/2018/01/26/click-love/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/01/26/click-love/</a></p>
+<p>感谢大佬提供的代码(<em>^_^</em>).</p>
+</blockquote>
+<h2 id="创建JS文件"><a href="#创建JS文件" class="headerlink" title="创建JS文件"></a><strong>创建JS文件</strong></h2><p>在<code>\themes\hexo-theme-next-master\source\js</code>目录中新建文件<code>clicklove.js</code><br>然后把下面的代码拷贝到这个js文件中</p>
+<p>代码如下：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">!<span class="function"><span class="keyword">function</span>(<span class="params">e,t,a</span>)</span>&#123;<span class="function"><span class="keyword">function</span> <span class="title">n</span>(<span class="params"></span>)</span>&#123;c(<span class="string">".heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;"</span>),o(),r()&#125;<span class="function"><span class="keyword">function</span> <span class="title">r</span>(<span class="params"></span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> e=<span class="number">0</span>;e&lt;d.length;e++)d[e].alpha&lt;=<span class="number">0</span>?(t.body.removeChild(d[e].el),d.splice(e,<span class="number">1</span>)):(d[e].y--,d[e].scale+=<span class="number">.004</span>,d[e].alpha-=<span class="number">.013</span>,d[e].el.style.cssText=<span class="string">"left:"</span>+d[e].x+<span class="string">"px;top:"</span>+d[e].y+<span class="string">"px;opacity:"</span>+d[e].alpha+<span class="string">";transform:scale("</span>+d[e].scale+<span class="string">","</span>+d[e].scale+<span class="string">") rotate(45deg);background:"</span>+d[e].color+<span class="string">";z-index:99999"</span>);requestAnimationFrame(r)&#125;<span class="function"><span class="keyword">function</span> <span class="title">o</span>(<span class="params"></span>)</span>&#123;<span class="keyword">var</span> t=<span class="string">"function"</span>==<span class="keyword">typeof</span> e.onclick&amp;&amp;e.onclick;e.onclick=<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;t&amp;&amp;t(),i(e)&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">i</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> a=t.createElement(<span class="string">"div"</span>);a.className=<span class="string">"heart"</span>,d.push(&#123;<span class="attr">el</span>:a,<span class="attr">x</span>:e.clientX<span class="number">-5</span>,<span class="attr">y</span>:e.clientY<span class="number">-5</span>,<span class="attr">scale</span>:<span class="number">1</span>,<span class="attr">alpha</span>:<span class="number">1</span>,<span class="attr">color</span>:s()&#125;),t.body.appendChild(a)&#125;<span class="function"><span class="keyword">function</span> <span class="title">c</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> a=t.createElement(<span class="string">"style"</span>);a.type=<span class="string">"text/css"</span>;<span class="keyword">try</span>&#123;a.appendChild(t.createTextNode(e))&#125;<span class="keyword">catch</span>(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName(<span class="string">"head"</span>)[<span class="number">0</span>].appendChild(a)&#125;<span class="function"><span class="keyword">function</span> <span class="title">s</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span><span class="string">"rgb("</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">","</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">","</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">")"</span>&#125;<span class="keyword">var</span> d=[];e.requestAnimationFrame=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;setTimeout(e,<span class="number">1e3</span>/<span class="number">60</span>)&#125;&#125;(),n()&#125;(<span class="built_in">window</span>,<span class="built_in">document</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="引用JS文件"><a href="#引用JS文件" class="headerlink" title="引用JS文件"></a><strong>引用JS文件</strong></h2><p>在文件<code>\themes\hexo-theme-next-master\layout\_layout.swig</code>或文件<code>\themes\hexo-theme-next-master\layout\_partials\footer.swig</code>的<strong>末尾</strong>中添加如下代码：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 页面点击小红心 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/clicklove.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：在文件<code>_layout.swig</code>或<code>footer.swig</code>中添加引用代码均有效</p>
+<p><del>本博客使用的是在<code>_layout.swig</code>文件末尾添加引用代码</del><br><del>本博客使用的是next自带的点击爆炸效果</del></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>桃心效果</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux下设置Sakura Frp为服务,开机自动启动</title>
     <url>/posts/a01b6c7d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文转载自:<a href="https://www.zerobbs.net/thread/5" target="_blank" rel="noopener">Sarkura Frp官网教程</a></p>
@@ -918,40 +952,6 @@
         <tag>Sakura Frp</tag>
         <tag>frp</tag>
         <tag>内网穿透</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux下的进程内存检查工具-valgrind</title>
-    <url>/posts/d2593696.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
-<h2 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h2><p>linux系统安装命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -S valgrind</span><br></pre></td></tr></table></figure>
-
-<p>我几乎不用windows写C，环境配置太麻烦了</p>
-<h2 id="简易使用"><a href="#简易使用" class="headerlink" title="简易使用"></a>简易使用</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s</span><br></pre></td></tr></table></figure>
-
-<p>在后面加上你运行程序的命令即可</p>
-<p>例子：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">valgrind --tool=memcheck --leak-check=full --track-origins=yes -s ./shell_sys</span><br></pre></td></tr></table></figure>
-
-<p>这是我编写的一个学习项目</p>
-<p>在输出信息中可以找到如下信息：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">==13854== Invalid <span class="built_in">read</span> of size 8</span><br><span class="line">==13854==    at 0x10DC57: view_p_and_s (gui.c:281)</span><br><span class="line">==13854==    by 0x10EBA6: ceo_window_add_p_button_clicked (gui.c:496)</span><br><span class="line">==13854==    by 0x55DA09F: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C2828E: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C28364: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x55F5619: g_closure_invoke (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D6AD3: ??? (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55D9AB8: g_signal_emit_valist (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x55DB6AF: g_signal_emit (<span class="keyword">in</span> /usr/lib/libgobject-2.0.so.0.6400.2)</span><br><span class="line">==13854==    by 0x4C26870: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==    by 0x4C5F56C: ??? (<span class="keyword">in</span> /usr/lib/libgtk-3.so.0.2410.7)</span><br><span class="line">==13854==  Address 0xa424b08 is 8 bytes after a block of size 400 alloc<span class="string">'d</span></span><br><span class="line"><span class="string">==13854==    at 0x483BD7B: realloc (vg_replace_malloc.c:836)</span></span><br><span class="line"><span class="string">==13854==    by 0x10CE6E: ceo_gui (gui.c:88)</span></span><br><span class="line"><span class="string">==13854==    by 0x10E5B2: load_button (gui.c:405)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DA09F: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x49CD530: ??? (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x55F5619: g_closure_invoke (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D697D: ??? (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55D95CB: g_signal_emit_valist (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x55DB6AF: g_signal_emit (in /usr/lib/libgobject-2.0.so.0.6400.2)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4DEF0: gtk_accel_group_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br><span class="line"><span class="string">==13854==    by 0x4C4E04D: gtk_accel_groups_activate (in /usr/lib/libgtk-3.so.0.2410.7)</span></span><br></pre></td></tr></table></figure>
-
-<p><code>Invalid read of size 8</code>表示内存越界访问了8个字节大小</p>
-<p>在后面则是这个越界的详细信息</p>
-<p>还有一些其他的信息输出，比如内存泄露等等。</p>
-<h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><p>在我的理解中，这个工具就是虚拟出一个新的CPU和内存空间，然后吧程序放在这个新的系统中运行，但是现在只能虚拟出32位的环境，其实没啥影响</p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>工具分享</tag>
-        <tag>C语言学习</tag>
-        <tag>Linux</tag>
-        <tag>valgrind</tag>
       </tags>
   </entry>
   <entry>
@@ -1038,47 +1038,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux处理Windows文本时去除“r”符号</title>
-    <url>/posts/85d45c87.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
-<p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p>
-<h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>\r</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Manjaro-Linux安装AnBox实现Linux直接运行安卓程序</title>
-    <url>/posts/33b17553.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>AnBox相比较其他安卓模拟器的优点：直接让安卓程序运行在Linux上，几乎没有性能损耗</p>
-<p>当然也有着一些缺点：只能运行支持x86CPU的安卓程序</p>
-<p>在这里记录一下manjaro安装anbox时的经过</p>
-<h2 id="安装源"><a href="#安装源" class="headerlink" title="安装源"></a>安装源</h2><p>AUR里有anbox的全部安装源</p>
-<p>运行如下命令即可安装</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yay -s anbox-modules-dkms-git</span><br><span class="line">yay -s anbox-git</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装adb工具"><a href="#安装adb工具" class="headerlink" title="安装adb工具"></a>安装adb工具</h2><p>anbox不支持界面安装，只能通过adb调试的方式安装apk</p>
-<h2 id="启动anbox核心服务"><a href="#启动anbox核心服务" class="headerlink" title="启动anbox核心服务"></a>启动anbox核心服务</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo modprobe ashmem_linux</span><br><span class="line">sudo modprobe binder_linux</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl start anbox-container-manager.service</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装完成"><a href="#安装完成" class="headerlink" title="安装完成"></a>安装完成</h2><p>其实在图形化界面是可以设置anbox安卓的有关设置，只是安装apk貌似只能通过adb安装，因为默认安卓系统里是没有Google商店的</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Manjaro</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Manjaro中文输入法推荐</title>
     <url>/posts/26fb3f4d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最新的<code>manjaro</code>因为组件更新的缘故会导致搜狗拼音输入法无法使用，在使用了其他输入法之后，我比较推荐<code>sunpinyin+cloudpinyin</code>的组合</p>
@@ -1096,45 +1055,6 @@
       <tags>
         <tag>Linux</tag>
         <tag>中文输入法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PicGo配置gitee图床</title>
-    <url>/posts/ba9c4b95.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="建立gitee仓库"><a href="#建立gitee仓库" class="headerlink" title="建立gitee仓库"></a>建立gitee仓库</h2><h3 id="注册码云账号"><a href="#注册码云账号" class="headerlink" title="注册码云账号"></a>注册码云账号</h3><p>进入<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>,点击右上角的注册，如果有账号了就直接登陆</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402165915.png" alt=""></p>
-<h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170209.png" alt=""></p>
-<p>填写完仓库名称以及勾选<code>公开</code></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170520.png" alt=""></p>
-<p>在跳转后的链接中复制后半段</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170749.png" alt=""></p>
-<h2 id="安装第三方插件"><a href="#安装第三方插件" class="headerlink" title="安装第三方插件"></a>安装第三方插件</h2><p>在<code>PicGo</code>的插件项中搜索<code>gitee</code>，会找到两个插件，我比较建议安装第二个插件</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402165347.png" alt=""></p>
-<p>点击图床设置，选择gitee，吧刚才复制的后半段链接粘贴到第一个文本框中</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171001.png" alt=""></p>
-<h2 id="请求token"><a href="#请求token" class="headerlink" title="请求token"></a>请求token</h2><p>在gitee页面点击设置</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171158.png" alt=""></p>
-<p>选择私人令牌</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171312.png" alt=""></p>
-<p>点击右上角的<code>添加新令牌</code>，在页面中选择第二个和第三个复选框</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171434.png" alt=""></p>
-<p>之后系统会让你输入账号密码来验证安全性，输完密码后会弹出你的私人令牌</p>
-<blockquote>
-<p>注：私人令牌只会出现一次，如果遗失请删除原令牌后新建一个新的私人令牌</p>
-</blockquote>
-<p>然后将你的私人令牌粘贴到<code>PicGo</code>中的第三个文本框中</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171001.png" alt=""></p>
-<p>点击<code>设为默认图床</code>，在点击<code>确认</code></p>
-<p>至此，<code>PicGo</code>配置<code>gitee</code>图床完成</p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>PicGo</tag>
-        <tag>图床</tag>
-        <tag>gitee</tag>
-        <tag>gitee图床</tag>
       </tags>
   </entry>
   <entry>
@@ -1168,27 +1088,44 @@
       </tags>
   </entry>
   <entry>
-    <title>STM32CubeMX配置LCD显示中文字符</title>
-    <url>/posts/ee64b9e4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
-<p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
-<p>所以本文所写的程序也是给外部FLASH字库准备的</p>
-<h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
-<h2 id="FLASHI配置"><a href="#FLASHI配置" class="headerlink" title="FLASHI配置"></a>FLASHI配置</h2><p>这一段可以去看<a href="/blog/posts/243fe895.html"><code>STM32CubeMX配置SPI读写外部FLASH</code></a>，在那里面有详细介绍</p>
-<h2 id="有关配置FLASH的一些小问题"><a href="#有关配置FLASH的一些小问题" class="headerlink" title="有关配置FLASH的一些小问题"></a>有关配置FLASH的一些小问题</h2><ul>
-<li>如果驱动文件不是自己写，而是在资料中找，那么一定要注意选择与FLASH芯片相应的驱动文件，因为有些新的驱动文件所使用的指令组合对于较老的FLASH芯片而言是不识别的</li>
-<li>一定要看好字库文件在FLASH的位置，而且千万不要所以更改FLASH芯片中的内容</li>
-</ul>
-<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>把驱动文件写出来后，定义好全局变量，就没啥问题了。怎么去显示中文通常lcd的驱动文件里都有，可以照着慢慢写一个(<em>^▽^</em>)</p>
+    <title>Manjaro-Linux安装AnBox实现Linux直接运行安卓程序</title>
+    <url>/posts/33b17553.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>AnBox相比较其他安卓模拟器的优点：直接让安卓程序运行在Linux上，几乎没有性能损耗</p>
+<p>当然也有着一些缺点：只能运行支持x86CPU的安卓程序</p>
+<p>在这里记录一下manjaro安装anbox时的经过</p>
+<h2 id="安装源"><a href="#安装源" class="headerlink" title="安装源"></a>安装源</h2><p>AUR里有anbox的全部安装源</p>
+<p>运行如下命令即可安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yay -s anbox-modules-dkms-git</span><br><span class="line">yay -s anbox-git</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装adb工具"><a href="#安装adb工具" class="headerlink" title="安装adb工具"></a>安装adb工具</h2><p>anbox不支持界面安装，只能通过adb调试的方式安装apk</p>
+<h2 id="启动anbox核心服务"><a href="#启动anbox核心服务" class="headerlink" title="启动anbox核心服务"></a>启动anbox核心服务</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo modprobe ashmem_linux</span><br><span class="line">sudo modprobe binder_linux</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl start anbox-container-manager.service</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装完成"><a href="#安装完成" class="headerlink" title="安装完成"></a>安装完成</h2><p>其实在图形化界面是可以设置anbox安卓的有关设置，只是安装apk貌似只能通过adb安装，因为默认安卓系统里是没有Google商店的</p>
 ]]></content>
       <categories>
-        <category>STM32</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
-        <tag>显示中文</tag>
+        <tag>Linux</tag>
+        <tag>Manjaro</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux处理Windows文本时去除“r”符号</title>
+    <url>/posts/85d45c87.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
+<p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p>
+<h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>\r</tag>
       </tags>
   </entry>
   <entry>
@@ -1244,6 +1181,139 @@
         <tag>ARM</tag>
         <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置LTDC时遇到的一些问题</title>
+    <url>/posts/3e4bdf1e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题一：引脚对不上"><a href="#问题一：引脚对不上" class="headerlink" title="问题一：引脚对不上"></a>问题一：引脚对不上</h2><p>STM32CubeMX默认配置的引脚与板子设计时所使用的引脚对不上，导致初始化失败</p>
+<h2 id="问题二：HAL库与标准库是不兼容的"><a href="#问题二：HAL库与标准库是不兼容的" class="headerlink" title="问题二：HAL库与标准库是不兼容的"></a>问题二：HAL库与标准库是不兼容的</h2><p>HAL库的初始化结构体以及一部分的宏定义是不兼容的</p>
+<p>建议尽量不要参考标准库使用HAL库，如果需要，那么要追究到寄存器操作的程度来保证对HAL库的使用而导致的行动是与标准库一致的</p>
+<p>目前遇到的例子：</p>
+<ul>
+<li>在标准库中LTDC初始化图层时所使用的结构体决不能同HAL库具有等效功能的结构体相互参照，因为它们的图层初始化函数对结构体的使用方式是不同的</li>
+</ul>
+<h2 id="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"><a href="#问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复" class="headerlink" title="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"></a>问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复</h2><p>解决方案：删掉驱动文件上与自动生成代码有功能重复的代码</p>
+<h2 id="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"><a href="#问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突" class="headerlink" title="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"></a>问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突</h2><p>解决方案：使用<code>extern</code>标识符和<code>#define</code>宏定义替换掉驱动文件中的数据定义</p>
+<h2 id="问题五：LCD-TFT时钟频率过高而导致花屏"><a href="#问题五：LCD-TFT时钟频率过高而导致花屏" class="headerlink" title="问题五：LCD-TFT时钟频率过高而导致花屏"></a>问题五：LCD-TFT时钟频率过高而导致花屏</h2><p>问题详细表征：显示屏花屏，并且会快速左右或上下抖动</p>
+<p>解决方案：降低LCD-TFT频率</p>
+<h2 id="问题六：显存与屏幕数据格式不同导致花屏"><a href="#问题六：显存与屏幕数据格式不同导致花屏" class="headerlink" title="问题六：显存与屏幕数据格式不同导致花屏"></a>问题六：显存与屏幕数据格式不同导致花屏</h2><p>问题详细表征：显示屏花屏，并且出现较密的格子纹路，会对清屏等指令做出反映，但反映不正确</p>
+<p>解决方案：注意数据格式，尤其是ARGB8888和RGB888的区别。前者32位数据，一个像素点占显存4个字节;后者24位数据，程序调用时处理32位数据，一个像素点占显存3个字节</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>HAL</tag>
+        <tag>LTDC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PicGo配置gitee图床</title>
+    <url>/posts/ba9c4b95.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="建立gitee仓库"><a href="#建立gitee仓库" class="headerlink" title="建立gitee仓库"></a>建立gitee仓库</h2><h3 id="注册码云账号"><a href="#注册码云账号" class="headerlink" title="注册码云账号"></a>注册码云账号</h3><p>进入<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>,点击右上角的注册，如果有账号了就直接登陆</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402165915.png" alt=""></p>
+<h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170209.png" alt=""></p>
+<p>填写完仓库名称以及勾选<code>公开</code></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170520.png" alt=""></p>
+<p>在跳转后的链接中复制后半段</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170749.png" alt=""></p>
+<h2 id="安装第三方插件"><a href="#安装第三方插件" class="headerlink" title="安装第三方插件"></a>安装第三方插件</h2><p>在<code>PicGo</code>的插件项中搜索<code>gitee</code>，会找到两个插件，我比较建议安装第二个插件</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402165347.png" alt=""></p>
+<p>点击图床设置，选择gitee，吧刚才复制的后半段链接粘贴到第一个文本框中</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171001.png" alt=""></p>
+<h2 id="请求token"><a href="#请求token" class="headerlink" title="请求token"></a>请求token</h2><p>在gitee页面点击设置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171158.png" alt=""></p>
+<p>选择私人令牌</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171312.png" alt=""></p>
+<p>点击右上角的<code>添加新令牌</code>，在页面中选择第二个和第三个复选框</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171434.png" alt=""></p>
+<p>之后系统会让你输入账号密码来验证安全性，输完密码后会弹出你的私人令牌</p>
+<blockquote>
+<p>注：私人令牌只会出现一次，如果遗失请删除原令牌后新建一个新的私人令牌</p>
+</blockquote>
+<p>然后将你的私人令牌粘贴到<code>PicGo</code>中的第三个文本框中</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402171001.png" alt=""></p>
+<p>点击<code>设为默认图床</code>，在点击<code>确认</code></p>
+<p>至此，<code>PicGo</code>配置<code>gitee</code>图床完成</p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>PicGo</tag>
+        <tag>图床</tag>
+        <tag>gitee</tag>
+        <tag>gitee图床</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置LCD显示中文字符</title>
+    <url>/posts/ee64b9e4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
+<p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
+<p>所以本文所写的程序也是给外部FLASH字库准备的</p>
+<h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
+<h2 id="FLASHI配置"><a href="#FLASHI配置" class="headerlink" title="FLASHI配置"></a>FLASHI配置</h2><p>这一段可以去看<a href="/blog/posts/243fe895.html"><code>STM32CubeMX配置SPI读写外部FLASH</code></a>，在那里面有详细介绍</p>
+<h2 id="有关配置FLASH的一些小问题"><a href="#有关配置FLASH的一些小问题" class="headerlink" title="有关配置FLASH的一些小问题"></a>有关配置FLASH的一些小问题</h2><ul>
+<li>如果驱动文件不是自己写，而是在资料中找，那么一定要注意选择与FLASH芯片相应的驱动文件，因为有些新的驱动文件所使用的指令组合对于较老的FLASH芯片而言是不识别的</li>
+<li>一定要看好字库文件在FLASH的位置，而且千万不要所以更改FLASH芯片中的内容</li>
+</ul>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>把驱动文件写出来后，定义好全局变量，就没啥问题了。怎么去显示中文通常lcd的驱动文件里都有，可以照着慢慢写一个(<em>^▽^</em>)</p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>LCD</tag>
+        <tag>显示中文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STM32CubeMX配置SPI读写外部FLASH</title>
+    <url>/posts/243fe895.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
+<h2 id="FLASH芯片简介"><a href="#FLASH芯片简介" class="headerlink" title="FLASH芯片简介"></a>FLASH芯片简介</h2><p>也没啥可说的，直接上图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131001.png" alt=""></p>
+<p>这个图有点错误，我板子上的串行FLASH是16MB的</p>
+<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><p>配置到180MHz</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131330.png" alt=""></p>
+<h3 id="端口配置"><a href="#端口配置" class="headerlink" title="端口配置"></a>端口配置</h3><p>根据原理图配置相应引脚的复用功能</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131506.png" alt=""></p>
+<p>这里需要注意的是端口PI8需要单独配置推挽输出</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131455.png" alt=""></p>
+<h3 id="复用功能配置"><a href="#复用功能配置" class="headerlink" title="复用功能配置"></a>复用功能配置</h3><h4 id="SPI配置"><a href="#SPI配置" class="headerlink" title="SPI配置"></a>SPI配置</h4><p>仅仅和FLASH通讯，不用更改太多设置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131608.png" alt=""></p>
+<p>这里设置分频为16是因为高频率貌似会导致FLASH读数据失败(我觉得更大可能是我的程序出现了问题)</p>
+<h4 id="串口配置"><a href="#串口配置" class="headerlink" title="串口配置"></a>串口配置</h4><p>开启异步模式，默认配置即可</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131743.png" alt=""></p>
+<h2 id="Keil配置"><a href="#Keil配置" class="headerlink" title="Keil配置"></a>Keil配置</h2><h3 id="移植驱动文件"><a href="#移植驱动文件" class="headerlink" title="移植驱动文件"></a>移植驱动文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131841.png" alt=""></p>
+<h3 id="完善SPI初始化函数"><a href="#完善SPI初始化函数" class="headerlink" title="完善SPI初始化函数"></a>完善SPI初始化函数</h3><p>在系统自动生成的初始化函数末尾添加如下代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN SPI1_Init 2 */</span></span><br><span class="line">  __HAL_SPI_ENABLE(&amp;hspi1);</span><br><span class="line"><span class="comment">/* USER CODE END SPI1_Init 2 */</span></span><br></pre></td></tr></table></figure>
+
+<p>这段代码的功能是使能SPI功能</p>
+<h3 id="重定向printf-函数和scanf-函数"><a href="#重定向printf-函数和scanf-函数" class="headerlink" title="重定向printf()函数和scanf()函数"></a>重定向printf()函数和scanf()函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN PD */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* Private function prototypes -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 尝试重写scanf函数 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END PD */</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* Place your implementation of fputc here */</span></span><br><span class="line">    <span class="comment">/* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */</span></span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//尝试重写scanf函数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">    HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="编写读写实验主代码"><a href="#编写读写实验主代码" class="headerlink" title="编写读写实验主代码"></a>编写读写实验主代码</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN 2 */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"系统初始化完毕\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"FLASH ID:%X		FLASH Device ID:%X\r\n"</span>,SPI_FLASH_ReadID(),SPI_FLASH_ReadDeviceID());</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入需要储存到FLASH的数据(最多80字符):\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">char</span> data1[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">char</span> data2[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%s"</span>,data1);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">int</span> data_size=<span class="keyword">sizeof</span>(data1);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"写入FLASH的数据：%s\r\n"</span>,data1);</span><br><span class="line">	SPI_FLASH_SectorErase(<span class="number">0x00000</span>);</span><br><span class="line">	SPI_FLASH_BufferWrite((<span class="keyword">uint8_t</span> *)data1,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	SPI_FLASH_BufferRead((<span class="keyword">uint8_t</span> *)data2,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"读取FLASH的数据：%s\r\n"</span>,data2);</span><br><span class="line"><span class="comment">/* USER CODE END 2 */</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416135452.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>STM32CubeMX</tag>
+        <tag>ARM</tag>
+        <tag>SPI</tag>
+        <tag>FLASH</tag>
       </tags>
   </entry>
   <entry>
@@ -1346,82 +1416,71 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
         <tag>ARM</tag>
         <tag>HAL</tag>
         <tag>LTDC</tag>
+        <tag>LCD</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
       </tags>
   </entry>
   <entry>
-    <title>STM32CubeMX配置LTDC时遇到的一些问题</title>
-    <url>/posts/3e4bdf1e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题一：引脚对不上"><a href="#问题一：引脚对不上" class="headerlink" title="问题一：引脚对不上"></a>问题一：引脚对不上</h2><p>STM32CubeMX默认配置的引脚与板子设计时所使用的引脚对不上，导致初始化失败</p>
-<h2 id="问题二：HAL库与标准库是不兼容的"><a href="#问题二：HAL库与标准库是不兼容的" class="headerlink" title="问题二：HAL库与标准库是不兼容的"></a>问题二：HAL库与标准库是不兼容的</h2><p>HAL库的初始化结构体以及一部分的宏定义是不兼容的</p>
-<p>建议尽量不要参考标准库使用HAL库，如果需要，那么要追究到寄存器操作的程度来保证对HAL库的使用而导致的行动是与标准库一致的</p>
-<p>目前遇到的例子：</p>
+    <title>STM32配置Keil在SRAM中调试</title>
+    <url>/posts/80d81344.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>虽然SRAM掉电清空，但是FLASH擦写实在是太慢了，对于我这种编程一小时50分钟在调试的新手而言，擦除数据的进度条是无比漫长的o(╥﹏╥)o</p>
+<h2 id="BOOT0与BOOT1"><a href="#BOOT0与BOOT1" class="headerlink" title="BOOT0与BOOT1"></a>BOOT0与BOOT1</h2><p>通过配置BOOT0和BOOT1引脚的高低点位可以改变芯片的启动方式，按照官方给的数据，两引脚同时配置低电位为FLASH启动，同时配置高电位为片内SRAM启动，我依稀记得好像通过设置这两个引脚的高低点位也可以解决烧录程序失败导致的无限复位问题</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417180523.png" alt=""></p>
+<p>当然有些板子这两个引脚是焊死的，对于这种情况，也有相应的解决方案</p>
+<h2 id="可以控制启动引脚"><a href="#可以控制启动引脚" class="headerlink" title="可以控制启动引脚"></a>可以控制启动引脚</h2><h3 id="将两个启动引脚同时拉高"><a href="#将两个启动引脚同时拉高" class="headerlink" title="将两个启动引脚同时拉高"></a>将两个启动引脚同时拉高</h3><p>如图：</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417180523.png" alt=""></p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181100.jpg" alt=""></p>
+<h3 id="新建SRAM版本的工程"><a href="#新建SRAM版本的工程" class="headerlink" title="新建SRAM版本的工程"></a>新建SRAM版本的工程</h3><p><code>Manage Project Items</code>可以让你在一个项目中管理不同配置的工程</p>
+<p>如图操作即可，建立你的新的配置</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181345.png" alt=""></p>
+<p>然后切换到你所新建的调试版本</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181618.png" alt=""></p>
+<h3 id="配置分散加载文件"><a href="#配置分散加载文件" class="headerlink" title="配置分散加载文件"></a>配置分散加载文件</h3><p>在<code>Options for Target-&gt;linker</code>页面中</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181627.png" alt=""></p>
 <ul>
-<li>在标准库中LTDC初始化图层时所使用的结构体决不能同HAL库具有等效功能的结构体相互参照，因为它们的图层初始化函数对结构体的使用方式是不同的</li>
+<li>取消勾选<code>Use Memory Layout from Target Dialog</code></li>
+<li>自己选择一个路径新建分散加载配置文件，并在其中填入一下内容</li>
 </ul>
-<h2 id="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"><a href="#问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复" class="headerlink" title="问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复"></a>问题三：STM32CubeMX自动生成的代码与驱动文件有功能上的重复</h2><p>解决方案：删掉驱动文件上与自动生成代码有功能重复的代码</p>
-<h2 id="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"><a href="#问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突" class="headerlink" title="问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突"></a>问题四：驱动文件有一些数据定义与STM32CubeMX自动生成的冲突</h2><p>解决方案：使用<code>extern</code>标识符和<code>#define</code>宏定义替换掉驱动文件中的数据定义</p>
-<h2 id="问题五：LCD-TFT时钟频率过高而导致花屏"><a href="#问题五：LCD-TFT时钟频率过高而导致花屏" class="headerlink" title="问题五：LCD-TFT时钟频率过高而导致花屏"></a>问题五：LCD-TFT时钟频率过高而导致花屏</h2><p>问题详细表征：显示屏花屏，并且会快速左右或上下抖动</p>
-<p>解决方案：降低LCD-TFT频率</p>
-<h2 id="问题六：显存与屏幕数据格式不同导致花屏"><a href="#问题六：显存与屏幕数据格式不同导致花屏" class="headerlink" title="问题六：显存与屏幕数据格式不同导致花屏"></a>问题六：显存与屏幕数据格式不同导致花屏</h2><p>问题详细表征：显示屏花屏，并且出现较密的格子纹路，会对清屏等指令做出反映，但反映不正确</p>
-<p>解决方案：注意数据格式，尤其是ARGB8888和RGB888的区别。前者32位数据，一个像素点占显存4个字节;后者24位数据，程序调用时处理32位数据，一个像素点占显存3个字节</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"> ; *************************************************************</span><br><span class="line"> ; *** Scatter-Loading Description File generated by uVision ***</span><br><span class="line"> ; *************************************************************</span><br><span class="line"></span><br><span class="line">LR_IROM1 <span class="number">0x20000000</span> <span class="number">0x00010000</span> &#123; ; load region size_region</span><br><span class="line">	ER_IROM1 <span class="number">0x20000000</span> <span class="number">0x00010000</span> &#123; ; load address = execution address</span><br><span class="line">	 *.o (RESET, +First)</span><br><span class="line">	 *(InRoot$$Sections)</span><br><span class="line">	 .ANY (+RO)</span><br><span class="line">	&#125;</span><br><span class="line">	RW_IRAM1 <span class="number">0x20010000</span> <span class="number">0x00020000</span> &#123; ; RW data</span><br><span class="line">	 .ANY (+RW +ZI)</span><br><span class="line">	&#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：这个配置文件中的数据是根据芯片所设置的，我的芯片是<code>STM32F429IGT6</code>,所选地址分别为：<code>0x20000000</code> <code>0x00010000</code></p>
+</blockquote>
+<h3 id="配置中断向量表"><a href="#配置中断向量表" class="headerlink" title="配置中断向量表"></a>配置中断向量表</h3><p>打开你的<code>system_stm32f4xx.c</code>文件，找到如下内容</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Setup the microcontroller system</span></span><br><span class="line"><span class="comment">  *         Initialize the FPU setting, vector table location and External memory </span></span><br><span class="line"><span class="comment">  *         configuration.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">SystemInit</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* FPU settings ------------------------------------------------------------*/</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">if</span> (__FPU_PRESENT == 1) &amp;&amp; (__FPU_USED == 1)</span></span><br><span class="line">    SCB-&gt;CPACR |= ((<span class="number">3U</span>L &lt;&lt; <span class="number">10</span>*<span class="number">2</span>)|(<span class="number">3U</span>L &lt;&lt; <span class="number">11</span>*<span class="number">2</span>));  <span class="comment">/* set CP10 and CP11 Full Access */</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">if</span> defined (DATA_IN_ExtSRAM) || defined (DATA_IN_ExtSDRAM)</span></span><br><span class="line">  SystemInit_ExtMemCtl(); </span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* DATA_IN_ExtSRAM || DATA_IN_ExtSDRAM */</span></span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Configure the Vector Table location add offset address ------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> VECT_TAB_SRAM</span></span><br><span class="line">  SCB-&gt;VTOR = SRAM_BASE | VECT_TAB_OFFSET; <span class="comment">/* Vector Table Relocation in Internal SRAM */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  SCB-&gt;VTOR = FLASH_BASE | VECT_TAB_OFFSET; <span class="comment">/* Vector Table Relocation in Internal FLASH */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>看见函数末尾的宏定义了吗，没错就是<code>VECT_TAB_SRAM</code>，把它复制到MDK编译环境里</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417182300.png" alt=""></p>
+<h3 id="修改MDK的烧录程序设置"><a href="#修改MDK的烧录程序设置" class="headerlink" title="修改MDK的烧录程序设置"></a>修改MDK的烧录程序设置</h3><p>按照图片所示修改设置，其中地址的修改需要同前面分散加载文件相对应</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417182538.png" alt=""></p>
+<p>这里可以看出储存空间的起点为<code>0x20000000</code>，但烧录空间的起始地址为<code>0x20010000</code>向后偏移了<code>0x10000</code>，这是因为前面的空间是作为虚拟ROM使用的，我们的程序所在的空间起点为后面的地址</p>
+<h3 id="仿真器设置"><a href="#仿真器设置" class="headerlink" title="仿真器设置"></a>仿真器设置</h3><p>按照图片所示配置，不这样配置无法调试</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417182842.png" alt=""></p>
+<h2 id="无法修改启动引脚"><a href="#无法修改启动引脚" class="headerlink" title="无法修改启动引脚"></a>无法修改启动引脚</h2><blockquote>
+<p>注：这个我没试过，但是和上面的方法出自同一本书，应该可行</p>
+</blockquote>
+<h3 id="新建SRAM版本的工程-1"><a href="#新建SRAM版本的工程-1" class="headerlink" title="新建SRAM版本的工程"></a>新建SRAM版本的工程</h3><p>这步同上面可以操控启动引脚的一致</p>
+<h3 id="编辑Debug-RAM-ini文件"><a href="#编辑Debug-RAM-ini文件" class="headerlink" title="编辑Debug_RAM.ini文件"></a>编辑Debug_RAM.ini文件</h3><p>如图，新建<code>Debug_RAM.ini</code>文件</p>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417183312.png" alt=""></p>
+<p>填入以下内容</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/***********************************************************/</span></span><br><span class="line"><span class="comment">/* Debug_RAM.ini: Initialization File for Debugging from Internal RAM */</span></span><br><span class="line"><span class="comment">/******************************************************/</span></span><br><span class="line"><span class="comment">/* This file is part of the uVision/ARM development tools. */</span></span><br><span class="line"><span class="comment">/* Copyright (c) 2005-2014 Keil Software. All rights reserved. */</span></span><br><span class="line"><span class="comment">/* This software may only be used under the terms of a valid, current, */</span></span><br><span class="line"><span class="comment">/* end user licence from KEIL for a compatible version of KEIL software */</span></span><br><span class="line"><span class="comment">/*development tools. Nothing else gives you the right to use this software */</span></span><br><span class="line"><span class="comment">/***************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="function">FUNC <span class="keyword">void</span> <span class="title">Setup</span> <span class="params">(<span class="keyword">void</span>)</span> </span>&#123;</span><br><span class="line">   SP = _RDWORD(<span class="number">0x20000000</span>); <span class="comment">// 设置栈指针 SP，把 0x20000000 地址中的内容赋值到 SP。</span></span><br><span class="line">   PC = _RDWORD(<span class="number">0x20000004</span>); <span class="comment">// 设置程序指针 PC，把 0x20000004 地址中的内容赋值到PC。</span></span><br><span class="line"></span><br><span class="line">   XPSR = <span class="number">0x01000000</span>; <span class="comment">// 设置状态寄存器指针 xPSR</span></span><br><span class="line">   _WDWORD(<span class="number">0xE000ED08</span>, <span class="number">0x20000000</span>); <span class="comment">// Setup Vector Table Offset Register</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LOAD %L INCREMENTAL <span class="comment">// 下载 axf 文件到 RAM</span></span><br><span class="line">Setup(); <span class="comment">//调用上面定义的 setup 函数设置运行环境</span></span><br><span class="line">   <span class="comment">//g, main //跳转到 main 函数，本示例调试时不需要从 main 函数执行，注释掉了，程序从启动代码开始执行</span></span><br></pre></td></tr></table></figure>
+
+<p>上述配置过程是控制MDK执行仿真器的脚本文件<code>Debug_RAM.ini</code>，而该脚本文件在下载了程序到SRAM后，初始化了SP指针(即 MSP)和PC指针分别指向了<code>0x20000000</code>和<code>0x20000004</code>，这样的操作等效于从SRAM复位</p>
+<p>有了这样的配置，即使BOOT0和BOOT1引脚不设置为SRAM启动也能正常仿真了，但点击下载按钮把程序下载到SRAM然后按复位是不能全速运行的(这种运行方式脱离了仿真器的控制，SP和PC指针无法被初始化指向SRAM)</p>
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>开始我的 下载-&gt;运行-&gt;调试-&gt;出错-&gt;解决-&gt;下载······</p>
 ]]></content>
       <categories>
         <category>STM32</category>
       </categories>
       <tags>
         <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>HAL</tag>
-        <tag>LTDC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32CubeMX配置SPI读写外部FLASH</title>
-    <url>/posts/243fe895.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
-<h2 id="FLASH芯片简介"><a href="#FLASH芯片简介" class="headerlink" title="FLASH芯片简介"></a>FLASH芯片简介</h2><p>也没啥可说的，直接上图：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131001.png" alt=""></p>
-<p>这个图有点错误，我板子上的串行FLASH是16MB的</p>
-<h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="时钟配置"><a href="#时钟配置" class="headerlink" title="时钟配置"></a>时钟配置</h3><p>配置到180MHz</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131330.png" alt=""></p>
-<h3 id="端口配置"><a href="#端口配置" class="headerlink" title="端口配置"></a>端口配置</h3><p>根据原理图配置相应引脚的复用功能</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131506.png" alt=""></p>
-<p>这里需要注意的是端口PI8需要单独配置推挽输出</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131455.png" alt=""></p>
-<h3 id="复用功能配置"><a href="#复用功能配置" class="headerlink" title="复用功能配置"></a>复用功能配置</h3><h4 id="SPI配置"><a href="#SPI配置" class="headerlink" title="SPI配置"></a>SPI配置</h4><p>仅仅和FLASH通讯，不用更改太多设置</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131608.png" alt=""></p>
-<p>这里设置分频为16是因为高频率貌似会导致FLASH读数据失败(我觉得更大可能是我的程序出现了问题)</p>
-<h4 id="串口配置"><a href="#串口配置" class="headerlink" title="串口配置"></a>串口配置</h4><p>开启异步模式，默认配置即可</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131743.png" alt=""></p>
-<h2 id="Keil配置"><a href="#Keil配置" class="headerlink" title="Keil配置"></a>Keil配置</h2><h3 id="移植驱动文件"><a href="#移植驱动文件" class="headerlink" title="移植驱动文件"></a>移植驱动文件</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131841.png" alt=""></p>
-<h3 id="完善SPI初始化函数"><a href="#完善SPI初始化函数" class="headerlink" title="完善SPI初始化函数"></a>完善SPI初始化函数</h3><p>在系统自动生成的初始化函数末尾添加如下代码：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN SPI1_Init 2 */</span></span><br><span class="line">  __HAL_SPI_ENABLE(&amp;hspi1);</span><br><span class="line"><span class="comment">/* USER CODE END SPI1_Init 2 */</span></span><br></pre></td></tr></table></figure>
-
-<p>这段代码的功能是使能SPI功能</p>
-<h3 id="重定向printf-函数和scanf-函数"><a href="#重定向printf-函数和scanf-函数" class="headerlink" title="重定向printf()函数和scanf()函数"></a>重定向printf()函数和scanf()函数</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN PD */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* Private function prototypes -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 尝试重写scanf函数 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line"><span class="comment">/* With GCC, small printf (option LD Linker-&gt;Libraries-&gt;Small printf</span></span><br><span class="line"><span class="comment">   set to 'Yes') calls __io_putchar() */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* USER CODE END PD */</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">PUTCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* Place your implementation of fputc here */</span></span><br><span class="line">    <span class="comment">/* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */</span></span><br><span class="line">    HAL_UART_Transmit(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//尝试重写scanf函数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Retargets the C library printf function to the USART.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">GETCHAR_PROTOTYPE</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">char</span> ch;</span><br><span class="line">    HAL_UART_Receive(&amp;huart1, (<span class="keyword">uint8_t</span> *)&amp;ch, <span class="number">1</span>, <span class="number">0xFFFF</span>);</span><br><span class="line">    <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="编写读写实验主代码"><a href="#编写读写实验主代码" class="headerlink" title="编写读写实验主代码"></a>编写读写实验主代码</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN 2 */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"系统初始化完毕\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"FLASH ID:%X		FLASH Device ID:%X\r\n"</span>,SPI_FLASH_ReadID(),SPI_FLASH_ReadDeviceID());</span><br><span class="line">	</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入需要储存到FLASH的数据(最多80字符):\r\n"</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">char</span> data1[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">char</span> data2[<span class="number">100</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%s"</span>,data1);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">int</span> data_size=<span class="keyword">sizeof</span>(data1);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"写入FLASH的数据：%s\r\n"</span>,data1);</span><br><span class="line">	SPI_FLASH_SectorErase(<span class="number">0x00000</span>);</span><br><span class="line">	SPI_FLASH_BufferWrite((<span class="keyword">uint8_t</span> *)data1,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	SPI_FLASH_BufferRead((<span class="keyword">uint8_t</span> *)data2,<span class="number">0x00000</span>,data_size);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"读取FLASH的数据：%s\r\n"</span>,data2);</span><br><span class="line"><span class="comment">/* USER CODE END 2 */</span></span><br></pre></td></tr></table></figure>
-
-<p>效果如图：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416135452.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>STM32CubeMX</tag>
-        <tag>ARM</tag>
-        <tag>SPI</tag>
-        <tag>FLASH</tag>
+        <tag>Keil</tag>
+        <tag>SRAM</tag>
+        <tag>SRAM调试</tag>
       </tags>
   </entry>
   <entry>
@@ -1606,65 +1665,6 @@
       </tags>
   </entry>
   <entry>
-    <title>STM32配置Keil在SRAM中调试</title>
-    <url>/posts/80d81344.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>虽然SRAM掉电清空，但是FLASH擦写实在是太慢了，对于我这种编程一小时50分钟在调试的新手而言，擦除数据的进度条是无比漫长的o(╥﹏╥)o</p>
-<h2 id="BOOT0与BOOT1"><a href="#BOOT0与BOOT1" class="headerlink" title="BOOT0与BOOT1"></a>BOOT0与BOOT1</h2><p>通过配置BOOT0和BOOT1引脚的高低点位可以改变芯片的启动方式，按照官方给的数据，两引脚同时配置低电位为FLASH启动，同时配置高电位为片内SRAM启动，我依稀记得好像通过设置这两个引脚的高低点位也可以解决烧录程序失败导致的无限复位问题</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417180523.png" alt=""></p>
-<p>当然有些板子这两个引脚是焊死的，对于这种情况，也有相应的解决方案</p>
-<h2 id="可以控制启动引脚"><a href="#可以控制启动引脚" class="headerlink" title="可以控制启动引脚"></a>可以控制启动引脚</h2><h3 id="将两个启动引脚同时拉高"><a href="#将两个启动引脚同时拉高" class="headerlink" title="将两个启动引脚同时拉高"></a>将两个启动引脚同时拉高</h3><p>如图：</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417180523.png" alt=""></p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181100.jpg" alt=""></p>
-<h3 id="新建SRAM版本的工程"><a href="#新建SRAM版本的工程" class="headerlink" title="新建SRAM版本的工程"></a>新建SRAM版本的工程</h3><p><code>Manage Project Items</code>可以让你在一个项目中管理不同配置的工程</p>
-<p>如图操作即可，建立你的新的配置</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181345.png" alt=""></p>
-<p>然后切换到你所新建的调试版本</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181618.png" alt=""></p>
-<h3 id="配置分散加载文件"><a href="#配置分散加载文件" class="headerlink" title="配置分散加载文件"></a>配置分散加载文件</h3><p>在<code>Options for Target-&gt;linker</code>页面中</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417181627.png" alt=""></p>
-<ul>
-<li>取消勾选<code>Use Memory Layout from Target Dialog</code></li>
-<li>自己选择一个路径新建分散加载配置文件，并在其中填入一下内容</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"> ; *************************************************************</span><br><span class="line"> ; *** Scatter-Loading Description File generated by uVision ***</span><br><span class="line"> ; *************************************************************</span><br><span class="line"></span><br><span class="line">LR_IROM1 <span class="number">0x20000000</span> <span class="number">0x00010000</span> &#123; ; load region size_region</span><br><span class="line">	ER_IROM1 <span class="number">0x20000000</span> <span class="number">0x00010000</span> &#123; ; load address = execution address</span><br><span class="line">	 *.o (RESET, +First)</span><br><span class="line">	 *(InRoot$$Sections)</span><br><span class="line">	 .ANY (+RO)</span><br><span class="line">	&#125;</span><br><span class="line">	RW_IRAM1 <span class="number">0x20010000</span> <span class="number">0x00020000</span> &#123; ; RW data</span><br><span class="line">	 .ANY (+RW +ZI)</span><br><span class="line">	&#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：这个配置文件中的数据是根据芯片所设置的，我的芯片是<code>STM32F429IGT6</code>,所选地址分别为：<code>0x20000000</code> <code>0x00010000</code></p>
-</blockquote>
-<h3 id="配置中断向量表"><a href="#配置中断向量表" class="headerlink" title="配置中断向量表"></a>配置中断向量表</h3><p>打开你的<code>system_stm32f4xx.c</code>文件，找到如下内容</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  Setup the microcontroller system</span></span><br><span class="line"><span class="comment">  *         Initialize the FPU setting, vector table location and External memory </span></span><br><span class="line"><span class="comment">  *         configuration.</span></span><br><span class="line"><span class="comment">  * @param  None</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">SystemInit</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* FPU settings ------------------------------------------------------------*/</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">if</span> (__FPU_PRESENT == 1) &amp;&amp; (__FPU_USED == 1)</span></span><br><span class="line">    SCB-&gt;CPACR |= ((<span class="number">3U</span>L &lt;&lt; <span class="number">10</span>*<span class="number">2</span>)|(<span class="number">3U</span>L &lt;&lt; <span class="number">11</span>*<span class="number">2</span>));  <span class="comment">/* set CP10 and CP11 Full Access */</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">if</span> defined (DATA_IN_ExtSRAM) || defined (DATA_IN_ExtSDRAM)</span></span><br><span class="line">  SystemInit_ExtMemCtl(); </span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* DATA_IN_ExtSRAM || DATA_IN_ExtSDRAM */</span></span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* Configure the Vector Table location add offset address ------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> VECT_TAB_SRAM</span></span><br><span class="line">  SCB-&gt;VTOR = SRAM_BASE | VECT_TAB_OFFSET; <span class="comment">/* Vector Table Relocation in Internal SRAM */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  SCB-&gt;VTOR = FLASH_BASE | VECT_TAB_OFFSET; <span class="comment">/* Vector Table Relocation in Internal FLASH */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>看见函数末尾的宏定义了吗，没错就是<code>VECT_TAB_SRAM</code>，把它复制到MDK编译环境里</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417182300.png" alt=""></p>
-<h3 id="修改MDK的烧录程序设置"><a href="#修改MDK的烧录程序设置" class="headerlink" title="修改MDK的烧录程序设置"></a>修改MDK的烧录程序设置</h3><p>按照图片所示修改设置，其中地址的修改需要同前面分散加载文件相对应</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417182538.png" alt=""></p>
-<p>这里可以看出储存空间的起点为<code>0x20000000</code>，但烧录空间的起始地址为<code>0x20010000</code>向后偏移了<code>0x10000</code>，这是因为前面的空间是作为虚拟ROM使用的，我们的程序所在的空间起点为后面的地址</p>
-<h3 id="仿真器设置"><a href="#仿真器设置" class="headerlink" title="仿真器设置"></a>仿真器设置</h3><p>按照图片所示配置，不这样配置无法调试</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417182842.png" alt=""></p>
-<h2 id="无法修改启动引脚"><a href="#无法修改启动引脚" class="headerlink" title="无法修改启动引脚"></a>无法修改启动引脚</h2><blockquote>
-<p>注：这个我没试过，但是和上面的方法出自同一本书，应该可行</p>
-</blockquote>
-<h3 id="新建SRAM版本的工程-1"><a href="#新建SRAM版本的工程-1" class="headerlink" title="新建SRAM版本的工程"></a>新建SRAM版本的工程</h3><p>这步同上面可以操控启动引脚的一致</p>
-<h3 id="编辑Debug-RAM-ini文件"><a href="#编辑Debug-RAM-ini文件" class="headerlink" title="编辑Debug_RAM.ini文件"></a>编辑Debug_RAM.ini文件</h3><p>如图，新建<code>Debug_RAM.ini</code>文件</p>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417183312.png" alt=""></p>
-<p>填入以下内容</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/***********************************************************/</span></span><br><span class="line"><span class="comment">/* Debug_RAM.ini: Initialization File for Debugging from Internal RAM */</span></span><br><span class="line"><span class="comment">/******************************************************/</span></span><br><span class="line"><span class="comment">/* This file is part of the uVision/ARM development tools. */</span></span><br><span class="line"><span class="comment">/* Copyright (c) 2005-2014 Keil Software. All rights reserved. */</span></span><br><span class="line"><span class="comment">/* This software may only be used under the terms of a valid, current, */</span></span><br><span class="line"><span class="comment">/* end user licence from KEIL for a compatible version of KEIL software */</span></span><br><span class="line"><span class="comment">/*development tools. Nothing else gives you the right to use this software */</span></span><br><span class="line"><span class="comment">/***************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="function">FUNC <span class="keyword">void</span> <span class="title">Setup</span> <span class="params">(<span class="keyword">void</span>)</span> </span>&#123;</span><br><span class="line">   SP = _RDWORD(<span class="number">0x20000000</span>); <span class="comment">// 设置栈指针 SP，把 0x20000000 地址中的内容赋值到 SP。</span></span><br><span class="line">   PC = _RDWORD(<span class="number">0x20000004</span>); <span class="comment">// 设置程序指针 PC，把 0x20000004 地址中的内容赋值到PC。</span></span><br><span class="line"></span><br><span class="line">   XPSR = <span class="number">0x01000000</span>; <span class="comment">// 设置状态寄存器指针 xPSR</span></span><br><span class="line">   _WDWORD(<span class="number">0xE000ED08</span>, <span class="number">0x20000000</span>); <span class="comment">// Setup Vector Table Offset Register</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LOAD %L INCREMENTAL <span class="comment">// 下载 axf 文件到 RAM</span></span><br><span class="line">Setup(); <span class="comment">//调用上面定义的 setup 函数设置运行环境</span></span><br><span class="line">   <span class="comment">//g, main //跳转到 main 函数，本示例调试时不需要从 main 函数执行，注释掉了，程序从启动代码开始执行</span></span><br></pre></td></tr></table></figure>
-
-<p>上述配置过程是控制MDK执行仿真器的脚本文件<code>Debug_RAM.ini</code>，而该脚本文件在下载了程序到SRAM后，初始化了SP指针(即 MSP)和PC指针分别指向了<code>0x20000000</code>和<code>0x20000004</code>，这样的操作等效于从SRAM复位</p>
-<p>有了这样的配置，即使BOOT0和BOOT1引脚不设置为SRAM启动也能正常仿真了，但点击下载按钮把程序下载到SRAM然后按复位是不能全速运行的(这种运行方式脱离了仿真器的控制，SP和PC指针无法被初始化指向SRAM)</p>
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>开始我的 下载-&gt;运行-&gt;调试-&gt;出错-&gt;解决-&gt;下载······</p>
-]]></content>
-      <categories>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>Keil</tag>
-        <tag>SRAM</tag>
-        <tag>SRAM调试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows下批量重命名文件</title>
     <url>/posts/5222b711.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
@@ -1815,80 +1815,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo-next在文章和侧栏下方添加版权信息</title>
-    <url>/posts/b34fddce.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Declare license on posts</span></span><br><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">3.0</span></span><br><span class="line"><span class="attr">  license_url:</span> <span class="attr">https://creativecommons.org/licenses/by-nc-sa/3.0/</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：<code>sidebar</code>指的是侧栏下方,<code>post</code>指的是文章底部,效果可参考本站</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>添加版权信息</tag>
-        <tag>版权信息</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-next配置点击爆炸效果</title>
-    <url>/posts/6864067c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="next主题文件的配置"><a href="#next主题文件的配置" class="headerlink" title="next主题文件的配置"></a><strong>next主题文件的配置</strong></h2><p>打开next主题文件,定位到以下代码区：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-<p>将<code>fireworks</code>改为<code>true</code>,如下：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p><del>效果可见本博客的点击效果</del></p>
-<h2 id="配置时遇到的坑"><a href="#配置时遇到的坑" class="headerlink" title="配置时遇到的坑"></a><strong>配置时遇到的坑</strong></h2><p>有些版本的next对这个特效的默认引用地址在<code>./js/忘了/fireworks.js</code>,但是呢,这个特效文件他在这个位置：<code>./js/fireworks.js</code></p>
-<p>对于这个问题可以再文件<code>_layout.swig</code>中修复</p>
-<p>并且因为本博客的存放位置原因，所以只能写死链接：<code>https://zzttzz.gitee.io/blog/js/fireworks.js</code></p>
-<blockquote>
-<p><code>_layout.swig</code>文件在next主题文件夹下的<code>layout</code>文件夹下</p>
-</blockquote>
-<p>定位到如下代码区：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/忘了/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>修改为：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"//zzttzz.gitee.io/blog/js/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>便可</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>点击爆炸效果</tag>
-        <tag>点击爆炸</tag>
-        <tag>爆炸效果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-next添加右上角GitHub挂件</title>
-    <url>/posts/96ddfe32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># `Follow me on GitHub` banner in the top-right corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  permalink:</span> <span class="attr">https://github.com/zzt112358</span></span><br><span class="line"><span class="attr">  title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：需要把<code>permalink</code>项改为你自己的github链接哦,效果可参考本站</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>github挂件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo-next上传到自己的服务器后font-awesome图标无法显示的解决办法</title>
     <url>/posts/193d509e.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -1944,6 +1870,45 @@
         <tag>C</tag>
         <tag>C语言学习</tag>
         <tag>codeblocks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next在文章和侧栏下方添加版权信息</title>
+    <url>/posts/b34fddce.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Declare license on posts</span></span><br><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">3.0</span></span><br><span class="line"><span class="attr">  license_url:</span> <span class="attr">https://creativecommons.org/licenses/by-nc-sa/3.0/</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：<code>sidebar</code>指的是侧栏下方,<code>post</code>指的是文章底部,效果可参考本站</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>添加版权信息</tag>
+        <tag>版权信息</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next添加右上角GitHub挂件</title>
+    <url>/posts/96ddfe32.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># `Follow me on GitHub` banner in the top-right corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  permalink:</span> <span class="attr">https://github.com/zzt112358</span></span><br><span class="line"><span class="attr">  title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：需要把<code>permalink</code>项改为你自己的github链接哦,效果可参考本站</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>github挂件</tag>
       </tags>
   </entry>
   <entry>
@@ -2067,53 +2032,38 @@
       </tags>
   </entry>
   <entry>
-    <title>分享一个windows软件卸载工具-Geek</title>
-    <url>/posts/f1266071.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
-<p>重点是免费版<strong>完全绿色无需安装</strong>,<strong>下载即用</strong>,<strong>无广告</strong>,非常良心.</p>
-<p>官网有收费pro版,不过我觉得日常使用免费版就足够了.</p>
-<p>下载链接： <a href="https://geekuninstaller.com" target="_blank" rel="noopener">官网地址</a></p>
+    <title>hexo-next配置点击爆炸效果</title>
+    <url>/posts/6864067c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="next主题文件的配置"><a href="#next主题文件的配置" class="headerlink" title="next主题文件的配置"></a><strong>next主题文件的配置</strong></h2><p>打开next主题文件,定位到以下代码区：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>将<code>fireworks</code>改为<code>true</code>,如下：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p><del>效果可见本博客的点击效果</del></p>
+<h2 id="配置时遇到的坑"><a href="#配置时遇到的坑" class="headerlink" title="配置时遇到的坑"></a><strong>配置时遇到的坑</strong></h2><p>有些版本的next对这个特效的默认引用地址在<code>./js/忘了/fireworks.js</code>,但是呢,这个特效文件他在这个位置：<code>./js/fireworks.js</code></p>
+<p>对于这个问题可以再文件<code>_layout.swig</code>中修复</p>
+<p>并且因为本博客的存放位置原因，所以只能写死链接：<code>https://zzttzz.gitee.io/blog/js/fireworks.js</code></p>
+<blockquote>
+<p><code>_layout.swig</code>文件在next主题文件夹下的<code>layout</code>文件夹下</p>
+</blockquote>
+<p>定位到如下代码区：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/忘了/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>修改为：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.fireworks %&#125;</span><br><span class="line">   &lt;canvas <span class="class"><span class="keyword">class</span>="<span class="title">fireworks</span>" <span class="title">style</span>="<span class="title">position</span>:</span> fixed;left: <span class="number">0</span>;top: <span class="number">0</span>;z-index: <span class="number">1</span>; pointer-events: none;<span class="string">" &gt;&lt;/canvas&gt; </span></span><br><span class="line"><span class="string">   &lt;script type="</span>text/javascript<span class="string">" src="</span><span class="comment">//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt; </span></span><br><span class="line">   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"//zzttzz.gitee.io/blog/js/fireworks.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>便可</p>
 ]]></content>
       <categories>
-        <category>工具分享</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>工具分享</tag>
-        <tag>geek</tag>
-        <tag>windows</tag>
-        <tag>软件卸载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分享一个windows下的一个个性化工具集-uTools</title>
-    <url>/posts/1798eddd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>首先,我大力推荐这款软件,非常好用,方便.</p>
-</blockquote>
-<p><a href="https://u.tools" target="_blank" rel="noopener">官网-</a><a href="https://u.tools" target="_blank" rel="noopener">https://u.tools</a></p>
-<h3 id="官方简介："><a href="#官方简介：" class="headerlink" title="官方简介："></a>官方简介：</h3><p>uTools是一个极简、插件化、跨平台的现代桌面软件.通过自由选配丰富的插件,打造你得心应手的工具集合.当你熟悉它后,能够为你节约大量时间,让你可以更加专注地改变世界.</p>
-<p>说白了就是个插件集合,非常方便好用的插件集合.</p>
-<h3 id="支持的插件"><a href="#支持的插件" class="headerlink" title="支持的插件"></a>支持的插件</h3><blockquote>
-<p>简单来说,就是很强大</p>
-</blockquote>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201744.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201747.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201749.PNG" alt="Pic"></p>
-<h3 id="设置页面"><a href="#设置页面" class="headerlink" title="设置页面"></a>设置页面</h3><blockquote>
-<p>支持自定义快捷键</p>
-</blockquote>
-<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201754.PNG" alt="Pic"></p>
-<hr>
-<p>结语： 非常推荐</p>
-]]></content>
-      <categories>
-        <category>工具分享</category>
-      </categories>
-      <tags>
-        <tag>工具分享</tag>
-        <tag>windows</tag>
-        <tag>工具</tag>
-        <tag>uTools</tag>
-        <tag>插件</tag>
-        <tag>工具集</tag>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>点击爆炸效果</tag>
+        <tag>点击爆炸</tag>
+        <tag>爆炸效果</tag>
       </tags>
   </entry>
   <entry>
@@ -2352,36 +2302,35 @@ int main(void)
       </tags>
   </entry>
   <entry>
-    <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
-    <url>/posts/c25dba02.html</url>
+    <title>分享一个windows下的一个个性化工具集-uTools</title>
+    <url>/posts/1798eddd.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p><a href="https://www.natfrp.org/" target="_blank" rel="noopener">官方网站-Sakura Frp</a></p>
+<p>首先,我大力推荐这款软件,非常好用,方便.</p>
 </blockquote>
-<ul>
-<li><p>支持自定义域名(通过CNAME解析官方服务器)</p>
-</li>
-<li><p>支持免备案服务</p>
-</li>
-<li><p>免费用户映射数量上限为5-o(╥﹏╥)o</p>
-</li>
-<li><p>支持映射：</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TCP 映射</span><br><span class="line">基础的 TCP 映射,适用于大多数服务,例如远程桌面、SSH、Minecraft、泰拉瑞亚等</span><br><span class="line">UDP 映射</span><br><span class="line">基础的 UDP 映射,适用于域名解析、部分基于 UDP 协议的游戏等</span><br><span class="line">HTTP 映射</span><br><span class="line">搭建网站专用映射,80 端口访问,只能使用国外线路建站.</span><br><span class="line">HTTPS 映射</span><br><span class="line">带有 SSL 加密的网站映射,443 端口访问,可以使用国内&#x2F;国外线路建站.</span><br><span class="line">XTCP 映射</span><br><span class="line">客户端之间点对点 (P2P) 连接协议,流量不经过服务器,适合大流量传输的场景,需要两台设备之间都运行一个客户端.</span><br><span class="line">STCP 映射</span><br><span class="line">安全交换 TCP 连接协议,基于 TCP,访问此服务的用户也需要运行一个客户端,才能建立连接,流量由服务器转发.</span><br><span class="line">BungeeCord 映射</span><br><span class="line">此类型映射用于解决传统端口转发后 MC 服务器玩家 IP 全部变成 127.0.0.1 的问题.</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>个人感受：速度不错,稳定性很高,非常推荐.</p>
+<p><a href="https://u.tools" target="_blank" rel="noopener">官网-</a><a href="https://u.tools" target="_blank" rel="noopener">https://u.tools</a></p>
+<h3 id="官方简介："><a href="#官方简介：" class="headerlink" title="官方简介："></a>官方简介：</h3><p>uTools是一个极简、插件化、跨平台的现代桌面软件.通过自由选配丰富的插件,打造你得心应手的工具集合.当你熟悉它后,能够为你节约大量时间,让你可以更加专注地改变世界.</p>
+<p>说白了就是个插件集合,非常方便好用的插件集合.</p>
+<h3 id="支持的插件"><a href="#支持的插件" class="headerlink" title="支持的插件"></a>支持的插件</h3><blockquote>
+<p>简单来说,就是很强大</p>
 </blockquote>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201744.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201747.PNG" alt="Pic"><br><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201749.PNG" alt="Pic"></p>
+<h3 id="设置页面"><a href="#设置页面" class="headerlink" title="设置页面"></a>设置页面</h3><blockquote>
+<p>支持自定义快捷键</p>
+</blockquote>
+<p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201754.PNG" alt="Pic"></p>
+<hr>
+<p>结语： 非常推荐</p>
 ]]></content>
       <categories>
         <category>工具分享</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
-        <tag>Sakura Frp</tag>
-        <tag>frp</tag>
-        <tag>内网穿透</tag>
-        <tag>免费内网穿透</tag>
+        <tag>工具分享</tag>
+        <tag>windows</tag>
+        <tag>工具</tag>
+        <tag>uTools</tag>
+        <tag>插件</tag>
+        <tag>工具集</tag>
       </tags>
   </entry>
   <entry>
@@ -2428,6 +2377,39 @@ int main(void)
       </tags>
   </entry>
   <entry>
+    <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
+    <url>/posts/c25dba02.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p><a href="https://www.natfrp.org/" target="_blank" rel="noopener">官方网站-Sakura Frp</a></p>
+</blockquote>
+<ul>
+<li><p>支持自定义域名(通过CNAME解析官方服务器)</p>
+</li>
+<li><p>支持免备案服务</p>
+</li>
+<li><p>免费用户映射数量上限为5-o(╥﹏╥)o</p>
+</li>
+<li><p>支持映射：</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TCP 映射</span><br><span class="line">基础的 TCP 映射,适用于大多数服务,例如远程桌面、SSH、Minecraft、泰拉瑞亚等</span><br><span class="line">UDP 映射</span><br><span class="line">基础的 UDP 映射,适用于域名解析、部分基于 UDP 协议的游戏等</span><br><span class="line">HTTP 映射</span><br><span class="line">搭建网站专用映射,80 端口访问,只能使用国外线路建站.</span><br><span class="line">HTTPS 映射</span><br><span class="line">带有 SSL 加密的网站映射,443 端口访问,可以使用国内&#x2F;国外线路建站.</span><br><span class="line">XTCP 映射</span><br><span class="line">客户端之间点对点 (P2P) 连接协议,流量不经过服务器,适合大流量传输的场景,需要两台设备之间都运行一个客户端.</span><br><span class="line">STCP 映射</span><br><span class="line">安全交换 TCP 连接协议,基于 TCP,访问此服务的用户也需要运行一个客户端,才能建立连接,流量由服务器转发.</span><br><span class="line">BungeeCord 映射</span><br><span class="line">此类型映射用于解决传统端口转发后 MC 服务器玩家 IP 全部变成 127.0.0.1 的问题.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>个人感受：速度不错,稳定性很高,非常推荐.</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Sakura Frp</tag>
+        <tag>frp</tag>
+        <tag>内网穿透</tag>
+        <tag>免费内网穿透</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本博客使用的随机图片接口</title>
     <url>/posts/937e33b3.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>废话不多说,直接放链接</p>
@@ -2445,6 +2427,24 @@ int main(void)
         <tag>随机图片</tag>
         <tag>接口</tag>
         <tag>随机图片接口</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享一个windows软件卸载工具-Geek</title>
+    <url>/posts/f1266071.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
+<p>重点是免费版<strong>完全绿色无需安装</strong>,<strong>下载即用</strong>,<strong>无广告</strong>,非常良心.</p>
+<p>官网有收费pro版,不过我觉得日常使用免费版就足够了.</p>
+<p>下载链接： <a href="https://geekuninstaller.com" target="_blank" rel="noopener">官网地址</a></p>
+]]></content>
+      <categories>
+        <category>工具分享</category>
+      </categories>
+      <tags>
+        <tag>工具分享</tag>
+        <tag>windows</tag>
+        <tag>geek</tag>
+        <tag>软件卸载</tag>
       </tags>
   </entry>
   <entry>
@@ -2484,23 +2484,6 @@ int main(void)
       </tags>
   </entry>
   <entry>
-    <title>解决Nginx下wordpress伪静态后文章/后台页无法访问的问题</title>
-    <url>/posts/449afa2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在Nginx的配置文档中添加以下代码：</p>
-<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attribute">location</span> / &#123;</span><br><span class="line">        <span class="attribute">root</span> /yourweb 把这里更改为你的网站根目录;  </span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.html)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.html <span class="literal">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.php)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.php;</span><br><span class="line">         &#125;</span><br><span class="line">        <span class="attribute">if</span> (!-f <span class="variable">$request_filename</span>)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) /index.php;</span><br><span class="line">         &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="attribute">rewrite</span> /wp-admin$ <span class="variable">$scheme</span>://<span class="variable">$host</span><span class="variable">$uri</span>/ <span class="literal">permanent</span>;</span><br></pre></td></tr></table></figure>
-
-<p>其中需要更改自己的网站根目录</p>
-]]></content>
-      <categories>
-        <category>建站相关</category>
-      </categories>
-      <tags>
-        <tag>Nginx</tag>
-        <tag>wordpress</tag>
-        <tag>伪静态</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>重新返回WordPress记录</title>
     <url>/posts/12bdfd9a.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>有一天，我发现了阿里云对学生购买服务器有优惠<a href="https://promotion.aliyun.com/ntms/act/campus2018.html" target="_blank" rel="noopener">云翼计划</a>于是就买了一台试试，然后就突然想把当初因为没有可用的空间而使用<code>Hexo</code>做记录的博客再次搬回<code>WordPress</code></p>
@@ -2516,5 +2499,22 @@ int main(void)
 <li><code>markdown</code>语法仍然在<code>WordPress</code>不能获得很好的支持</li>
 </ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>解决Nginx下wordpress伪静态后文章/后台页无法访问的问题</title>
+    <url>/posts/449afa2b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在Nginx的配置文档中添加以下代码：</p>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attribute">location</span> / &#123;</span><br><span class="line">        <span class="attribute">root</span> /yourweb 把这里更改为你的网站根目录;  </span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.html)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.html <span class="literal">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.php)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.php;</span><br><span class="line">         &#125;</span><br><span class="line">        <span class="attribute">if</span> (!-f <span class="variable">$request_filename</span>)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) /index.php;</span><br><span class="line">         &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="attribute">rewrite</span> /wp-admin$ <span class="variable">$scheme</span>://<span class="variable">$host</span><span class="variable">$uri</span>/ <span class="literal">permanent</span>;</span><br></pre></td></tr></table></figure>
+
+<p>其中需要更改自己的网站根目录</p>
+]]></content>
+      <categories>
+        <category>建站相关</category>
+      </categories>
+      <tags>
+        <tag>Nginx</tag>
+        <tag>wordpress</tag>
+        <tag>伪静态</tag>
+      </tags>
   </entry>
 </search>
