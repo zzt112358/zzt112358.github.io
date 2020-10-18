@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>网络基础课程大作业网站说明</title>
+    <url>/posts/d46a3460.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="张泽韬-测控1902-20194162"><a href="#张泽韬-测控1902-20194162" class="headerlink" title="张泽韬 测控1902 20194162"></a>张泽韬 测控1902 20194162</h2><h2 id="安装核心工具-Hexo"><a href="#安装核心工具-Hexo" class="headerlink" title="安装核心工具-Hexo"></a>安装核心工具-Hexo</h2><h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">下载路径</a></p>
+<h3 id="安装node"><a href="#安装node" class="headerlink" title="安装node"></a>安装node</h3><p>版本 建议12.19.0</p>
+<p><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">下载路径</a></p>
+<h3 id="安装安装hexo"><a href="#安装安装hexo" class="headerlink" title="安装安装hexo"></a>安装安装hexo</h3><p>cnpm</p>
+<h3 id="安装vscode及其必要插件"><a href="#安装vscode及其必要插件" class="headerlink" title="安装vscode及其必要插件"></a>安装vscode及其必要插件</h3><ul>
+<li>chinese</li>
+<li>markdown all in one</li>
+</ul>
+<h2 id="使用hexo"><a href="#使用hexo" class="headerlink" title="使用hexo"></a>使用hexo</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<h2 id="我的网站"><a href="#我的网站" class="headerlink" title="我的网站"></a>我的网站</h2><p><a href="https://zztweb.top">张泽韬的个人博客</a></p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>作业</tag>
+        <tag>大学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux下配置Aria2下载服务器以及自动更新Aria2的bt-tracker列表</title>
     <url>/posts/2b5ad707.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我配置Aria2服务器的环境为<code>centos-7.8.2003</code>版本，其他Linux发行版应该只有服务配置的步骤有可能不同，其他部分应该都相同</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我配置Aria2服务器的环境为<code>centos-7.8.2003</code>版本，其他Linux发行版应该只有服务配置的步骤有可能不同，其他部分应该都相同</p>
 <h2 id="配置Aria2下载服务器"><a href="#配置Aria2下载服务器" class="headerlink" title="配置Aria2下载服务器"></a>配置Aria2下载服务器</h2><h3 id="安装Aria2"><a href="#安装Aria2" class="headerlink" title="安装Aria2"></a>安装Aria2</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum install aria2</span><br></pre></td></tr></table></figure>
 
 <h3 id="配置aria2-conf设置文档"><a href="#配置aria2-conf设置文档" class="headerlink" title="配置aria2.conf设置文档"></a>配置aria2.conf设置文档</h3><p>在<code>/etc/aria2</code>下建立三个文件</p>
@@ -27,7 +51,7 @@
   <entry>
     <title>Windows下批量重命名文件</title>
     <url>/posts/5222b711.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204426.png" alt="cmd第一步"></p>
@@ -61,7 +85,7 @@
   <entry>
     <title>重新返回WordPress记录</title>
     <url>/posts/12bdfd9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>有一天，我发现了阿里云对学生购买服务器有优惠<a href="https://promotion.aliyun.com/ntms/act/campus2018.html" target="_blank" rel="noopener">云翼计划</a>于是就买了一台试试，然后就突然想把当初因为没有可用的空间而使用<code>Hexo</code>做记录的博客再次搬回<code>WordPress</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>有一天，我发现了阿里云对学生购买服务器有优惠<a href="https://promotion.aliyun.com/ntms/act/campus2018.html" target="_blank" rel="noopener">云翼计划</a>于是就买了一台试试，然后就突然想把当初因为没有可用的空间而使用<code>Hexo</code>做记录的博客再次搬回<code>WordPress</code></p>
 <p>毕竟<code>WordPress</code>实在是太方便了</p>
 <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><ul>
 <li>购买服务器</li>
@@ -78,7 +102,7 @@
   <entry>
     <title>电脑开机提示error:no_such_partition</title>
     <url>/posts/c0ca22a7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="发生原因"><a href="#发生原因" class="headerlink" title="发生原因"></a>发生原因</h2><p>根据我的推测，电脑开机失败提示<code>error: no such partiton</code>的原因极大可能是GRUB引导程序无法找到相应的系统启动分区</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="发生原因"><a href="#发生原因" class="headerlink" title="发生原因"></a>发生原因</h2><p>根据我的推测，电脑开机失败提示<code>error: no such partiton</code>的原因极大可能是GRUB引导程序无法找到相应的系统启动分区</p>
 <h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ul>
 <li>键入命令<code>ls</code>查看所有的磁盘分区</li>
 <li>键入命令<code>set</code>查看当前设置的引导分区</li>
@@ -114,7 +138,7 @@
   <entry>
     <title>Linux处理Windows文本时去除“r”符号</title>
     <url>/posts/85d45c87.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在Windows系统中，默认的换行符为<code>\r\n</code>；而在Linux系统中，默认的换行符为<code>\n</code></p>
 <p>而这种区别导致的后果是:某些需要格式或输入字符的程序可能不能很好地兼容这两种换行符</p>
 <h2 id="处理方式"><a href="#处理方式" class="headerlink" title="处理方式"></a>处理方式</h2><p>使用<code>vi/vim</code>编辑文本，同时更改文本格式</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> fileformat=unix</span><br></pre></td></tr></table></figure>
@@ -130,7 +154,7 @@
   <entry>
     <title>Manjaro-Linux安装AnBox实现Linux直接运行安卓程序</title>
     <url>/posts/33b17553.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>AnBox相比较其他安卓模拟器的优点：直接让安卓程序运行在Linux上，几乎没有性能损耗</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>AnBox相比较其他安卓模拟器的优点：直接让安卓程序运行在Linux上，几乎没有性能损耗</p>
 <p>当然也有着一些缺点：只能运行支持x86CPU的安卓程序</p>
 <p>在这里记录一下manjaro安装anbox时的经过</p>
 <h2 id="安装源"><a href="#安装源" class="headerlink" title="安装源"></a>安装源</h2><p>AUR里有anbox的全部安装源</p>
@@ -155,7 +179,7 @@
   <entry>
     <title>codeblocks设置自动补全C标准库函数</title>
     <url>/posts/1710e6e2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近在<code>Linux</code>上编写C程序，用的<code>codeblocks</code>作为编写软件，发现了一个貌似只有部分<code>Linux</code>系统里会出现的问题</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近在<code>Linux</code>上编写C程序，用的<code>codeblocks</code>作为编写软件，发现了一个貌似只有部分<code>Linux</code>系统里会出现的问题</p>
 <p><code>codeblocks</code>不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。</p>
 <p>所以就需要修复<code>codeblocks</code>的自动补全功能和参数提示功能。</p>
 <p>我在<code>Ubuntu</code>、<code>Win10</code>、<code>Manjaro Linux</code>三个系统都测试了一下，其中只有<code>Manjaro Linux</code>下<code>codeblocks</code>对C标准库函数的自动补全功能会失效，但是编译没有错误，由此猜测是该系统中C标准库文件在<code>codeblocks</code>自动补全时的引用失效。</p>
@@ -174,7 +198,7 @@
   <entry>
     <title>GTK的一些记录</title>
     <url>/posts/62378a77.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Glade的自动连接信号与回调函数"><a href="#Glade的自动连接信号与回调函数" class="headerlink" title="Glade的自动连接信号与回调函数"></a>Glade的自动连接信号与回调函数</h2><p>这个功能是不能用滴，老老实实写回调函数吧</p>
 <h2 id="GTK在Manjaro-KDE环境下所有的界面都没有菜单"><a href="#GTK在Manjaro-KDE环境下所有的界面都没有菜单" class="headerlink" title="GTK在Manjaro+KDE环境下所有的界面都没有菜单"></a>GTK在Manjaro+KDE环境下所有的界面都没有菜单</h2><p>仔细找找有没有安装<code>全局菜单</code>这个小部件，GTK的菜单可以再这个小部件里找到</p>
 ]]></content>
       <categories>
@@ -189,7 +213,7 @@
   <entry>
     <title>Linux下的进程内存检查工具-valgrind</title>
     <url>/posts/d2593696.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用此工具原因"><a href="#使用此工具原因" class="headerlink" title="使用此工具原因"></a>使用此工具原因</h2><p>C语言相对其他系语言最大的不同就是可方便地直接操纵内存，有时对数据操作的时候采用直接操作内存的方式简直是爽的飞起。但是，任何事物都具有两面性，直接操作内存导致的数据错误是编译器查不出来的，而这种错误只会在程序结束后报个错，错在哪里都不知道，绝对是程序员的噩梦：三天调试出一处内存越界的我～～～。</p>
 <h2 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h2><p>linux系统安装命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -S valgrind</span><br></pre></td></tr></table></figure>
 
@@ -223,7 +247,7 @@
   <entry>
     <title>C-GTK常用函数功能整理</title>
     <url>/posts/19640569.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>GTK版本：3.0</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>GTK版本：3.0</p>
 <p>资料来源：GTK官网原文文档</p>
 <h2 id="GtkWindow"><a href="#GtkWindow" class="headerlink" title="GtkWindow"></a>GtkWindow</h2><table>
 <thead>
@@ -592,7 +616,7 @@
   <entry>
     <title>manjaro下MySQL数据库的安装与可视化工具安装</title>
     <url>/posts/20be8d71.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="mysql安装与配置"><a href="#mysql安装与配置" class="headerlink" title="mysql安装与配置"></a>mysql安装与配置</h2><p><code>manjaro</code>对<code>mysql</code>的封装已经非常好了，做到了开箱即用，我安装过程中没有报错</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="mysql安装与配置"><a href="#mysql安装与配置" class="headerlink" title="mysql安装与配置"></a>mysql安装与配置</h2><p><code>manjaro</code>对<code>mysql</code>的封装已经非常好了，做到了开箱即用，我安装过程中没有报错</p>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>命令如下：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo pacman -S mysql</span><br></pre></td></tr></table></figure>
 
@@ -646,7 +670,7 @@
   <entry>
     <title>STM32配置Keil在SRAM中调试</title>
     <url>/posts/80d81344.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>虽然SRAM掉电清空，但是FLASH擦写实在是太慢了，对于我这种编程一小时50分钟在调试的新手而言，擦除数据的进度条是无比漫长的o(╥﹏╥)o</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>虽然SRAM掉电清空，但是FLASH擦写实在是太慢了，对于我这种编程一小时50分钟在调试的新手而言，擦除数据的进度条是无比漫长的o(╥﹏╥)o</p>
 <h2 id="BOOT0与BOOT1"><a href="#BOOT0与BOOT1" class="headerlink" title="BOOT0与BOOT1"></a>BOOT0与BOOT1</h2><p>通过配置BOOT0和BOOT1引脚的高低点位可以改变芯片的启动方式，按照官方给的数据，两引脚同时配置低电位为FLASH启动，同时配置高电位为片内SRAM启动，我依稀记得好像通过设置这两个引脚的高低点位也可以解决烧录程序失败导致的无限复位问题</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200417180523.png" alt=""></p>
 <p>当然有些板子这两个引脚是焊死的，对于这种情况，也有相应的解决方案</p>
@@ -705,7 +729,7 @@
   <entry>
     <title>STM32CubeMX配置LCD显示中文字符</title>
     <url>/posts/ee64b9e4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="字库位置"><a href="#字库位置" class="headerlink" title="字库位置"></a>字库位置</h2><p>可以是外部串行FLASH，也可以是SD卡</p>
 <p>但是SD卡因为有文件系统的原因，会非常的慢，如果不是必要，建议使用外部FLASH作为存放字库文件的容器</p>
 <p>所以本文所写的程序也是给外部FLASH字库准备的</p>
 <h2 id="LTDC配置"><a href="#LTDC配置" class="headerlink" title="LTDC配置"></a>LTDC配置</h2><p>这一段可以去看<a href="/blog/posts/7109b92c.html"><code>STM32CubeMX配置LTDC</code></a>，在那里面有详细介绍</p>
@@ -729,7 +753,7 @@
   <entry>
     <title>STM32CubeMX配置SPI读写外部FLASH</title>
     <url>/posts/243fe895.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SPI协议简介"><a href="#SPI协议简介" class="headerlink" title="SPI协议简介"></a>SPI协议简介</h2><p>SPI协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface)，即串行外围设备接口，是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间，要求通讯速率较高的场合。</p>
 <h2 id="FLASH芯片简介"><a href="#FLASH芯片简介" class="headerlink" title="FLASH芯片简介"></a>FLASH芯片简介</h2><p>也没啥可说的，直接上图：</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200416131001.png" alt=""></p>
 <p>这个图有点错误，我板子上的串行FLASH是16MB的</p>
@@ -772,7 +796,7 @@
   <entry>
     <title>STM32CubeMX配置LTDC时遇到的一些问题</title>
     <url>/posts/3e4bdf1e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题一：引脚对不上"><a href="#问题一：引脚对不上" class="headerlink" title="问题一：引脚对不上"></a>问题一：引脚对不上</h2><p>STM32CubeMX默认配置的引脚与板子设计时所使用的引脚对不上，导致初始化失败</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题一：引脚对不上"><a href="#问题一：引脚对不上" class="headerlink" title="问题一：引脚对不上"></a>问题一：引脚对不上</h2><p>STM32CubeMX默认配置的引脚与板子设计时所使用的引脚对不上，导致初始化失败</p>
 <h2 id="问题二：HAL库与标准库是不兼容的"><a href="#问题二：HAL库与标准库是不兼容的" class="headerlink" title="问题二：HAL库与标准库是不兼容的"></a>问题二：HAL库与标准库是不兼容的</h2><p>HAL库的初始化结构体以及一部分的宏定义是不兼容的</p>
 <p>建议尽量不要参考标准库使用HAL库，如果需要，那么要追究到寄存器操作的程度来保证对HAL库的使用而导致的行动是与标准库一致的</p>
 <p>目前遇到的例子：</p>
@@ -799,7 +823,7 @@
   <entry>
     <title>STM32CubeMX配置LTDC</title>
     <url>/posts/7109b92c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="事先安排"><a href="#事先安排" class="headerlink" title="事先安排"></a>事先安排</h2><p>已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="事先安排"><a href="#事先安排" class="headerlink" title="事先安排"></a>事先安排</h2><p>已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415114924.png" alt=""></p>
 <h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="使用芯片"><a href="#使用芯片" class="headerlink" title="使用芯片"></a>使用芯片</h3><p>我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115526.png" alt=""></p>
@@ -896,18 +920,18 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
-        <tag>LCD</tag>
-        <tag>ARM</tag>
         <tag>HAL</tag>
         <tag>LTDC</tag>
+        <tag>LCD</tag>
         <tag>Keil</tag>
         <tag>MKD-ARM</tag>
+        <tag>ARM</tag>
       </tags>
   </entry>
   <entry>
     <title>CodeBlocks配置编译器以及调试器</title>
     <url>/posts/ac65f6e8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="配置编译器"><a href="#配置编译器" class="headerlink" title="配置编译器"></a>配置编译器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093144.png" alt=""></p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093312.png" alt=""></p>
 <h2 id="配置调试器"><a href="#配置调试器" class="headerlink" title="配置调试器"></a>配置调试器</h2><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093328.png" alt=""></p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200413093409.png" alt=""></p>
@@ -923,7 +947,7 @@
   <entry>
     <title>VSCode配置C语言运行调试环境</title>
     <url>/posts/6133db72.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>具体配置方向分为三种：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>具体配置方向分为三种：</p>
 <ul>
 <li>使用插件(运行)</li>
 <li>使用集成终端(运行，我不会调试)</li>
@@ -967,7 +991,7 @@
   <entry>
     <title>STM32_HAL库中的回调函数[callback]同中断处理函数的关系</title>
     <url>/posts/52920140.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>其实很简单：中断回调函数是封装在中断函数中的子函数</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>其实很简单：中断回调函数是封装在中断函数中的子函数</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  * @brief  This function handles EXTI interrupt request.</span></span><br><span class="line"><span class="comment">  * @param  GPIO_Pin Specifies the pins connected EXTI line</span></span><br><span class="line"><span class="comment">  * @retval None</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HAL_GPIO_EXTI_IRQHandler</span><span class="params">(<span class="keyword">uint16_t</span> GPIO_Pin)</span> <span class="comment">//中断处理函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">/* EXTI line interrupt detected */</span></span><br><span class="line">  <span class="keyword">if</span>(__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != RESET)</span><br><span class="line">  &#123;</span><br><span class="line">    __HAL_GPIO_EXTI_CLEAR_IT(GPIO_Pin);</span><br><span class="line">    HAL_GPIO_EXTI_Callback(GPIO_Pin); <span class="comment">//中断回调函数</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>且中断回调函数的声明是这样的</p>
@@ -992,7 +1016,7 @@
   <entry>
     <title>C语言标准输入输出函数printf和scanf重定向至UART输入输出函数</title>
     <url>/posts/aea07eb6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>使用C语言标准库中的<code>printf</code>函数和<code>scanf</code>函数简化单片机编程中串口输入输出部分的编写</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>使用C语言标准库中的<code>printf</code>函数和<code>scanf</code>函数简化单片机编程中串口输入输出部分的编写</p>
 <h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p><code>printf</code>和<code>scanf</code>函数内部都会引用一对输入输出一个单位数据的函数，所以我们需要重写这一对函数，从而让<code>printf</code>和<code>scanf</code>函数重定向至UART输入输出函数</p>
 <h2 id="详细代码"><a href="#详细代码" class="headerlink" title="详细代码"></a>详细代码</h2><h3 id="宏定义部分"><a href="#宏定义部分" class="headerlink" title="宏定义部分"></a>宏定义部分</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 输出函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int __io_putchar(int ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br><span class="line">	</span><br><span class="line"><span class="comment">/* 输入函数宏定义 -----------------------------------------------*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __GNUC__</span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int __io_getchar(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line">  <span class="meta">#<span class="meta-keyword">define</span> GETCHAR_PROTOTYPE int fgetc(FILE *f)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* __GNUC__ */</span></span></span><br></pre></td></tr></table></figure>
 
@@ -1016,7 +1040,7 @@
   <entry>
     <title>STM32CubeMX+MDK-ARM点亮第一个LED的灯</title>
     <url>/posts/909682.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>每次学习新的东西第一件事干的就是点灯︿(￣︶￣)︿</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>每次学习新的东西第一件事干的就是点灯︿(￣︶￣)︿</p>
 <h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="STM32CubeMX"><a href="#STM32CubeMX" class="headerlink" title="STM32CubeMX"></a>STM32CubeMX</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200405141220.png" alt=""></p>
 <p>下载地址：<a href="https://www.st.com/zh/development-tools/stm32cubemx.html" target="_blank" rel="noopener">STM32CubeMX</a></p>
 <p>安装教程百度</p>
@@ -1061,17 +1085,17 @@
       <tags>
         <tag>STM32</tag>
         <tag>STM32CubeMX</tag>
+        <tag>HAL</tag>
+        <tag>ARM</tag>
         <tag>MDK-ARM</tag>
         <tag>MDK</tag>
-        <tag>ARM</tag>
-        <tag>HAL</tag>
         <tag>点亮第一个LED的灯</tag>
       </tags>
   </entry>
   <entry>
     <title>STM32F4_GPIO的八种工作模式</title>
     <url>/posts/a840fa9b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="GPIO简介"><a href="#GPIO简介" class="headerlink" title="GPIO简介"></a>GPIO简介</h2><p><code>GPIO</code>,即通用<code>I/O</code>(输入/输出)端口，是STM32可控制的引脚。STM32芯片的<code>GPIO</code>引脚与外部设备连接起来，可实现与外部通讯、控制外部硬件或者采集外部硬件数据的功能</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="GPIO简介"><a href="#GPIO简介" class="headerlink" title="GPIO简介"></a>GPIO简介</h2><p><code>GPIO</code>,即通用<code>I/O</code>(输入/输出)端口，是STM32可控制的引脚。STM32芯片的<code>GPIO</code>引脚与外部设备连接起来，可实现与外部通讯、控制外部硬件或者采集外部硬件数据的功能</p>
 <p>每个通用 <code>I/O</code> 端口包括 4 个 32 位配置寄存器（<code>GPIOx_MODER</code>、<code>GPIOx_OTYPER</code>、<code>GPIOx_OSPEEDR</code> 和 <code>GPIOx_PUPDR</code>）、2 个 32 位数据寄存器（<code>GPIOx_IDR</code> 和 <code>GPIOx_ODR</code>）、1 个 32 位置位/复位寄存器 (<code>GPIOx_BSRR</code>)、1 个 32 位锁定寄存器 (<code>GPIOx_LCKR</code>) 和 2 个 32 位复用功能选择寄存器（<code>GPIOx_AFRH</code> 和 <code>GPIOx_AFRL</code>）</p>
 <h2 id="GPIO复用"><a href="#GPIO复用" class="headerlink" title="GPIO复用"></a>GPIO复用</h2><p>复用：STM32F4 有很多的内置外设，这些外设的外部引脚都是与 <code>GPIO</code> 共用的。也就是说，一个引脚可以有很多作用，但是默认为<code>I/O</code>口，如果想使用一个 <code>GPIO</code>内置外设的功能引脚，就需要<code>GPIO</code>的复用，那么当这个 <code>GPIO</code> 作为内置外设使用的时候，就叫做复用</p>
 <p>这里就放出<code>STM32F42xxx</code>和<code>STM32F43xxx</code>系列的复位图：</p>
@@ -1227,7 +1251,7 @@
   <entry>
     <title>Linux各类发行板网络服务重启方式</title>
     <url>/posts/d27b4817.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天重新设置了<code>onenote</code>的<code>hosts</code>文件，然后本着不想重启电脑的迷惑心态尝试通过命令行重启系统的网络服务</p>
 <p>然后发现<code>manjaro linux</code>中木的<code>service</code>命令</p>
 <p>所以就在网上找了找，防止以后忘了，记在这里</p>
 <h2 id="CentOS-RHEL-Red-Hat-Fedora"><a href="#CentOS-RHEL-Red-Hat-Fedora" class="headerlink" title="CentOS / RHEL / Red Hat / Fedora"></a>CentOS / RHEL / Red Hat / Fedora</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service network stop</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network start</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service network restart</span></span><br></pre></td></tr></table></figure>
@@ -1252,7 +1276,7 @@
   <entry>
     <title>PicGo配置gitee图床</title>
     <url>/posts/ba9c4b95.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="建立gitee仓库"><a href="#建立gitee仓库" class="headerlink" title="建立gitee仓库"></a>建立gitee仓库</h2><h3 id="注册码云账号"><a href="#注册码云账号" class="headerlink" title="注册码云账号"></a>注册码云账号</h3><p>进入<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>,点击右上角的注册，如果有账号了就直接登陆</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="建立gitee仓库"><a href="#建立gitee仓库" class="headerlink" title="建立gitee仓库"></a>建立gitee仓库</h2><h3 id="注册码云账号"><a href="#注册码云账号" class="headerlink" title="注册码云账号"></a>注册码云账号</h3><p>进入<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>,点击右上角的注册，如果有账号了就直接登陆</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402165915.png" alt=""></p>
 <h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402170209.png" alt=""></p>
 <p>填写完仓库名称以及勾选<code>公开</code></p>
@@ -1291,7 +1315,7 @@
   <entry>
     <title>分享一个图床软件-PicGo</title>
     <url>/posts/c07567fd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="PicGo概述"><a href="#PicGo概述" class="headerlink" title="PicGo概述"></a>PicGo概述</h2><p>先上图</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="PicGo概述"><a href="#PicGo概述" class="headerlink" title="PicGo概述"></a>PicGo概述</h2><p>先上图</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200402162635.png" alt=""></p>
 <p>PicGo: 一个用于快速上传图片并获取图片URL链接的工具</p>
 <p>软件本体支持的图床：</p>
@@ -1334,7 +1358,7 @@
   <entry>
     <title>mkv文件处理工具-mkvtoolnix</title>
     <url>/posts/eeec278f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="mkvtoolnix工具简介"><a href="#mkvtoolnix工具简介" class="headerlink" title="mkvtoolnix工具简介"></a>mkvtoolnix工具简介</h2><p>MKVToolNix是一个用于创建，检查和修改mkv文件的工具，可用于Lunx，其他Unices和Windows</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="mkvtoolnix工具简介"><a href="#mkvtoolnix工具简介" class="headerlink" title="mkvtoolnix工具简介"></a>mkvtoolnix工具简介</h2><p>MKVToolNix是一个用于创建，检查和修改mkv文件的工具，可用于Lunx，其他Unices和Windows</p>
 <blockquote>
 <p>官网原文：MKVToolNix is a set of tools to create, alter and inspect Matroska files under Linux, other Unices and Windows.</p>
 </blockquote>
@@ -1400,7 +1424,7 @@
   <entry>
     <title>Manjaro中文输入法推荐</title>
     <url>/posts/26fb3f4d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最新的<code>manjaro</code>因为组件更新的缘故会导致搜狗拼音输入法无法使用，在使用了其他输入法之后，我比较推荐<code>sunpinyin+cloudpinyin</code>的组合</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最新的<code>manjaro</code>因为组件更新的缘故会导致搜狗拼音输入法无法使用，在使用了其他输入法之后，我比较推荐<code>sunpinyin+cloudpinyin</code>的组合</p>
 <h2 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>键入命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo pacman -S fcitx-im fcitx-configtool fcitx-cloudyinpin fcitx-sunpinyin</span><br></pre></td></tr></table></figure>
 
@@ -1420,7 +1444,7 @@
   <entry>
     <title>Manjaro换源</title>
     <url>/posts/7795a5e7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="修改官方源"><a href="#修改官方源" class="headerlink" title="修改官方源"></a>修改官方源</h2><p>运行下面的命令，将对中国源进行排序：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="修改官方源"><a href="#修改官方源" class="headerlink" title="修改官方源"></a>修改官方源</h2><p>运行下面的命令，将对中国源进行排序：</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo pacman-mirrors -i -c China -m rank</span><br></pre></td></tr></table></figure>
 
 <p>然后选第一行的源就行了</p>
@@ -1450,7 +1474,7 @@
   <entry>
     <title>Linux下zip文件解压乱码问题处理</title>
     <url>/posts/44513157.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><ul>
 <li><code>linux</code>与<code>windows</code>系统的压缩文件的默认编码不同，所以导致一部分<code>windows</code>平台下压缩的压缩文件在<code>linux</code>系统下解压乱码</li>
 </ul>
 <h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>现在网络上可以找到的解决方案有如下几点：</p>
@@ -1478,7 +1502,7 @@
   <entry>
     <title>CSGO练习投掷物有关指令</title>
     <url>/posts/4dbff450.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="设置比赛时间"><a href="#设置比赛时间" class="headerlink" title="设置比赛时间"></a>设置比赛时间</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式</span></span><br><span class="line"></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="设置比赛时间"><a href="#设置比赛时间" class="headerlink" title="设置比赛时间"></a>设置比赛时间</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_roundtime <span class="number">60</span> <span class="comment">#死亡竞技模式</span></span><br><span class="line"></span><br><span class="line">mp_roundtime_defuse <span class="number">60</span> <span class="comment">#休闲和竞技模式</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="关闭队友伤害"><a href="#关闭队友伤害" class="headerlink" title="关闭队友伤害"></a>关闭队友伤害</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mp_teammates_are_enemies <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
@@ -1508,7 +1532,7 @@
   <entry>
     <title>C语言学习-字符串转整数</title>
     <url>/posts/93e92635.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>利用C语言标准库中的<code>int atoi()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>利用C语言标准库中的<code>int atoi()</code>函数(头文件<code>&lt;stdlib.h&gt;</code>)实现：</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = atoi(<span class="string">"1234"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>自己编写函数实现</p>
@@ -1528,7 +1552,7 @@
   <entry>
     <title>C语言学习-大一C语言实验课代码</title>
     <url>/posts/a65ba048.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>大一的实验课报告再此放出：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>大一的实验课报告再此放出：</p>
 <h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><ol>
 <li>通过上机实践编程，辅以典型例题，熟悉编程环境，提升实际动手编程能力。</li>
 <li>掌握C语言的基本输入输出函数。</li>
@@ -1676,7 +1700,7 @@
   <entry>
     <title>C语言学习-取整数的个位,十位,百位</title>
     <url>/posts/c934aed8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此文主要介绍一种取整数的个十、百、位的方法</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此文主要介绍一种取整数的个十、百、位的方法</p>
 <h2 id="主要代码"><a href="#主要代码" class="headerlink" title="主要代码"></a>主要代码</h2><p>看门见山，直接放出代码：</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">123</span>;</span><br><span class="line">    <span class="keyword">int</span> ge, shi, bai;</span><br><span class="line">    ge = a % <span class="number">10</span>;</span><br><span class="line">    shi = a % <span class="number">100</span> / <span class="number">10</span>;</span><br><span class="line">    bai = a / <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"数为：%d，个位是：%d，十位是：%d，百位是：%d。"</span>, a, ge, shi, bai);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -1703,7 +1727,7 @@
   <entry>
     <title>C语言学习-运用后缀表达式实现的四则表达式计算器</title>
     <url>/posts/6a83b6d3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>作为一个C语言初学者，本人的水平极其有限，在此写下自己在编写四则表达式计算器时的感悟和所用到的方法与思想，希望日后回头看当初的自己时有所感受。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>作为一个C语言初学者，本人的水平极其有限，在此写下自己在编写四则表达式计算器时的感悟和所用到的方法与思想，希望日后回头看当初的自己时有所感受。</p>
 <h2 id="程序目标"><a href="#程序目标" class="headerlink" title="程序目标"></a>程序目标</h2><ol>
 <li>实现带括号的四则表达式的运算</li>
 <li>支持小数</li>
@@ -1772,7 +1796,7 @@
   <entry>
     <title>C语言学习-后缀表达式</title>
     <url>/posts/64376614.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>后缀表达式又称为逆波兰式或逆波兰记法，是一种把运算符写在操作符之后的表达式。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>后缀表达式又称为逆波兰式或逆波兰记法，是一种把运算符写在操作符之后的表达式。</p>
 <h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>后缀表达式在计算机看来却是比较简单易懂的结构。因为计算机普遍采用的内存结构是栈式结构，它执行先进后出的顺序。</p>
 <h2 id="中缀表达式转后缀表达式"><a href="#中缀表达式转后缀表达式" class="headerlink" title="中缀表达式转后缀表达式"></a>中缀表达式转后缀表达式</h2><h3 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h3><p>首先需要分配<code>2个栈</code>，一个作为临时存储运算符的<code>栈S1</code>（含一个结束符号），一个作为输入后缀表达式的栈<code>S2</code>（空栈），<code>S1栈</code>可先放入优先级最低的运算符#，注意，<code>中缀式应以此最低优先级的运算符结束</code>。可指定其他字符，不一定非#不可。从中缀式的左端开始取字符，逐序进行如下步骤：</p>
 <ol>
@@ -1803,7 +1827,7 @@
   <entry>
     <title>YouTube下载1080教程</title>
     <url>/posts/2afe2096.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
 <li>本教程原理：是利用在线视频转换网站来解析YouTube视频地址,从而实现下载1080p视频的目的.</li>
 </ul>
 <h2 id="第一种方法"><a href="#第一种方法" class="headerlink" title="第一种方法"></a>第一种方法</h2><p>翻墙打开网址：<a href="https://www.converto.io/" target="_blank" rel="noopener">https://www.converto.io/</a></p>
@@ -1835,7 +1859,7 @@
   <entry>
     <title>Cencrack在线工具包</title>
     <url>/posts/9bb596ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201852.gif" alt="演示"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200328201852.gif" alt="演示"></p>
 <p>2.5M大小,多达五百多个常用(非常用)工具.</p>
 <p>最新版各种优化,未下载的软件变成了黑白图标,不论是下载速度,还是大文件的超速下载,都堪称一绝,欢迎下载体验!</p>
 <p>出现未联网、(获取版本信息失败)等网络问题,请把防火墙关掉,或者信任程序联网！</p>
@@ -1879,7 +1903,7 @@
   <entry>
     <title>centos下无损将home分区的一部分调整到根目录</title>
     <url>/posts/697532ae.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="检查自己的系统信息"><a href="#检查自己的系统信息" class="headerlink" title="检查自己的系统信息"></a>检查自己的系统信息</h2><p>键入命令<code>cat /etc/os-release</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="检查自己的系统信息"><a href="#检查自己的系统信息" class="headerlink" title="检查自己的系统信息"></a>检查自己的系统信息</h2><p>键入命令<code>cat /etc/os-release</code></p>
 <p>我的机器输出如下,系统为<code>CentOS Linux 7 (Core)</code>版本：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># cat /etc/os-release</span></span><br><span class="line">NAME=<span class="string">"CentOS Linux"</span></span><br><span class="line">VERSION=<span class="string">"7 (Core)"</span></span><br><span class="line">ID=<span class="string">"centos"</span></span><br><span class="line">ID_LIKE=<span class="string">"rhel fedora"</span></span><br><span class="line">VERSION_ID=<span class="string">"7"</span></span><br><span class="line">PRETTY_NAME=<span class="string">"CentOS Linux 7 (Core)"</span></span><br><span class="line">ANSI_COLOR=<span class="string">"0;31"</span></span><br><span class="line">CPE_NAME=<span class="string">"cpe:/o:centos:centos:7"</span></span><br><span class="line">HOME_URL=<span class="string">"https://www.centos.org/"</span></span><br><span class="line">BUG_REPORT_URL=<span class="string">"https://bugs.centos.org/"</span></span><br><span class="line"></span><br><span class="line">CENTOS_MANTISBT_PROJECT=<span class="string">"CentOS-7"</span></span><br><span class="line">CENTOS_MANTISBT_PROJECT_VERSION=<span class="string">"7"</span></span><br><span class="line">REDHAT_SUPPORT_PRODUCT=<span class="string">"centos"</span></span><br><span class="line">REDHAT_SUPPORT_PRODUCT_VERSION=<span class="string">"7"</span></span><br></pre></td></tr></table></figure>
 
@@ -1919,7 +1943,7 @@
   <entry>
     <title>本博客使用的随机图片接口</title>
     <url>/posts/937e33b3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>废话不多说,直接放链接</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>废话不多说,直接放链接</p>
 <ul>
 <li><p><a href="https://img.xjh.me/random_img.php?type=bg&amp;ctype=nature&amp;return=302" target="_blank" rel="noopener">https://img.xjh.me/random_img.php?type=bg&amp;ctype=nature&amp;return=302</a> (早期使用,现已不用)</p>
 </li>
@@ -1939,7 +1963,7 @@
   <entry>
     <title>Linux下SSR服务器端搭建</title>
     <url>/posts/38ecf877.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><p>如题,本文终点讲解如何在linux系统下搭建一个你自己的SSR服务器端</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><p>如题,本文终点讲解如何在linux系统下搭建一个你自己的SSR服务器端</p>
 <h2 id="搭建SSR硬件要求"><a href="#搭建SSR硬件要求" class="headerlink" title="搭建SSR硬件要求"></a>搭建SSR硬件要求</h2><p>你需要一台国外的,ip没有被墙的VPS,如果你的SSH能连上就代表VPS没有被完全地墙了.</p>
 <h2 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a>开始搭建</h2><h3 id="用你的SSH工具链接VPS-键入如下一键安装代码："><a href="#用你的SSH工具链接VPS-键入如下一键安装代码：" class="headerlink" title="用你的SSH工具链接VPS,键入如下一键安装代码："></a>用你的SSH工具链接VPS,键入如下一键安装代码：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 这是安装wget的命令</span><br><span class="line">yum -y install wget</span><br><span class="line"></span><br><span class="line"># 这是安装SSR脚本的命令</span><br><span class="line">wget -N --no-check-certificate https:&#x2F;&#x2F;softs.fun&#x2F;Bash&#x2F;ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</span><br></pre></td></tr></table></figure>
 
@@ -1968,15 +1992,15 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
+        <tag>Linux</tag>
         <tag>SSR</tag>
         <tag>SSR服务器搭建</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
     <title>hexo-next配置点击爆炸效果</title>
     <url>/posts/6864067c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="next主题文件的配置"><a href="#next主题文件的配置" class="headerlink" title="next主题文件的配置"></a><strong>next主题文件的配置</strong></h2><p>打开next主题文件,定位到以下代码区：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="next主题文件的配置"><a href="#next主题文件的配置" class="headerlink" title="next主题文件的配置"></a><strong>next主题文件的配置</strong></h2><p>打开next主题文件,定位到以下代码区：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Fireworks</span></span><br><span class="line"><span class="attr">fireworks:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
 <p>将<code>fireworks</code>改为<code>true</code>,如下：</p>
@@ -2011,7 +2035,7 @@
   <entry>
     <title>hexo-next上传到自己的服务器后font-awesome图标无法显示的解决办法</title>
     <url>/posts/193d509e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p>踩过的坑o(╥﹏╥)o,方法亲测有效.</p>
 </blockquote>
 <h1 id="法一-推荐"><a href="#法一-推荐" class="headerlink" title="法一(推荐)"></a><strong>法一(推荐)</strong></h1><h2 id="下载最新的Font-Awesome文件"><a href="#下载最新的Font-Awesome文件" class="headerlink" title="下载最新的Font Awesome文件"></a>下载最新的Font Awesome文件</h2><p><a href="http://www.fontawesome.com.cn" target="_blank" rel="noopener">Font Awesome中文网</a></p>
@@ -2050,7 +2074,7 @@
   <entry>
     <title>hexo-next添加右上角GitHub挂件</title>
     <url>/posts/96ddfe32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># `Follow me on GitHub` banner in the top-right corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  permalink:</span> <span class="attr">https://github.com/zzt112358</span></span><br><span class="line"><span class="attr">  title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
@@ -2069,7 +2093,7 @@
   <entry>
     <title>hexo-next在文章和侧栏下方添加版权信息</title>
     <url>/posts/b34fddce.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在<code>next</code>主题配置文件<code>_config.yml</code>中找到如下设置<br>并且把<code>enable</code>项改为<code>true</code></p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Declare license on posts</span></span><br><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">3.0</span></span><br><span class="line"><span class="attr">  license_url:</span> <span class="attr">https://creativecommons.org/licenses/by-nc-sa/3.0/</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
@@ -2089,7 +2113,7 @@
   <entry>
     <title>分享一个windows下的一个个性化工具集-uTools</title>
     <url>/posts/1798eddd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p>首先,我大力推荐这款软件,非常好用,方便.</p>
 </blockquote>
 <p><a href="https://u.tools" target="_blank" rel="noopener">官网-</a><a href="https://u.tools" target="_blank" rel="noopener">https://u.tools</a></p>
@@ -2121,7 +2145,7 @@
   <entry>
     <title>Hexo-NexT添加点击爱心效果</title>
     <url>/posts/a32d7646.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p>本文出处：<a href="https://asdfv1929.github.io/2018/01/26/click-love/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/01/26/click-love/</a></p>
 <p>感谢大佬提供的代码(<em>^_^</em>).</p>
 </blockquote>
@@ -2149,7 +2173,7 @@
   <entry>
     <title>markdown语法学习</title>
     <url>/posts/9757d07e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p>此文章为我自己在学习hexo过程中的积累与所得,如有不足,请指正.</p>
 </blockquote>
 <h2 id="markdown编辑器"><a href="#markdown编辑器" class="headerlink" title="markdown编辑器"></a><strong>markdown编辑器</strong></h2><p>个人推荐使用 <a href="https://visualstudio.microsoft.com/zh-hans/downloads/" target="_blank" rel="noopener"><code>Visual Studio Code</code></a>简洁明了,使用方便,支持实时渲染.(其实是因为我懒得在折腾一个编辑器了(<em>^_^</em>) )</p>
@@ -2384,7 +2408,7 @@ int main(void)
   <entry>
     <title>分享一个windows软件卸载工具-Geek</title>
     <url>/posts/f1266071.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
 <p>重点是免费版<strong>完全绿色无需安装</strong>,<strong>下载即用</strong>,<strong>无广告</strong>,非常良心.</p>
 <p>官网有收费pro版,不过我觉得日常使用免费版就足够了.</p>
 <p>下载链接： <a href="https://geekuninstaller.com" target="_blank" rel="noopener">官网地址</a></p>
@@ -2402,7 +2426,7 @@ int main(void)
   <entry>
     <title>Linux中的chattr命令</title>
     <url>/posts/534d917a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p>注:本文全程参考百度文库</p>
 </blockquote>
 <ul>
@@ -2436,7 +2460,7 @@ int main(void)
   <entry>
     <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
     <url>/posts/c25dba02.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p><a href="https://www.natfrp.org/" target="_blank" rel="noopener">官方网站-Sakura Frp</a></p>
 </blockquote>
 <ul>
@@ -2469,7 +2493,7 @@ int main(void)
   <entry>
     <title>解决Nginx下wordpress伪静态后文章/后台页无法访问的问题</title>
     <url>/posts/449afa2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在Nginx的配置文档中添加以下代码：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在Nginx的配置文档中添加以下代码：</p>
 <figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attribute">location</span> / &#123;</span><br><span class="line">        <span class="attribute">root</span> /yourweb 把这里更改为你的网站根目录;  </span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.html)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.html <span class="literal">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.php)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.php;</span><br><span class="line">         &#125;</span><br><span class="line">        <span class="attribute">if</span> (!-f <span class="variable">$request_filename</span>)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) /index.php;</span><br><span class="line">         &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="attribute">rewrite</span> /wp-admin$ <span class="variable">$scheme</span>://<span class="variable">$host</span><span class="variable">$uri</span>/ <span class="literal">permanent</span>;</span><br></pre></td></tr></table></figure>
 
 <p>其中需要更改自己的网站根目录</p>
@@ -2486,7 +2510,7 @@ int main(void)
   <entry>
     <title>Linux下设置Sakura Frp为服务,开机自动启动</title>
     <url>/posts/a01b6c7d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文转载自:<a href="https://www.zerobbs.net/thread/5" target="_blank" rel="noopener">Sarkura Frp官网教程</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文转载自:<a href="https://www.zerobbs.net/thread/5" target="_blank" rel="noopener">Sarkura Frp官网教程</a></p>
 <p>开始设置服务,首先打开终端,执行命令：</p>
 <p><code>vi /etc/systemd/system/sakurafrp.service</code></p>
 <p>按下 a 进入编辑模式,复制以下内容并粘贴到 vi中:</p>
