@@ -103,7 +103,7 @@
 
 
 
-  <meta name="keywords" content="STM32,STM32CubeMX,HAL,LTDC,LCD,Keil,MKD-ARM,ARM," />
+  <meta name="keywords" content="STM32,STM32CubeMX,ARM,HAL,LCD,LTDC,Keil,MKD-ARM," />
 
 
 
@@ -118,12 +118,13 @@
 
 
 
-<meta name="description" content="事先安排已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：  STM32CubeMX配置使用芯片我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz  时钟配置开启外部高速时钟HSE在配置页面RCC下开启HSE  开启LCD-TFT时钟在配置页面开启LTDC功能  配置时钟在时钟配置页面配置系统主频和LCD-TFT频率   注：LCD-TFT">
+<meta name="description" content="事先安排已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：  STM32CubeMX配置使用芯片我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz  时钟配置开启外部高速时钟HSE在配置页面RCC下开启HSE  开启LCD-TFT时钟在配置页面开启LTDC功能  配置时钟在时钟配置页面配置系统主频和LCD-TFT频率   注：LCD-TF">
 <meta property="og:type" content="article">
 <meta property="og:title" content="STM32CubeMX配置LTDC">
 <meta property="og:url" content="https://zztweb.top/posts/7109b92c.html">
 <meta property="og:site_name" content="ZZT Blog">
-<meta property="og:description" content="事先安排已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：  STM32CubeMX配置使用芯片我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz  时钟配置开启外部高速时钟HSE在配置页面RCC下开启HSE  开启LCD-TFT时钟在配置页面开启LTDC功能  配置时钟在时钟配置页面配置系统主频和LCD-TFT频率   注：LCD-TFT">
+<meta property="og:description" content="事先安排已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：  STM32CubeMX配置使用芯片我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz  时钟配置开启外部高速时钟HSE在配置页面RCC下开启HSE  开启LCD-TFT时钟在配置页面开启LTDC功能  配置时钟在时钟配置页面配置系统主频和LCD-TFT频率   注：LCD-TF">
+<meta property="og:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
 <meta property="og:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415114924.png">
 <meta property="og:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115526.png">
 <meta property="og:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115900.png">
@@ -146,18 +147,18 @@
 <meta property="og:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415124951.png">
 <meta property="og:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415130215.png">
 <meta property="article:published_time" content="2020-04-15T03:36:46.000Z">
-<meta property="article:modified_time" content="2020-06-10T00:45:02.733Z">
+<meta property="article:modified_time" content="2020-10-24T08:39:28.345Z">
 <meta property="article:author" content="ZZT">
 <meta property="article:tag" content="STM32">
 <meta property="article:tag" content="STM32CubeMX">
+<meta property="article:tag" content="ARM">
 <meta property="article:tag" content="HAL">
-<meta property="article:tag" content="LTDC">
 <meta property="article:tag" content="LCD">
+<meta property="article:tag" content="LTDC">
 <meta property="article:tag" content="Keil">
 <meta property="article:tag" content="MKD-ARM">
-<meta property="article:tag" content="ARM">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415114924.png">
+<meta name="twitter:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
 
 
 
@@ -429,8 +430,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-10T08:45:02+08:00">
-                2020-06-10
+              <time title="更新于" itemprop="dateModified" datetime="2020-10-24T16:39:28+08:00">
+                2020-10-24
               </time>
             
           </span>
@@ -537,7 +538,8 @@
       
 
       
-        <h2 id="事先安排"><a href="#事先安排" class="headerlink" title="事先安排"></a>事先安排</h2><p>已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：</p>
+        <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<h2 id="事先安排"><a href="#事先安排" class="headerlink" title="事先安排"></a>事先安排</h2><p>已知使用STM32CubeMX配置LTDC时所有模块初始化流程如下：</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415114924.png" alt=""></p>
 <h2 id="STM32CubeMX配置"><a href="#STM32CubeMX配置" class="headerlink" title="STM32CubeMX配置"></a>STM32CubeMX配置</h2><h3 id="使用芯片"><a href="#使用芯片" class="headerlink" title="使用芯片"></a>使用芯片</h3><p>我所使用的单片机型号是STM32F429IGT6，板子是野火的开发板，主频最高180MHz</p>
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200415115526.png" alt=""></p>
@@ -668,17 +670,17 @@
           
             <a href="/tags/STM32CubeMX/" rel="tag"># STM32CubeMX</a>
           
+            <a href="/tags/ARM/" rel="tag"># ARM</a>
+          
             <a href="/tags/HAL/" rel="tag"># HAL</a>
           
-            <a href="/tags/LTDC/" rel="tag"># LTDC</a>
-          
             <a href="/tags/LCD/" rel="tag"># LCD</a>
+          
+            <a href="/tags/LTDC/" rel="tag"># LTDC</a>
           
             <a href="/tags/Keil/" rel="tag"># Keil</a>
           
             <a href="/tags/MKD-ARM/" rel="tag"># MKD-ARM</a>
-          
-            <a href="/tags/ARM/" rel="tag"># ARM</a>
           
         </div>
       

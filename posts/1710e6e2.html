@@ -118,21 +118,22 @@
 
 
 
-<meta name="description" content="最近在Linux上编写C程序，用的codeblocks作为编写软件，发现了一个貌似只有部分Linux系统里会出现的问题 codeblocks不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。 所以就需要修复codeblocks的自动补全功能和参数提示功能。 我在Ubuntu">
+<meta name="description" content="最近在Linux上编写C程序，用的codeblocks作为编写软件，发现了一个貌似只有部分Linux系统里会出现的问题 codeblocks不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。 所以就需要修复codeblocks的自动补全功能和参数提示功能。 我在Ubunt">
 <meta property="og:type" content="article">
 <meta property="og:title" content="codeblocks设置自动补全C标准库函数">
 <meta property="og:url" content="https://zztweb.top/posts/1710e6e2.html">
 <meta property="og:site_name" content="ZZT Blog">
-<meta property="og:description" content="最近在Linux上编写C程序，用的codeblocks作为编写软件，发现了一个貌似只有部分Linux系统里会出现的问题 codeblocks不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。 所以就需要修复codeblocks的自动补全功能和参数提示功能。 我在Ubuntu">
+<meta property="og:description" content="最近在Linux上编写C程序，用的codeblocks作为编写软件，发现了一个貌似只有部分Linux系统里会出现的问题 codeblocks不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。 所以就需要修复codeblocks的自动补全功能和参数提示功能。 我在Ubunt">
+<meta property="og:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
 <meta property="og:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200501134400.png">
 <meta property="article:published_time" content="2020-05-01T05:11:27.000Z">
-<meta property="article:modified_time" content="2020-06-10T00:45:02.732Z">
+<meta property="article:modified_time" content="2020-10-24T08:39:28.340Z">
 <meta property="article:author" content="ZZT">
 <meta property="article:tag" content="C语言学习">
 <meta property="article:tag" content="C">
 <meta property="article:tag" content="codeblocks">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200501134400.png">
+<meta name="twitter:image" content="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
 
 
 
@@ -404,8 +405,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-10T08:45:02+08:00">
-                2020-06-10
+              <time title="更新于" itemprop="dateModified" datetime="2020-10-24T16:39:28+08:00">
+                2020-10-24
               </time>
             
           </span>
@@ -512,7 +513,8 @@
       
 
       
-        <p>最近在<code>Linux</code>上编写C程序，用的<code>codeblocks</code>作为编写软件，发现了一个貌似只有部分<code>Linux</code>系统里会出现的问题</p>
+        <p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<p>最近在<code>Linux</code>上编写C程序，用的<code>codeblocks</code>作为编写软件，发现了一个貌似只有部分<code>Linux</code>系统里会出现的问题</p>
 <p><code>codeblocks</code>不会自动补全C标准库函数，也不会提示C标准库函数的参数。虽然其实没啥太大影响，但总有那么脑子不灵光的时候就忘了几个函数的参数顺序，尤其是当这几个参数类型一样的时候，调试的灾难。</p>
 <p>所以就需要修复<code>codeblocks</code>的自动补全功能和参数提示功能。</p>
 <p>我在<code>Ubuntu</code>、<code>Win10</code>、<code>Manjaro Linux</code>三个系统都测试了一下，其中只有<code>Manjaro Linux</code>下<code>codeblocks</code>对C标准库函数的自动补全功能会失效，但是编译没有错误，由此猜测是该系统中C标准库文件在<code>codeblocks</code>自动补全时的引用失效。</p>
