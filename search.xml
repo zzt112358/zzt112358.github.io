@@ -3,7 +3,8 @@
   <entry>
     <title>网络基础课程大作业网站说明</title>
     <url>/posts/d46a3460.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="张泽韬-测控1902-20194162"><a href="#张泽韬-测控1902-20194162" class="headerlink" title="张泽韬 测控1902 20194162"></a>张泽韬 测控1902 20194162</h2><h2 id="安装核心工具-Hexo"><a href="#安装核心工具-Hexo" class="headerlink" title="安装核心工具-Hexo"></a>安装核心工具-Hexo</h2><h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">下载路径</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<h2 id="张泽韬-测控1902-20194162"><a href="#张泽韬-测控1902-20194162" class="headerlink" title="张泽韬 测控1902 20194162"></a>张泽韬 测控1902 20194162</h2><h2 id="安装核心工具-Hexo"><a href="#安装核心工具-Hexo" class="headerlink" title="安装核心工具-Hexo"></a>安装核心工具-Hexo</h2><h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">下载路径</a></p>
 <h3 id="安装node"><a href="#安装node" class="headerlink" title="安装node"></a>安装node</h3><p>版本 建议12.19.0</p>
 <p><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">下载路径</a></p>
 <h3 id="安装安装hexo"><a href="#安装安装hexo" class="headerlink" title="安装安装hexo"></a>安装安装hexo</h3><p>cnpm</p>
@@ -27,7 +28,8 @@
   <entry>
     <title>Linux下配置Aria2下载服务器以及自动更新Aria2的bt-tracker列表</title>
     <url>/posts/2b5ad707.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我配置Aria2服务器的环境为<code>centos-7.8.2003</code>版本，其他Linux发行版应该只有服务配置的步骤有可能不同，其他部分应该都相同</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我配置Aria2服务器的环境为<code>centos-7.8.2003</code>版本，其他Linux发行版应该只有服务配置的步骤有可能不同，其他部分应该都相同</p>
 <h2 id="配置Aria2下载服务器"><a href="#配置Aria2下载服务器" class="headerlink" title="配置Aria2下载服务器"></a>配置Aria2下载服务器</h2><h3 id="安装Aria2"><a href="#安装Aria2" class="headerlink" title="安装Aria2"></a>安装Aria2</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum install aria2</span><br></pre></td></tr></table></figure>
 
 <h3 id="配置aria2-conf设置文档"><a href="#配置aria2-conf设置文档" class="headerlink" title="配置aria2.conf设置文档"></a>配置aria2.conf设置文档</h3><p>在<code>/etc/aria2</code>下建立三个文件</p>
@@ -51,7 +53,8 @@
   <entry>
     <title>Windows下批量重命名文件</title>
     <url>/posts/5222b711.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<h2 id="输出当前文件夹中所有文件名到Excel表格"><a href="#输出当前文件夹中所有文件名到Excel表格" class="headerlink" title="输出当前文件夹中所有文件名到Excel表格"></a>输出当前文件夹中所有文件名到<code>Excel</code>表格</h2><p>打开<code>cmd</code>，转到需要批量重命名的文件夹中，然后在<code>cmd</code>中键入下面的指令</p>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">dir</span>  /b&gt;<span class="built_in">rename</span>.xls</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://gitee.com/zzttzz/blogpic/raw/master/pic/20200610204426.png" alt="cmd第一步"></p>
@@ -85,7 +88,8 @@
   <entry>
     <title>重新返回WordPress记录</title>
     <url>/posts/12bdfd9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>有一天，我发现了阿里云对学生购买服务器有优惠<a href="https://promotion.aliyun.com/ntms/act/campus2018.html" target="_blank" rel="noopener">云翼计划</a>于是就买了一台试试，然后就突然想把当初因为没有可用的空间而使用<code>Hexo</code>做记录的博客再次搬回<code>WordPress</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>有一天，我发现了阿里云对学生购买服务器有优惠<a href="https://promotion.aliyun.com/ntms/act/campus2018.html" target="_blank" rel="noopener">云翼计划</a>于是就买了一台试试，然后就突然想把当初因为没有可用的空间而使用<code>Hexo</code>做记录的博客再次搬回<code>WordPress</code></p>
 <p>毕竟<code>WordPress</code>实在是太方便了</p>
 <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><ul>
 <li>购买服务器</li>
@@ -194,8 +198,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>codeblocks</tag>
       </tags>
   </entry>
@@ -210,8 +214,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>GTK</tag>
       </tags>
   </entry>
@@ -244,8 +248,8 @@
       </categories>
       <tags>
         <tag>工具分享</tag>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>Linux</tag>
         <tag>valgrind</tag>
       </tags>
@@ -954,8 +958,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CodeBlocks</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -1719,8 +1723,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>实验课</tag>
         <tag>代码</tag>
         <tag>大一实验课</tag>
@@ -1746,8 +1750,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>取个位</tag>
         <tag>取十位</tag>
         <tag>取百位</tag>
@@ -1818,8 +1822,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>四则计算器</tag>
         <tag>表达式运算</tag>
       </tags>
@@ -1850,8 +1854,8 @@
         <category>C语言学习</category>
       </categories>
       <tags>
-        <tag>C语言学习</tag>
         <tag>C</tag>
+        <tag>C语言学习</tag>
         <tag>后缀表达式</tag>
         <tag>表达式</tag>
       </tags>
@@ -2452,7 +2456,8 @@ int main(void)
   <entry>
     <title>分享一个windows软件卸载工具-Geek</title>
     <url>/posts/f1266071.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<p>geek是一个<strong>体积超小</strong>而又非常强大的windows<strong>免费</strong>软件卸载工具</p>
 <p>重点是免费版<strong>完全绿色无需安装</strong>,<strong>下载即用</strong>,<strong>无广告</strong>,非常良心.</p>
 <p>官网有收费pro版,不过我觉得日常使用免费版就足够了.</p>
 <p>下载链接： <a href="https://geekuninstaller.com" target="_blank" rel="noopener">官网地址</a></p>
@@ -2470,7 +2475,8 @@ int main(void)
   <entry>
     <title>Linux中的chattr命令</title>
     <url>/posts/534d917a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<blockquote>
 <p>注:本文全程参考百度文库</p>
 </blockquote>
 <ul>
@@ -2504,7 +2510,8 @@ int main(void)
   <entry>
     <title>分享一个免费内网穿透工具-SAKURA-FRP</title>
     <url>/posts/c25dba02.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<blockquote>
 <p><a href="https://www.natfrp.org/" target="_blank" rel="noopener">官方网站-Sakura Frp</a></p>
 </blockquote>
 <ul>
@@ -2537,7 +2544,8 @@ int main(void)
   <entry>
     <title>解决Nginx下wordpress伪静态后文章/后台页无法访问的问题</title>
     <url>/posts/449afa2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在Nginx的配置文档中添加以下代码：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<p>在Nginx的配置文档中添加以下代码：</p>
 <figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attribute">location</span> / &#123;</span><br><span class="line">        <span class="attribute">root</span> /yourweb 把这里更改为你的网站根目录;  </span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.html)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.html <span class="literal">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="attribute">if</span> (-f <span class="variable">$request_filename</span>/index.php)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) <span class="variable">$1</span>/index.php;</span><br><span class="line">         &#125;</span><br><span class="line">        <span class="attribute">if</span> (!-f <span class="variable">$request_filename</span>)&#123;</span><br><span class="line">               <span class="attribute">rewrite</span> (.*) /index.php;</span><br><span class="line">         &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="attribute">rewrite</span> /wp-admin$ <span class="variable">$scheme</span>://<span class="variable">$host</span><span class="variable">$uri</span>/ <span class="literal">permanent</span>;</span><br></pre></td></tr></table></figure>
 
 <p>其中需要更改自己的网站根目录</p>
@@ -2554,7 +2562,8 @@ int main(void)
   <entry>
     <title>Linux下设置Sakura Frp为服务,开机自动启动</title>
     <url>/posts/a01b6c7d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文转载自:<a href="https://www.zerobbs.net/thread/5" target="_blank" rel="noopener">Sarkura Frp官网教程</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" alt="PIC"></p>
+<p>本文转载自:<a href="https://www.zerobbs.net/thread/5" target="_blank" rel="noopener">Sarkura Frp官网教程</a></p>
 <p>开始设置服务,首先打开终端,执行命令：</p>
 <p><code>vi /etc/systemd/system/sakurafrp.service</code></p>
 <p>按下 a 进入编辑模式,复制以下内容并粘贴到 vi中:</p>
